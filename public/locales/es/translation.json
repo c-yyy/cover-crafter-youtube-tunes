@@ -44,5 +44,6 @@
   "historyClearedTitle": "Historial borrado",
   "historyClearedDescription": "Tu historial de visualización ha sido borrado.",
   "thumbnailAltText": "Miniatura para {{title}}",
-  "thumbnailAltTextEnlarged": "Miniatura ampliada para {{title}}"
+  "thumbnailAltTextEnlarged": "Miniatura ampliada para {{title}}",
+  "historyThumbnailAltText": "Miniatura para el elemento del historial: {{videoTitle}}"
 }

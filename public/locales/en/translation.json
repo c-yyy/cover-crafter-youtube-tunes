@@ -44,5 +44,6 @@
   "historyClearedTitle": "History Cleared",
   "historyClearedDescription": "Your viewing history has been cleared.",
   "thumbnailAltText": "Thumbnail for {{title}}",
-  "thumbnailAltTextEnlarged": "Enlarged thumbnail for {{title}}"
+  "thumbnailAltTextEnlarged": "Enlarged thumbnail for {{title}}",
+  "historyThumbnailAltText": "Thumbnail for history item: {{videoTitle}}"
 }

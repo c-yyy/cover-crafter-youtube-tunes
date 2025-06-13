@@ -208,51 +208,6 @@ const Index = () => {
           </CardContent>
         </Card>
 
-        {/* History Section */}
-        {history.length > 0 && (
-          <Card className="max-w-2xl mx-auto mb-12 shadow-lg border-0 bg-white">
-            <CardHeader>
-              <CardTitle className="text-center flex items-center justify-center space-x-2">
-                {/* You might want to add an icon for history here */}
-                <span>{t('historyTitle')}</span>
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2">
-                {history.map((item) => (
-                  <li key={item.id} 
-                      className="p-2 hover:bg-slate-100 rounded-md cursor-pointer flex justify-between items-center"
-                      onClick={() => {
-                        setUrl(item.url);
-                        // Optionally, trigger form submission directly
-                        // handleSubmit(new Event('submit') as any); 
-                      }}>
-                    <span className="truncate text-sm text-slate-700" title={item.title}>{item.title}</span>
-                    <span className="text-xs text-slate-500">{new Date(item.timestamp).toLocaleDateString()}</span>
-                  </li>
-                ))}
-              </ul>
-              {history.length > 0 && (
-                <Button 
-                  variant="outline" 
-                  size="sm" 
-                  className="mt-4 w-full"
-                  onClick={() => {
-                    setHistory([]);
-                    localStorage.removeItem('youtubeCoverHistory');
-                    toast({
-                      title: t('historyClearedTitle'),
-                      description: t('historyClearedDescription'),
-                    });
-                  }}
-                >
-                  {t('clearHistoryButtonText')}
-                </Button>
-              )}
-            </CardContent>
-          </Card>
-        )}
-
         {/* Results */}
         {videoData && (
           <div className="max-w-4xl mx-auto">
@@ -298,8 +253,58 @@ const Index = () => {
           </div>
         )}
 
+        {/* History Section */}
+        {history.length > 0 && (
+          <div className="mt-8"> {/* Added margin-top here */}
+          <Card className="max-w-2xl mx-auto mb-12 shadow-lg border-0 bg-white">
+            <CardHeader>
+              <CardTitle className="text-center flex items-center justify-center space-x-2">
+                {/* You might want to add an icon for history here */}
+                <span>{t('historyTitle')}</span>
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <ul className="space-y-2">
+                {history.map((item) => (
+                  <li key={item.id} 
+                      className="p-2 hover:bg-slate-100 rounded-md cursor-pointer flex justify-between items-center group relative"
+                      onClick={() => {
+                        setUrl(item.url);
+                        // Optionally, trigger form submission directly
+                        // handleSubmit(new Event('submit') as any); 
+                      }}>
+                    <span className="truncate text-sm text-slate-700" title={item.title}>{item.title}</span>
+                    <span className="text-xs text-slate-500">{new Date(item.timestamp).toLocaleString()}</span>
+                    <div className="absolute right-0 bottom-full mb-2 hidden group-hover:block p-1 bg-white border border-slate-200 rounded shadow-lg z-10">
+                      <img src={`https://img.youtube.com/vi/${item.id}/default.jpg`} alt={t('thumbnailAltText', { videoTitle: item.title })} className="w-32 h-auto" />
+                    </div>
+                  </li>
+                ))}
+              </ul>
+              {history.length > 0 && (
+                <Button 
+                  variant="outline" 
+                  size="sm" 
+                  className="mt-4 w-full"
+                  onClick={() => {
+                    setHistory([]);
+                    localStorage.removeItem('youtubeCoverHistory');
+                    toast({
+                      title: t('historyClearedTitle'),
+                      description: t('historyClearedDescription'),
+                    });
+                  }}
+                >
+                  {t('clearHistoryButtonText')}
+                </Button>
+              )}
+            </CardContent>
+          </Card>
+          </div>
+        )}
+
         {/* Features Section */}
-        <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           <div className="text-center p-6">
             <div className="bg-red-100 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
               <Zap className="h-8 w-8 text-red-600" />

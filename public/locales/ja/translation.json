@@ -44,5 +44,6 @@
   "historyClearedTitle": "履歴がクリアされました",
   "historyClearedDescription": "視聴履歴がクリアされました。",
   "thumbnailAltText": "{{title}} のサムネイル",
-  "thumbnailAltTextEnlarged": "{{title}} の拡大サムネイル"
+  "thumbnailAltTextEnlarged": "{{title}} の拡大サムネイル",
+  "historyThumbnailAltText": "履歴アイテム {{videoTitle}} のサムネイル"
 }

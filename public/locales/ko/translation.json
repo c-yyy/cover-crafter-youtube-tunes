@@ -44,5 +44,6 @@
   "historyClearedTitle": "시청 기록 지워짐",
   "historyClearedDescription": "시청 기록이 지워졌습니다.",
   "thumbnailAltText": "{{title}}의 썸네일",
-  "thumbnailAltTextEnlarged": "{{title}}의 확대된 썸네일"
+  "thumbnailAltTextEnlarged": "{{title}}의 확대된 썸네일",
+  "historyThumbnailAltText": "시청 기록 항목 {{videoTitle}}의 썸네일"
 }

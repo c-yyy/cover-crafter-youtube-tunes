@@ -44,5 +44,6 @@
   "historyClearedTitle": "Historique effacé",
   "historyClearedDescription": "Votre historique de visualisation a été effacé.",
   "thumbnailAltText": "Miniature pour {{title}}",
-  "thumbnailAltTextEnlarged": "Miniature agrandie pour {{title}}"
+  "thumbnailAltTextEnlarged": "Miniature agrandie pour {{title}}",
+  "historyThumbnailAltText": "Miniature pour l'élément d'historique : {{videoTitle}}"
 }
