@@ -107,7 +107,7 @@ const Index = () => {
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = url;
-      link.download = `youtube-thumbnail-${quality}.jpg`;
+      link.download = `youtube-cover.com-${quality}.jpg`;
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
