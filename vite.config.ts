@@ -14,7 +14,31 @@ export default defineConfig(({ mode }) => ({
     react(),
     mode === 'development' &&
     componentTagger(),
-    sitemap({ hostname: 'https://your-domain.com' }), // 请将 'https://your-domain.com' 替换为您的实际域名
+    sitemap({
+      hostname: 'https://youtube-cover.com',
+      dynamicRoutes: [
+        // 主页面 - 各语言版本
+        '/en',
+        '/zh', 
+        '/ja',
+        '/fr',
+        '/es',
+        '/ko',
+        // 根路径重定向到默认语言
+        '/',
+      ],
+      changefreq: 'weekly',
+      priority: {
+        '/': 1.0,
+        '/en': 1.0,
+        '/zh': 0.9,
+        '/ja': 0.9,
+        '/fr': 0.9,
+        '/es': 0.9,
+        '/ko': 0.9,
+      },
+      lastmod: new Date(),
+    })
   ].filter(Boolean),
   resolve: {
     alias: {
