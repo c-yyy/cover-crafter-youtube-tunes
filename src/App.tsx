@@ -68,6 +68,18 @@ const LanguageSwitcher = () => {
             case 'ko':
               flag = '🇰🇷'; // South Korea Flag
               break;
+            case 'km':
+              flag = '🇰🇭'; // Cambodia Flag
+              break;
+            case 'si':
+              flag = '🇱🇰'; // Sri Lanka Flag
+              break;
+            case 'bn':
+              flag = '🇧🇩'; // Bangladesh Flag
+              break;
+            case 'ur':
+              flag = '🇵🇰'; // Pakistan Flag
+              break;
             default:
               flag = '';
           }

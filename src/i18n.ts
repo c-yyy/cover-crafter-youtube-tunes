@@ -10,6 +10,10 @@ export const supportedLngs = {
   fr: 'Français',
   es: 'Español',
   ko: '한국어',
+  km: 'ខ្មែរ',
+  si: 'සිංහල',
+  bn: 'বাংলা',
+  ur: 'اردو',
 };
 
 i18n

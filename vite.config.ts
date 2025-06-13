@@ -24,6 +24,10 @@ export default defineConfig(({ mode }) => ({
         '/fr',
         '/es',
         '/ko',
+        '/km',
+        '/si',
+        '/bn',
+        '/ur',
         // 根路径重定向到默认语言
         '/',
       ],
@@ -36,6 +40,10 @@ export default defineConfig(({ mode }) => ({
         '/fr': 0.9,
         '/es': 0.9,
         '/ko': 0.9,
+        '/km': 0.9,
+        '/si': 0.9,
+        '/bn': 0.9,
+        '/ur': 0.9,
       },
       lastmod: new Date(),
     })
