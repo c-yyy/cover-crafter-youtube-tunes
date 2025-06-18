@@ -45,5 +45,9 @@
   "historyClearedDescription": "ඔබේ නැරඹීම් ඉතිහාසය මකා දමන ලදී.",
   "thumbnailAltText": "{{title}} සඳහා Thumbnail",
   "thumbnailAltTextEnlarged": "{{title}} සඳහා විශාල කළ thumbnail",
-  "historyThumbnailAltText": "ඉතිහාස අයිතමය සඳහා thumbnail: {{videoTitle}}"
+  "historyThumbnailAltText": "ඉතිහාස අයිතමය සඳහා Thumbnail: {{videoTitle}}",
+  "languageSuggestionTitle": "අපි ඔබේ බ්‍රවුසර භාෂාව හඳුනාගත්තෙමු",
+  "languageSuggestionDescription": "ඔබට {{language}} වෙත මාරුවීමට අවශ්‍යද?",
+  "languageSuggestionAccept": "භාෂාව මාරු කරන්න",
+  "languageSuggestionDismiss": "මෙහි රැඳී සිටින්න"
 }

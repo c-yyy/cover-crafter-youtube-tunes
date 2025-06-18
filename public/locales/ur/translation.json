@@ -45,5 +45,9 @@
   "historyClearedDescription": "آپ کی دیکھنے کی تاریخ صاف کر دی گئی ہے۔",
   "thumbnailAltText": "{{title}} کے لیے Thumbnail",
   "thumbnailAltTextEnlarged": "{{title}} کے لیے بڑا کیا گیا thumbnail",
-  "historyThumbnailAltText": "تاریخ آئٹم کے لیے thumbnail: {{videoTitle}}"
+  "historyThumbnailAltText": "تاریخ آئٹم کے لیے Thumbnail: {{videoTitle}}",
+  "languageSuggestionTitle": "ہم نے آپ کے براؤزر کی زبان کا پتہ لگایا ہے",
+  "languageSuggestionDescription": "کیا آپ {{language}} میں تبدیل کرنا چاہتے ہیں؟",
+  "languageSuggestionAccept": "زبان تبدیل کریں",
+  "languageSuggestionDismiss": "یہیں رہیں"
 }

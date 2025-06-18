@@ -45,5 +45,9 @@
   "historyClearedDescription": "您的浏览历史已被清除。",
   "thumbnailAltText": "{{title}} 的缩略图",
   "thumbnailAltTextEnlarged": "{{title}} 的放大缩略图",
-  "historyThumbnailAltText": "历史记录项 {{videoTitle}} 的缩略图"
+  "historyThumbnailAltText": "历史记录项目的缩略图：{{videoTitle}}",
+  "languageSuggestionTitle": "我们检测到您的浏览器语言",
+  "languageSuggestionDescription": "您是否要切换到{{language}}？",
+  "languageSuggestionAccept": "切换语言",
+  "languageSuggestionDismiss": "留在这里"
 }

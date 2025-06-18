@@ -45,5 +45,9 @@
   "historyClearedDescription": "Your viewing history has been cleared.",
   "thumbnailAltText": "Thumbnail for {{title}}",
   "thumbnailAltTextEnlarged": "Enlarged thumbnail for {{title}}",
-  "historyThumbnailAltText": "Thumbnail for history item: {{videoTitle}}"
+  "historyThumbnailAltText": "Thumbnail for history item: {{videoTitle}}",
+  "languageSuggestionTitle": "We detected your browser language",
+  "languageSuggestionDescription": "Would you like to switch to {{language}}?",
+  "languageSuggestionAccept": "Switch Language",
+  "languageSuggestionDismiss": "Stay Here"
 }

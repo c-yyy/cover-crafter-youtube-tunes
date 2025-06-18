@@ -45,5 +45,9 @@
   "historyClearedDescription": "আপনার দেখার ইতিহাস মুছে ফেলা হয়েছে।",
   "thumbnailAltText": "{{title}} এর জন্য Thumbnail",
   "thumbnailAltTextEnlarged": "{{title}} এর জন্য বড় করা thumbnail",
-  "historyThumbnailAltText": "ইতিহাস আইটেমের জন্য thumbnail: {{videoTitle}}"
+  "historyThumbnailAltText": "ইতিহাস আইটেমের জন্য Thumbnail: {{videoTitle}}",
+  "languageSuggestionTitle": "আমরা আপনার ব্রাউজারের ভাষা সনাক্ত করেছি",
+  "languageSuggestionDescription": "আপনি কি {{language}} এ পরিবর্তন করতে চান?",
+  "languageSuggestionAccept": "ভাষা পরিবর্তন করুন",
+  "languageSuggestionDismiss": "এখানেই থাকুন"
 }

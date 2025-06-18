@@ -45,5 +45,9 @@
   "historyClearedDescription": "視聴履歴がクリアされました。",
   "thumbnailAltText": "{{title}} のサムネイル",
   "thumbnailAltTextEnlarged": "{{title}} の拡大サムネイル",
-  "historyThumbnailAltText": "履歴アイテム {{videoTitle}} のサムネイル"
+  "historyThumbnailAltText": "履歴アイテム {{videoTitle}} のサムネイル",
+  "languageSuggestionTitle": "ブラウザの言語を検出しました",
+  "languageSuggestionDescription": "{{language}}に切り替えますか？",
+  "languageSuggestionAccept": "言語を切り替える",
+  "languageSuggestionDismiss": "このまま続ける"
 }

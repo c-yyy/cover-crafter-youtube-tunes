@@ -19,6 +19,8 @@ import { supportedLngs } from "./i18n"; // 从 i18n.ts 导入
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Footer from "./components/Footer"; // 导入 Footer 组件
+import LanguageSuggestion from "./components/LanguageSuggestion";
+import HreflangTags from "./components/HreflangTags";
 
 const queryClient = new QueryClient();
 
@@ -99,35 +101,23 @@ const LanguageWrapper = () => {
   const { lng } = useParams<{ lng: string }>();
   const { i18n } = useTranslation();
   const navigate = useNavigate();
-  const location = useLocation(); 
 
   useEffect(() => {
     if (!i18n.isInitialized) {
       return;
     }
 
-    const detectedLng = i18n.language.split('-')[0];
-    const currentPath = location.pathname;
-    // 移除语言前缀后的路径，例如 /en/about -> /about, /en -> ""
-    const basePath = currentPath.startsWith(`/${lng}`) ? currentPath.substring(`/${lng}`.length) : currentPath;
-    
+    // 只处理有效的语言代码
     if (lng && supportedLngs.hasOwnProperty(lng)) {
       if (i18n.language.split('-')[0] !== lng) {
         i18n.changeLanguage(lng);
       }
-    } else {
-      const fallbackLng = i18n.options.fallbackLng;
-      const targetLng = supportedLngs.hasOwnProperty(detectedLng)
-        ? detectedLng
-        : (Array.isArray(fallbackLng) ? fallbackLng[0] : fallbackLng || 'en');
-      
-      // 目标路径，确保 basePath 为空字符串时不会产生 //
-      const targetPath = `/${targetLng}${basePath || ''}`;
-      if (currentPath !== targetPath) {
-        navigate(targetPath, { replace: true });
-      }
+    } else if (lng && !supportedLngs.hasOwnProperty(lng)) {
+      // 如果语言代码无效，跳转到404页面
+      navigate('/en/404', { replace: true });
+      return;
     }
-  }, [lng, i18n, navigate, location]);
+  }, [lng, i18n, navigate]);
 
   useEffect(() => {
     if (lng && supportedLngs.hasOwnProperty(lng)) {
@@ -135,12 +125,18 @@ const LanguageWrapper = () => {
     }
   }, [lng]);
 
-  if (!i18n.isInitialized || (lng && !supportedLngs.hasOwnProperty(lng))) {
+  if (!i18n.isInitialized) {
     return null; 
+  }
+
+  if (lng && !supportedLngs.hasOwnProperty(lng)) {
+    return null;
   }
 
   return (
     <>
+      <HreflangTags />
+      <LanguageSuggestion />
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <LanguageSwitcher />
         <main style={{ flexGrow: 1 }}>
@@ -152,16 +148,52 @@ const LanguageWrapper = () => {
   );
 };
 
-const AppInitialRedirect = () => {
-  const { i18n } = useTranslation();
-  if (!i18n.isInitialized) {
-    return null; // 等待 i18n 初始化
-  }
-  const initialLang = i18n.language.split('-')[0] || (Array.isArray(i18n.options.fallbackLng) ? i18n.options.fallbackLng[0] : i18n.options.fallbackLng || 'en');
+// 根路径处理组件 - 不进行自动跳转，而是显示语言选择页面
+const LanguageSelection = () => {
   const location = useLocation();
-  // 保留查询参数和哈希值
-  const targetPath = `/${initialLang}${location.pathname === '/' ? '' : location.pathname}${location.search}${location.hash}`;
-  return <Navigate to={targetPath} replace />;
+  
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-50">
+      <div className="max-w-md w-full mx-4">
+        <div className="bg-white rounded-lg shadow-lg p-6">
+          <h1 className="text-2xl font-bold text-center mb-6 text-gray-800">
+            Choose Your Language / 选择语言
+          </h1>
+          <div className="space-y-3">
+            {Object.entries(supportedLngs).map(([code, name]) => {
+              let flag = '';
+              switch (code) {
+                case 'en': flag = '🇺🇸'; break;
+                case 'zh': flag = '🇨🇳'; break;
+                case 'ja': flag = '🇯🇵'; break;
+                case 'fr': flag = '🇫🇷'; break;
+                case 'es': flag = '🇪🇸'; break;
+                case 'ko': flag = '🇰🇷'; break;
+                case 'km': flag = '🇰🇭'; break;
+                case 'si': flag = '🇱🇰'; break;
+                case 'bn': flag = '🇧🇩'; break;
+                case 'ur': flag = '🇵🇰'; break;
+                default: flag = '🌐';
+              }
+              
+              const targetPath = `/${code}${location.search}${location.hash}`;
+              
+              return (
+                <a
+                  key={code}
+                  href={targetPath}
+                  className="flex items-center space-x-3 p-3 rounded-lg border border-gray-200 hover:border-blue-300 hover:bg-blue-50 transition-colors"
+                >
+                  <span className="text-2xl">{flag}</span>
+                  <span className="text-gray-800 font-medium">{name}</span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 const App = () => {
@@ -172,7 +204,7 @@ const App = () => {
         <Sonner />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<AppInitialRedirect />} />
+            <Route path="/" element={<LanguageSelection />} />
             <Route path="/:lng" element={<LanguageWrapper />}>
               <Route index element={<Index />} />
               <Route path="*" element={<NotFound />} /> 

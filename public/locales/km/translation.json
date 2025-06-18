@@ -45,5 +45,9 @@
   "historyClearedDescription": "ប្រវត្តិមើលរបស់អ្នកត្រូវបានសម្អាត។",
   "thumbnailAltText": "Thumbnail សម្រាប់ {{title}}",
   "thumbnailAltTextEnlarged": "Thumbnail ពង្រីកសម្រាប់ {{title}}",
-  "historyThumbnailAltText": "Thumbnail សម្រាប់ធាតុប្រវត្តិ៖ {{videoTitle}}"
+  "historyThumbnailAltText": "Thumbnail សម្រាប់ធាតុប្រវត្តិ៖ {{videoTitle}}",
+  "languageSuggestionTitle": "យើងបានរកឃើញភាសាកម្មវិធីរុករករបស់អ្នក",
+  "languageSuggestionDescription": "តើអ្នកចង់ប្តូរទៅ{{language}}ទេ?",
+  "languageSuggestionAccept": "ប្តូរភាសា",
+  "languageSuggestionDismiss": "នៅទីនេះ"
 }
