@@ -10,5 +10,30 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
+User-agent: Slurp
+Allow: /
+
 User-agent: *
 Allow: /
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://youtubecover.download/sitemap.xml
+
+# Allow crawling of all language versions
+Allow: /en/
+Allow: /zh/
+Allow: /ja/
+Allow: /fr/
+Allow: /es/
+Allow: /ko/
+Allow: /km/
+Allow: /si/
+Allow: /bn/
+Allow: /ur/
+
+# Allow crawling of all page types
+Allow: /*/about
+Allow: /*/privacy
+Allow: /*/terms
+Allow: /*/contact

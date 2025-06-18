@@ -18,6 +18,10 @@ import { supportedLngs } from "./i18n"; // 从 i18n.ts 导入
 
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import About from "./pages/About";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer"; // 导入 Footer 组件
 import LanguageSuggestion from "./components/LanguageSuggestion";
 import HreflangTags from "./components/HreflangTags";
@@ -204,9 +208,13 @@ const App = () => {
         <Sonner />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<LanguageSelection />} />
+            <Route path="/" element={<Navigate to="/en" replace />} />
             <Route path="/:lng" element={<LanguageWrapper />}>
               <Route index element={<Index />} />
+              <Route path="about" element={<About />} />
+              <Route path="privacy" element={<Privacy />} />
+              <Route path="terms" element={<Terms />} />
+              <Route path="contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} /> 
             </Route>
           </Routes>
