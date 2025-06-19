@@ -51,6 +51,7 @@ export const parseCommitMessage = (message: string): { type: GitCommit['type']; 
 
 // Mock git history data (in a real app, this would come from a backend API)
 const mockGitHistory = [
+  { hash: 'b1c2d3e', date: '2025-06-20', author: 'Developer', message: 'feat(ui): Add user reviews section with multi-language support and auto-carousel' },
   { hash: 'e8b8c02', date: '2025-06-15', author: 'Developer', message: 'refactor(index.html): Adjust layout' },
   { hash: '60092a6', date: '2025-06-05', author: 'Developer', message: 'fix: Fix website name spelling in download filename' },
   { hash: 'a81dc62', date: '2025-05-13', author: 'Developer', message: 'feat(i18n): Add support for Khmer, Sinhala, Bengali and Urdu languages' },
