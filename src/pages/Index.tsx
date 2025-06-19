@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Download, Youtube, Image as ImageIcon, Zap } from "lucide-react";
+import { Download, Youtube, Image as ImageIcon, Zap, ClipboardPaste } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
@@ -253,9 +253,35 @@ const Index = () => {
                   placeholder={t('formInputPlaceholder')}
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
-                  className="pl-12 h-14 text-lg border-2 border-slate-200 focus:border-red-500 rounded-xl"
+                  className="pl-12 pr-12 h-14 text-lg border-2 border-slate-200 focus:border-red-500 rounded-xl"
                 />
                 <Youtube className="absolute left-4 top-1/2 transform -translate-y-1/2 h-6 w-6 text-red-600" />
+                <Button 
+                  type="button"
+                  variant="ghost"
+                  size="icon"
+                  className="absolute right-2 top-1/2 transform -translate-y-1/2 h-10 w-10 text-slate-500 hover:text-red-600"
+                  onClick={async () => {
+                    try {
+                      const text = await navigator.clipboard.readText();
+                      setUrl(text);
+                      toast({
+                        title: t('toastPasteSuccessTitle'),
+                        description: t('toastPasteSuccessDescription'),
+                      });
+                    } catch (err) {
+                      console.error('Failed to read clipboard contents: ', err);
+                      toast({
+                        title: t('toastPasteFailedTitle'),
+                        description: t('toastPasteFailedDescription'),
+                        variant: "destructive",
+                      });
+                    }
+                  }}
+                  aria-label={t('pasteFromClipboardAriaLabel')}
+                >
+                  <ClipboardPaste className="h-5 w-5" />
+                </Button>
               </div>
               <Button
                 type="submit"
