@@ -403,6 +403,189 @@ const Index = () => {
             </p>
           </div>
         </div>
+
+        {/* User Reviews Section */}
+        <section className="py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('userReviewsTitle')}</h2>
+              <p className="text-lg text-gray-600">{t('userReviewsSubtitle')}</p>
+            </div>
+            
+            <div className="w-full overflow-hidden">
+              <style>
+                {`
+                  @keyframes scrollLeftUserReviews {
+                    0% { transform: translateX(0); }
+                    100% { transform: translateX(-2040px); } /* 6 cards * 320px + 5 gaps * 24px = 1920 + 120 = 2040px */
+                  }
+                  .animate-scroll-reviews {
+                    animation: scrollLeftUserReviews 60s linear infinite;
+                  }
+                  .animate-scroll-reviews:hover {
+                    animation-play-state: paused;
+                  }
+                `}
+              </style>
+              <div className="flex space-x-6 pb-4 animate-scroll-reviews">
+                {[
+                  {
+                    name: t('userReview1Name'),
+                    content: t('userReview1Content'),
+                    avatar: (
+                      <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="50" fill="#3B82F6"/>
+                        <circle cx="50" cy="35" r="15" fill="white"/>
+                        <path d="M25 75 Q25 60 50 60 Q75 60 75 75 L75 100 L25 100 Z" fill="white"/>
+                      </svg>
+                    )
+                  },
+                  {
+                    name: t('userReview2Name'),
+                    content: t('userReview2Content'),
+                    avatar: (
+                      <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="50" fill="#10B981"/>
+                        <circle cx="50" cy="35" r="15" fill="white"/>
+                        <path d="M25 75 Q25 60 50 60 Q75 60 75 75 L75 100 L25 100 Z" fill="white"/>
+                      </svg>
+                    )
+                  },
+                  {
+                    name: t('userReview3Name'),
+                    content: t('userReview3Content'),
+                    avatar: (
+                      <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="50" fill="#F59E0B"/>
+                        <circle cx="50" cy="35" r="15" fill="white"/>
+                        <path d="M25 75 Q25 60 50 60 Q75 60 75 75 L75 100 L25 100 Z" fill="white"/>
+                      </svg>
+                    )
+                  },
+                  {
+                    name: t('userReview4Name'),
+                    content: t('userReview4Content'),
+                    avatar: (
+                      <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="50" fill="#EF4444"/>
+                        <circle cx="50" cy="35" r="15" fill="white"/>
+                        <path d="M25 75 Q25 60 50 60 Q75 60 75 75 L75 100 L25 100 Z" fill="white"/>
+                      </svg>
+                    )
+                  },
+                  {
+                    name: t('userReview5Name'),
+                    content: t('userReview5Content'),
+                    avatar: (
+                      <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="50" fill="#8B5CF6"/>
+                        <circle cx="50" cy="35" r="15" fill="white"/>
+                        <path d="M25 75 Q25 60 50 60 Q75 60 75 75 L75 100 L25 100 Z" fill="white"/>
+                      </svg>
+                    )
+                  },
+                  {
+                    name: t('userReview6Name'),
+                    content: t('userReview6Content'),
+                    avatar: (
+                      <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="50" fill="#06B6D4"/>
+                        <circle cx="50" cy="35" r="15" fill="white"/>
+                        <path d="M25 75 Q25 60 50 60 Q75 60 75 75 L75 100 L25 100 Z" fill="white"/>
+                      </svg>
+                    )
+                  }
+                ].concat([
+                  {
+                    name: t('userReview1Name'),
+                    content: t('userReview1Content'),
+                    avatar: (
+                      <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="50" fill="#3B82F6"/>
+                        <circle cx="50" cy="35" r="15" fill="white"/>
+                        <path d="M25 75 Q25 60 50 60 Q75 60 75 75 L75 100 L25 100 Z" fill="white"/>
+                      </svg>
+                    )
+                  },
+                  {
+                    name: t('userReview2Name'),
+                    content: t('userReview2Content'),
+                    avatar: (
+                      <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="50" fill="#10B981"/>
+                        <circle cx="50" cy="35" r="15" fill="white"/>
+                        <path d="M25 75 Q25 60 50 60 Q75 60 75 75 L75 100 L25 100 Z" fill="white"/>
+                      </svg>
+                    )
+                  },
+                  {
+                    name: t('userReview3Name'),
+                    content: t('userReview3Content'),
+                    avatar: (
+                      <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="50" fill="#F59E0B"/>
+                        <circle cx="50" cy="35" r="15" fill="white"/>
+                        <path d="M25 75 Q25 60 50 60 Q75 60 75 75 L75 100 L25 100 Z" fill="white"/>
+                      </svg>
+                    )
+                  },
+                  {
+                    name: t('userReview4Name'),
+                    content: t('userReview4Content'),
+                    avatar: (
+                      <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="50" fill="#EF4444"/>
+                        <circle cx="50" cy="35" r="15" fill="white"/>
+                        <path d="M25 75 Q25 60 50 60 Q75 60 75 75 L75 100 L25 100 Z" fill="white"/>
+                      </svg>
+                    )
+                  },
+                  {
+                    name: t('userReview5Name'),
+                    content: t('userReview5Content'),
+                    avatar: (
+                      <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="50" fill="#8B5CF6"/>
+                        <circle cx="50" cy="35" r="15" fill="white"/>
+                        <path d="M25 75 Q25 60 50 60 Q75 60 75 75 L75 100 L25 100 Z" fill="white"/>
+                      </svg>
+                    )
+                  },
+                  {
+                    name: t('userReview6Name'),
+                    content: t('userReview6Content'),
+                    avatar: (
+                      <svg className="w-12 h-12" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="50" fill="#06B6D4"/>
+                        <circle cx="50" cy="35" r="15" fill="white"/>
+                        <path d="M25 75 Q25 60 50 60 Q75 60 75 75 L75 100 L25 100 Z" fill="white"/>
+                      </svg>
+                    )
+                  }
+                ]).map((review, index) => (
+                  <div key={index} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 flex-shrink-0" style={{ minWidth: '320px', width: '320px' }}>
+                    <div className="flex items-center mb-4">
+                      <div className="mr-4">
+                        {review.avatar}
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900">{review.name}</h4>
+                        <div className="flex text-yellow-400">
+                          {[...Array(5)].map((_, i) => (
+                            <svg key={i} className="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                              <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+                            </svg>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                    <p className="text-gray-600 leading-relaxed">{review.content}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
 
