@@ -52,6 +52,14 @@ const Footer = () => {
                   {t('contactPageTitle')}
                 </Link>
               </li>
+              <li>
+                <Link 
+                  to={`/${lng}/changelog`} 
+                  className="text-slate-300 hover:text-white transition-colors"
+                >
+                  {t('changelogTitle', '更新日志')}
+                </Link>
+              </li>
             </ul>
           </div>
           
@@ -86,7 +94,7 @@ const Footer = () => {
                 {t('contactInfoEmailDescription')}
               </p>
               <p className="text-slate-300">
-                support@youtubecover.download
+                support@youtubethumbnail.download
               </p>
               <p className="text-slate-400">
                 {t('contactInfoResponseTime')}
@@ -118,6 +126,12 @@ const Footer = () => {
                 className="text-slate-400 hover:text-white transition-colors"
               >
                 {t('contactPageTitle')}
+              </Link>
+              <Link 
+                to={`/${lng}/changelog`} 
+                className="text-slate-400 hover:text-white transition-colors"
+              >
+                {t('changelogTitle', '更新日志')}
               </Link>
             </div>
           </div>

@@ -244,7 +244,7 @@ const Privacy = () => {
                 </p>
                 <div className="bg-slate-50 p-4 rounded-lg">
                   <p className="text-slate-700">
-                    <strong>{t('privacyContactEmail')}:</strong> privacy@youtube-cover-download.com
+                    <strong>{t('privacyContactEmail')}:</strong> privacy@youtube-thumbnail-download.com
                   </p>
                   <p className="text-slate-700 mt-2">
                     <strong>{t('privacyContactWebsite')}:</strong> {window.location.origin}

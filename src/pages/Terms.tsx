@@ -278,7 +278,7 @@ const Terms = () => {
                 </p>
                 <div className="bg-slate-50 p-4 rounded-lg">
                   <p className="text-slate-700">
-                    <strong>{t('termsContactEmail')}:</strong> legal@youtube-cover-download.com
+                    <strong>{t('termsContactEmail')}:</strong> legal@youtube-thumbnail-download.com
                   </p>
                   <p className="text-slate-700 mt-2">
                     <strong>{t('termsContactWebsite')}:</strong> {window.location.origin}

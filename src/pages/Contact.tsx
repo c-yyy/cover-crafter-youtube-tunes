@@ -261,7 +261,7 @@ const Contact = () => {
                           {t('contactInfoEmailTitle')}
                         </h3>
                         <p className="text-slate-600">
-                          support@youtube-cover-download.com
+                          support@youtube-thumbnail-download.com
                         </p>
                         <p className="text-sm text-slate-500">
                           {t('contactInfoEmailDescription')}
@@ -364,7 +364,7 @@ const Contact = () => {
                           {t('contactBusinessNameTitle')}
                         </h4>
                         <p className="text-slate-600">
-                          YouTube Cover Download Service
+                          YouTube Thumbnail Downloader Service
                         </p>
                       </div>
                       

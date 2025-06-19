@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
     sitemap({
-      hostname: 'https://youtube-cover.com',
+      hostname: 'https://youtube-thumbnail.com',
       dynamicRoutes: [
         // 主页面 - 各语言版本
         '/en',

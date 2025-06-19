@@ -27,7 +27,7 @@ const Index = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
-    const storedHistory = localStorage.getItem('youtubeCoverHistory');
+    const storedHistory = localStorage.getItem('youtubeThumbnailHistory');
     if (storedHistory) {
       setHistory(JSON.parse(storedHistory));
     }
@@ -35,7 +35,7 @@ const Index = () => {
 
   useEffect(() => {
     if (history.length > 0) {
-      localStorage.setItem('youtubeCoverHistory', JSON.stringify(history));
+      localStorage.setItem('youtubeThumbnailHistory', JSON.stringify(history));
     }
   }, [history]);
 
@@ -358,7 +358,7 @@ const Index = () => {
                   className="mt-4 w-full"
                   onClick={() => {
                     setHistory([]);
-                    localStorage.removeItem('youtubeCoverHistory');
+                    localStorage.removeItem('youtubeThumbnailHistory');
                     toast({
                       title: t('historyClearedTitle'),
                       description: t('historyClearedDescription'),

@@ -22,6 +22,7 @@ import About from "./pages/About";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Contact from "./pages/Contact";
+import Changelog from "./pages/Changelog";
 import Footer from "./components/Footer"; // 导入 Footer 组件
 import LanguageSuggestion from "./components/LanguageSuggestion";
 import HreflangTags from "./components/HreflangTags";
@@ -215,6 +216,7 @@ const App = () => {
               <Route path="privacy" element={<Privacy />} />
               <Route path="terms" element={<Terms />} />
               <Route path="contact" element={<Contact />} />
+              <Route path="changelog" element={<Changelog />} />
               <Route path="*" element={<NotFound />} /> 
             </Route>
           </Routes>

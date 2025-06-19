@@ -138,5 +138,20 @@
   "contactBusinessNameTitle": "企业名称",
   "contactBusinessTypeTitle": "服务类型",
   "contactBusinessTypeDescription": "免费 YouTube 缩略图下载服务",
-  "contactBusinessEstablishedTitle": "成立时间"
+  "contactBusinessEstablishedTitle": "成立时间",
+  
+  "changelogTitle": "更新日志",
+  "changelogDescription": "查看项目的最新更新和改进历史",
+  "changelogLoading": "加载中...",
+  "changelogRefresh": "刷新",
+  "changelogEmpty": "暂无更新记录",
+  "changelogEmptyDescription": "还没有找到任何提交记录",
+  "changelogTypeFeat": "新功能",
+  "changelogTypeFix": "修复",
+  "changelogTypeRefactor": "重构",
+  "changelogTypeDocs": "文档",
+  "changelogTypeStyle": "样式",
+  "changelogTypeTest": "测试",
+  "changelogTypeChore": "杂项",
+  "changelogTypeOther": "其他"
 }
