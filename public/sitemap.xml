@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- English Pages -->
+  <!-- EN Pages -->
   <url>
     <loc>https://youtubethumbnail.download/en</loc>
-    <lastmod>2024-12-19</lastmod>
+    <lastmod>2025-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en" />
@@ -13,10 +13,9 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko" />
   </url>
-  
   <url>
     <loc>https://youtubethumbnail.download/en/about</loc>
-    <lastmod>2024-12-19</lastmod>
+    <lastmod>2025-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/about" />
@@ -26,10 +25,9 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/about" />
   </url>
-  
   <url>
     <loc>https://youtubethumbnail.download/en/privacy</loc>
-    <lastmod>2024-12-19</lastmod>
+    <lastmod>2025-06-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/privacy" />
@@ -39,10 +37,9 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/privacy" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/privacy" />
   </url>
-  
   <url>
     <loc>https://youtubethumbnail.download/en/terms</loc>
-    <lastmod>2024-12-19</lastmod>
+    <lastmod>2025-06-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/terms" />
@@ -52,10 +49,9 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/terms" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/terms" />
   </url>
-  
   <url>
     <loc>https://youtubethumbnail.download/en/contact</loc>
-    <lastmod>2024-12-19</lastmod>
+    <lastmod>2025-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/contact" />
@@ -65,11 +61,59 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/contact" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/contact" />
   </url>
-  
-  <!-- Chinese Pages -->
+  <url>
+    <loc>https://youtubethumbnail.download/en/help</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/en/help/getting-started</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/getting-started" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/en/help/advanced-tips</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/advanced-tips" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/en/help/troubleshooting</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/troubleshooting" />
+  </url>
+
+  <!-- ZH Pages -->
   <url>
     <loc>https://youtubethumbnail.download/zh</loc>
-    <lastmod>2024-12-19</lastmod>
+    <lastmod>2025-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en" />
@@ -79,10 +123,9 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko" />
   </url>
-  
   <url>
     <loc>https://youtubethumbnail.download/zh/about</loc>
-    <lastmod>2024-12-19</lastmod>
+    <lastmod>2025-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/about" />
@@ -92,10 +135,9 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/about" />
   </url>
-  
   <url>
     <loc>https://youtubethumbnail.download/zh/privacy</loc>
-    <lastmod>2024-12-19</lastmod>
+    <lastmod>2025-06-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/privacy" />
@@ -105,10 +147,9 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/privacy" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/privacy" />
   </url>
-  
   <url>
     <loc>https://youtubethumbnail.download/zh/terms</loc>
-    <lastmod>2024-12-19</lastmod>
+    <lastmod>2025-06-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/terms" />
@@ -118,10 +159,9 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/terms" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/terms" />
   </url>
-  
   <url>
     <loc>https://youtubethumbnail.download/zh/contact</loc>
-    <lastmod>2024-12-19</lastmod>
+    <lastmod>2025-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/contact" />
@@ -131,4 +171,493 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/contact" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/contact" />
   </url>
+  <url>
+    <loc>https://youtubethumbnail.download/zh/help</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/zh/help/getting-started</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/getting-started" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/zh/help/advanced-tips</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/advanced-tips" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/zh/help/troubleshooting</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/troubleshooting" />
+  </url>
+
+  <!-- JA Pages -->
+  <url>
+    <loc>https://youtubethumbnail.download/ja</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ja/about</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/about" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/about" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ja/privacy</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/privacy" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ja/terms</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/terms" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ja/contact</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/contact" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ja/help</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ja/help/getting-started</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/getting-started" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ja/help/advanced-tips</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/advanced-tips" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ja/help/troubleshooting</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/troubleshooting" />
+  </url>
+
+  <!-- FR Pages -->
+  <url>
+    <loc>https://youtubethumbnail.download/fr</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/fr/about</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/about" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/about" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/fr/privacy</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/privacy" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/fr/terms</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/terms" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/fr/contact</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/contact" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/fr/help</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/fr/help/getting-started</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/getting-started" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/fr/help/advanced-tips</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/advanced-tips" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/fr/help/troubleshooting</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/troubleshooting" />
+  </url>
+
+  <!-- ES Pages -->
+  <url>
+    <loc>https://youtubethumbnail.download/es</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/es/about</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/about" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/about" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/es/privacy</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/privacy" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/es/terms</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/terms" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/es/contact</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/contact" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/es/help</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/es/help/getting-started</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/getting-started" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/es/help/advanced-tips</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/advanced-tips" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/es/help/troubleshooting</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/troubleshooting" />
+  </url>
+
+  <!-- KO Pages -->
+  <url>
+    <loc>https://youtubethumbnail.download/ko</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ko/about</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/about" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/about" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ko/privacy</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/privacy" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ko/terms</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/terms" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ko/contact</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/contact" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ko/help</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ko/help/getting-started</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/getting-started" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ko/help/advanced-tips</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/advanced-tips" />
+  </url>
+  <url>
+    <loc>https://youtubethumbnail.download/ko/help/troubleshooting</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/troubleshooting" />
+  </url>
+
 </urlset>

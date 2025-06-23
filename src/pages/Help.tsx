@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { HelpCircle, Youtube, Download, Image as ImageIcon, Lightbulb, AlertCircle, CheckCircle, ArrowRight, Menu, X, Search, FileImage, Palette, Monitor } from "lucide-react";
+import { HelpCircle, Youtube, Download, Image as ImageIcon, Lightbulb, AlertCircle, CheckCircle, ArrowRight, Menu, X, Search, FileImage, Palette, Monitor, Mail, MessageSquare, Users, Share2, Clock, Shield, Heart, BookOpen } from "lucide-react";
 import { Link, useParams } from 'react-router-dom';
 import { Header } from '../components/Header';
 
@@ -15,10 +15,13 @@ const Help = () => {
 
   const sections = [
     { id: 'getting-started', title: t('help.gettingStarted', '快速开始'), icon: CheckCircle },
+    { id: 'tools', title: t('tools', '工具'), icon: Monitor },
+    { id: 'tutorials', title: t('tutorials', '教程'), icon: FileImage },
+    { id: 'faq', title: t('faq', '常见问题'), icon: HelpCircle },
+    { id: 'resources', title: t('resources', '资源'), icon: Palette },
     { id: 'advanced-tips', title: t('help.advancedTips', '高级技巧'), icon: Lightbulb },
     { id: 'troubleshooting', title: t('help.troubleshooting', '问题解决'), icon: AlertCircle },
-    { id: 'best-practices', title: t('help.bestPractices', '最佳实践'), icon: FileImage },
-    { id: 'creative-uses', title: t('help.creativeUses', '创意用途'), icon: Palette }
+    { id: 'contact', title: t('contact', '联系我们'), icon: ArrowRight }
   ];
 
   return (
@@ -425,6 +428,413 @@ const Help = () => {
                                 </div>
                                 <p className="text-sm text-purple-700">{t('help.immediateOrganizationDesc', '下载后立即重命名和分类，保持文件系统整洁')}</p>
                               </div>
+                            </div>
+                          </CardContent>
+                        </Card>
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+
+                {/* Tools Section */}
+                {activeSection === 'tools' && (
+                  <div className="space-y-6">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle className="text-2xl flex items-center space-x-3">
+                          <Monitor className="h-6 w-6 text-blue-600" />
+                          <span>工具和功能</span>
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-6">
+                        <div className="grid md:grid-cols-2 gap-6">
+                          <Card className="border-2 border-blue-200">
+                            <CardHeader>
+                              <CardTitle className="text-lg text-blue-800">缩略图下载器</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                              <p className="text-slate-600 mb-4">快速提取YouTube视频缩略图，支持多种分辨率。</p>
+                              <ul className="list-disc list-inside space-y-1 text-sm text-slate-600">
+                                <li>支持所有YouTube链接格式</li>
+                                <li>提供多种分辨率选择</li>
+                                <li>一键批量下载</li>
+                                <li>历史记录管理</li>
+                              </ul>
+                            </CardContent>
+                          </Card>
+                          <Card className="border-2 border-green-200">
+                            <CardHeader>
+                              <CardTitle className="text-lg text-green-800">封面制作器</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                              <p className="text-slate-600 mb-4">专业的封面设计工具，配备AI功能。</p>
+                              <ul className="list-disc list-inside space-y-1 text-sm text-slate-600">
+                                <li>拖拽式设计界面</li>
+                                <li>丰富的文字和贴纸库</li>
+                                <li>AI图片生成功能</li>
+                                <li>实时预览和编辑</li>
+                              </ul>
+                            </CardContent>
+                          </Card>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+
+                {/* Tutorials Section */}
+                {activeSection === 'tutorials' && (
+                  <div className="space-y-6">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle className="text-2xl flex items-center space-x-3">
+                          <FileImage className="h-6 w-6 text-purple-600" />
+                          <span>教程和指南</span>
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-6">
+                        <div className="space-y-4">
+                          <Card className="border-l-4 border-blue-500">
+                            <CardContent className="pt-6">
+                              <h3 className="text-lg font-semibold mb-2">基础教程</h3>
+                              <ul className="space-y-2 text-slate-600">
+                                <li>• 如何下载YouTube缩略图</li>
+                                <li>• 选择合适的图片分辨率</li>
+                                <li>• 批量处理多个视频</li>
+                                <li>• 管理下载历史</li>
+                              </ul>
+                            </CardContent>
+                          </Card>
+                          <Card className="border-l-4 border-green-500">
+                            <CardContent className="pt-6">
+                              <h3 className="text-lg font-semibold mb-2">封面制作教程</h3>
+                              <ul className="space-y-2 text-slate-600">
+                                <li>• 创建专业YouTube封面</li>
+                                <li>• 使用AI生成图片素材</li>
+                                <li>• 添加文字和特效</li>
+                                <li>• 导出和优化设计</li>
+                              </ul>
+                            </CardContent>
+                          </Card>
+                          <Card className="border-l-4 border-purple-500">
+                            <CardContent className="pt-6">
+                              <h3 className="text-lg font-semibold mb-2">高级技巧</h3>
+                              <ul className="space-y-2 text-slate-600">
+                                <li>• 批量处理工作流程</li>
+                                <li>• 自动化下载设置</li>
+                                <li>• 创意设计技巧</li>
+                                <li>• 性能优化建议</li>
+                              </ul>
+                            </CardContent>
+                          </Card>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+
+                {/* FAQ Section */}
+                {activeSection === 'faq' && (
+                  <div className="space-y-6">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle className="text-2xl flex items-center space-x-3">
+                          <HelpCircle className="h-6 w-6 text-orange-600" />
+                          <span>常见问题</span>
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-4">
+                        <div className="space-y-4">
+                          <Card className="border border-slate-200">
+                            <CardContent className="pt-6">
+                              <h3 className="font-semibold text-slate-800 mb-2">Q: 支持哪些YouTube链接格式？</h3>
+                              <p className="text-slate-600">A: 我们支持所有标准的YouTube链接格式，包括完整链接、短链接和嵌入链接。</p>
+                            </CardContent>
+                          </Card>
+                          <Card className="border border-slate-200">
+                            <CardContent className="pt-6">
+                              <h3 className="font-semibold text-slate-800 mb-2">Q: 下载的图片质量如何？</h3>
+                              <p className="text-slate-600">A: 我们提供从120x90到1920x1080的多种分辨率，确保满足不同用途的需求。</p>
+                            </CardContent>
+                          </Card>
+                          <Card className="border border-slate-200">
+                            <CardContent className="pt-6">
+                              <h3 className="font-semibold text-slate-800 mb-2">Q: 是否需要注册账户？</h3>
+                              <p className="text-slate-600">A: 不需要，我们的工具完全免费使用，无需注册或登录。</p>
+                            </CardContent>
+                          </Card>
+                          <Card className="border border-slate-200">
+                            <CardContent className="pt-6">
+                              <h3 className="font-semibold text-slate-800 mb-2">Q: 封面制作器有哪些功能？</h3>
+                              <p className="text-slate-600">A: 包括文字添加、图片上传、贴纸库、AI图片生成等专业设计功能。</p>
+                            </CardContent>
+                          </Card>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+
+                {/* Resources Section */}
+                {activeSection === 'resources' && (
+                  <div className="space-y-6">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle className="text-2xl flex items-center space-x-3">
+                          <Palette className="h-6 w-6 text-green-600" />
+                          <span>资源和素材</span>
+                        </CardTitle>
+                      </CardHeader>
+                      <CardContent className="space-y-6">
+                        <div className="grid md:grid-cols-2 gap-6">
+                          <Card className="border-2 border-green-200">
+                            <CardHeader>
+                              <CardTitle className="text-lg text-green-800">设计资源</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                              <ul className="space-y-2 text-slate-600">
+                                <li>• 免费字体库</li>
+                                <li>• 图标和贴纸</li>
+                                <li>• 颜色搭配指南</li>
+                                <li>• 设计模板</li>
+                              </ul>
+                            </CardContent>
+                          </Card>
+                          <Card className="border-2 border-blue-200">
+                            <CardHeader>
+                              <CardTitle className="text-lg text-blue-800">学习资源</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                              <ul className="space-y-2 text-slate-600">
+                                <li>• 设计基础教程</li>
+                                <li>• YouTube营销指南</li>
+                                <li>• 创意灵感库</li>
+                                <li>• 案例研究</li>
+                              </ul>
+                            </CardContent>
+                          </Card>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+
+                {/* Contact Section */}
+                {activeSection === 'contact' && (
+                  <div className="space-y-6">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle className="text-2xl flex items-center space-x-3">
+                          <ArrowRight className="h-6 w-6 text-red-600" />
+                          <span>联系我们</span>
+                        </CardTitle>
+                        <p className="text-slate-600 mt-2">我们致力于为用户提供最优质的服务和支持，欢迎通过以下方式与我们联系。</p>
+                      </CardHeader>
+                      <CardContent className="space-y-6">
+                        {/* 主要联系方式 */}
+                        <div className="grid md:grid-cols-3 gap-6">
+                          <Card className="border-2 border-red-200 bg-gradient-to-br from-red-50 to-pink-50">
+                            <CardHeader>
+                              <CardTitle className="text-lg text-red-800 flex items-center space-x-2">
+                                <Mail className="h-5 w-5" />
+                                <span>技术支持</span>
+                              </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                              <p className="text-slate-600 mb-4">遇到技术问题或需要使用帮助？</p>
+                              <div className="space-y-3">
+                                <div className="bg-white p-3 rounded border border-red-200">
+                                  <p className="font-semibold text-red-800 mb-1">邮箱支持</p>
+                                  <p className="text-sm text-red-700">support@covercrafter.com</p>
+                                  <p className="text-xs text-slate-500 mt-1">24小时内回复</p>
+                                </div>
+                                <div className="bg-white p-3 rounded border border-red-200">
+                                  <p className="font-semibold text-red-800 mb-1">在线客服</p>
+                                  <p className="text-sm text-red-700">工作日 9:00-18:00</p>
+                                  <p className="text-xs text-slate-500 mt-1">即时响应</p>
+                                </div>
+                              </div>
+                            </CardContent>
+                          </Card>
+                          
+                          <Card className="border-2 border-blue-200 bg-gradient-to-br from-blue-50 to-cyan-50">
+                            <CardHeader>
+                              <CardTitle className="text-lg text-blue-800 flex items-center space-x-2">
+                                <MessageSquare className="h-5 w-5" />
+                                <span>反馈建议</span>
+                              </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                              <p className="text-slate-600 mb-4">我们重视您的意见和建议</p>
+                              <div className="space-y-3">
+                                <div className="bg-white p-3 rounded border border-blue-200">
+                                  <p className="font-semibold text-blue-800 mb-1">产品反馈</p>
+                                  <p className="text-sm text-blue-700">feedback@covercrafter.com</p>
+                                  <p className="text-xs text-slate-500 mt-1">功能建议、体验反馈</p>
+                                </div>
+                                <div className="bg-white p-3 rounded border border-blue-200">
+                                  <p className="font-semibold text-blue-800 mb-1">用户调研</p>
+                                  <p className="text-sm text-blue-700">参与产品改进</p>
+                                  <p className="text-xs text-slate-500 mt-1">定期邀请参与</p>
+                                </div>
+                              </div>
+                            </CardContent>
+                          </Card>
+                          
+                          <Card className="border-2 border-green-200 bg-gradient-to-br from-green-50 to-emerald-50">
+                            <CardHeader>
+                              <CardTitle className="text-lg text-green-800 flex items-center space-x-2">
+                                <Users className="h-5 w-5" />
+                                <span>商务合作</span>
+                              </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                              <p className="text-slate-600 mb-4">寻求合作机会或商务洽谈？</p>
+                              <div className="space-y-3">
+                                <div className="bg-white p-3 rounded border border-green-200">
+                                  <p className="font-semibold text-green-800 mb-1">商务合作</p>
+                                  <p className="text-sm text-green-700">business@covercrafter.com</p>
+                                  <p className="text-xs text-slate-500 mt-1">API接入、品牌合作</p>
+                                </div>
+                                <div className="bg-white p-3 rounded border border-green-200">
+                                  <p className="font-semibold text-green-800 mb-1">媒体联系</p>
+                                  <p className="text-sm text-green-700">media@covercrafter.com</p>
+                                  <p className="text-xs text-slate-500 mt-1">媒体采访、新闻发布</p>
+                                </div>
+                              </div>
+                            </CardContent>
+                          </Card>
+                        </div>
+                        
+                        {/* 社交媒体和社区 */}
+                        <Card className="border-2 border-purple-200 bg-gradient-to-br from-purple-50 to-indigo-50">
+                          <CardHeader>
+                            <CardTitle className="text-xl text-purple-800 flex items-center space-x-2">
+                              <Share2 className="h-5 w-5" />
+                              <span>社交媒体与社区</span>
+                            </CardTitle>
+                          </CardHeader>
+                          <CardContent>
+                            <div className="grid md:grid-cols-4 gap-4">
+                              <div className="bg-white p-4 rounded-lg border border-purple-200 text-center">
+                                <div className="bg-blue-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                                  <span className="text-white font-bold">微</span>
+                                </div>
+                                <p className="font-semibold text-purple-800 mb-1">微信公众号</p>
+                                <p className="text-sm text-purple-700">CoverCrafter</p>
+                                <p className="text-xs text-slate-500 mt-1">最新功能、使用技巧</p>
+                              </div>
+                              
+                              <div className="bg-white p-4 rounded-lg border border-purple-200 text-center">
+                                <div className="bg-red-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                                  <span className="text-white font-bold">Y</span>
+                                </div>
+                                <p className="font-semibold text-purple-800 mb-1">YouTube</p>
+                                <p className="text-sm text-purple-700">@CoverCrafter官方</p>
+                                <p className="text-xs text-slate-500 mt-1">视频教程、案例分享</p>
+                              </div>
+                              
+                              <div className="bg-white p-4 rounded-lg border border-purple-200 text-center">
+                                <div className="bg-gray-800 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                                  <span className="text-white font-bold">G</span>
+                                </div>
+                                <p className="font-semibold text-purple-800 mb-1">GitHub</p>
+                                <p className="text-sm text-purple-700">开源项目</p>
+                                <p className="text-xs text-slate-500 mt-1">代码贡献、问题反馈</p>
+                              </div>
+                              
+                              <div className="bg-white p-4 rounded-lg border border-purple-200 text-center">
+                                 <div className="bg-indigo-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                                   <MessageSquare className="h-6 w-6 text-white" />
+                                 </div>
+                                 <p className="font-semibold text-purple-800 mb-1">用户社区</p>
+                                 <p className="text-sm text-purple-700">Discord服务器</p>
+                                 <p className="text-xs text-slate-500 mt-1">用户交流、经验分享</p>
+                               </div>
+                            </div>
+                          </CardContent>
+                        </Card>
+                        
+                        {/* 响应时间和服务承诺 */}
+                        <Card className="border-2 border-amber-200 bg-gradient-to-br from-amber-50 to-yellow-50">
+                          <CardHeader>
+                            <CardTitle className="text-xl text-amber-800 flex items-center space-x-2">
+                              <Clock className="h-5 w-5" />
+                              <span>服务承诺</span>
+                            </CardTitle>
+                          </CardHeader>
+                          <CardContent>
+                            <div className="grid md:grid-cols-3 gap-6">
+                              <div className="text-center">
+                                <div className="bg-amber-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
+                                  <Clock className="h-8 w-8 text-white" />
+                                </div>
+                                <h4 className="font-semibold text-amber-800 mb-2">快速响应</h4>
+                                <p className="text-sm text-amber-700">技术支持邮件24小时内回复</p>
+                                <p className="text-sm text-amber-700">在线客服工作时间即时响应</p>
+                              </div>
+                              
+                              <div className="text-center">
+                                <div className="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
+                                  <Shield className="h-8 w-8 text-white" />
+                                </div>
+                                <h4 className="font-semibold text-amber-800 mb-2">专业服务</h4>
+                                <p className="text-sm text-amber-700">专业技术团队提供支持</p>
+                                <p className="text-sm text-amber-700">详细的问题解决方案</p>
+                              </div>
+                              
+                              <div className="text-center">
+                                <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
+                                  <Heart className="h-8 w-8 text-white" />
+                                </div>
+                                <h4 className="font-semibold text-amber-800 mb-2">用户至上</h4>
+                                <p className="text-sm text-amber-700">认真对待每一个反馈</p>
+                                <p className="text-sm text-amber-700">持续改进产品体验</p>
+                              </div>
+                            </div>
+                          </CardContent>
+                        </Card>
+                        
+                        {/* 常见问题快速入口 */}
+                        <Card className="border-2 border-indigo-200 bg-gradient-to-br from-indigo-50 to-blue-50">
+                          <CardHeader>
+                            <CardTitle className="text-xl text-indigo-800 flex items-center space-x-2">
+                              <HelpCircle className="h-5 w-5" />
+                              <span>快速帮助</span>
+                            </CardTitle>
+                          </CardHeader>
+                          <CardContent>
+                            <p className="text-slate-600 mb-4">在联系我们之前，您可以先查看这些资源：</p>
+                            <div className="grid md:grid-cols-2 gap-4">
+                              <button 
+                                onClick={() => setActiveSection('faq')}
+                                className="bg-white p-4 rounded-lg border border-indigo-200 hover:border-indigo-400 transition-colors text-left"
+                              >
+                                <div className="flex items-center space-x-3">
+                                  <div className="bg-indigo-600 w-10 h-10 rounded-full flex items-center justify-center">
+                                    <HelpCircle className="h-5 w-5 text-white" />
+                                  </div>
+                                  <div>
+                                    <p className="font-semibold text-indigo-800">常见问题</p>
+                                    <p className="text-sm text-indigo-700">查看最常见的问题和解答</p>
+                                  </div>
+                                </div>
+                              </button>
+                              
+                              <button 
+                                onClick={() => setActiveSection('tutorials')}
+                                className="bg-white p-4 rounded-lg border border-indigo-200 hover:border-indigo-400 transition-colors text-left"
+                              >
+                                <div className="flex items-center space-x-3">
+                                  <div className="bg-green-600 w-10 h-10 rounded-full flex items-center justify-center">
+                                    <BookOpen className="h-5 w-5 text-white" />
+                                  </div>
+                                  <div>
+                                    <p className="font-semibold text-indigo-800">使用教程</p>
+                                    <p className="text-sm text-indigo-700">详细的功能使用指南</p>
+                                  </div>
+                                </div>
+                              </button>
                             </div>
                           </CardContent>
                         </Card>

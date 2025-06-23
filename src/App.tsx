@@ -16,6 +16,7 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { supportedLngs } from "./i18n"; // 从 i18n.ts 导入
 
+import CoverMaker from "./pages/CoverMaker";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import About from "./pages/About";
@@ -24,6 +25,10 @@ import Terms from "./pages/Terms";
 import Contact from "./pages/Contact";
 import Changelog from "./pages/Changelog";
 import Help from "./pages/Help";
+import HelpIndex from "./pages/help/HelpIndex";
+import GettingStarted from "./pages/help/GettingStarted";
+import AdvancedTips from "./pages/help/AdvancedTips";
+import Troubleshooting from "./pages/help/Troubleshooting";
 import Blog from "./pages/Blog";
 import Resources from "./pages/Resources";
 import FAQ from "./pages/FAQ";
@@ -42,13 +47,24 @@ const queryClient = new QueryClient();
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
   const navigate = useNavigate();
-  const { lng, '*': splat } = useParams(); // 获取当前语言和通配符路径
+  const location = useLocation();
+  const { lng } = useParams();
 
   const changeLanguage = (newLng: string) => {
     i18n.changeLanguage(newLng);
-    // 构建新的路径，保留通配符部分
-    const newPath = splat ? `/${newLng}/${splat}` : `/${newLng}`;
-    navigate(newPath);
+    // 获取当前路径，替换语言代码部分
+    const currentPath = location.pathname;
+    const pathSegments = currentPath.split('/').filter(Boolean);
+    
+    // 如果第一个段是语言代码，替换它；否则添加新语言代码
+    if (pathSegments.length > 0 && supportedLngs.hasOwnProperty(pathSegments[0])) {
+      pathSegments[0] = newLng;
+    } else {
+      pathSegments.unshift(newLng);
+    }
+    
+    const newPath = '/' + pathSegments.join('/');
+    navigate(newPath + location.search + location.hash);
   };
 
   return (
@@ -221,12 +237,16 @@ const App = () => {
             <Route path="/" element={<Navigate to="/en" replace />} />
             <Route path="/:lng" element={<LanguageWrapper />}>
               <Route index element={<Index />} />
+              <Route path="cover-maker" element={<CoverMaker />} />
               <Route path="about" element={<About />} />
               <Route path="privacy" element={<Privacy />} />
               <Route path="terms" element={<Terms />} />
               <Route path="contact" element={<Contact />} />
               <Route path="changelog" element={<Changelog />} />
-              <Route path="help" element={<Help />} />
+              <Route path="help" element={<HelpIndex />} />
+              <Route path="help/getting-started" element={<GettingStarted />} />
+              <Route path="help/advanced-tips" element={<AdvancedTips />} />
+              <Route path="help/troubleshooting" element={<Troubleshooting />} />
               <Route path="blog" element={<Blog />} />
               <Route path="resources" element={<Resources />} />
               <Route path="faq" element={<FAQ />} />

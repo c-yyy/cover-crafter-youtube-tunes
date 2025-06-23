@@ -1,13 +1,25 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { supportedLngs } from '../i18n';
 import i18n from '../i18n';
 
 const LanguageSuggestion: React.FC = () => {
   const { lng } = useParams<{ lng: string }>();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const location = useLocation();
   const [showSuggestion, setShowSuggestion] = useState(false);
+  
+  // 获取当前路径，去除语言前缀
+   const getCurrentPath = () => {
+     const pathname = location.pathname;
+     // 匹配 /语言代码/路径 的模式
+     const match = pathname.match(/^\/([a-z]{2})(\/.*)?$/);
+     if (match && match[2]) {
+       return match[2]; // 返回去除语言前缀的路径
+     }
+     return ''; // 如果是根路径或无法匹配，返回空字符串
+   };
   const [suggestedLanguage, setSuggestedLanguage] = useState<string | null>(null);
   const [targetTranslations, setTargetTranslations] = useState<any>(null);
 
@@ -83,7 +95,7 @@ const LanguageSuggestion: React.FC = () => {
       </p>
       <div className="flex space-x-2">
         <Link
-          to={`/${suggestedLanguage}`}
+          to={`/${suggestedLanguage}${getCurrentPath()}`}
           onClick={handleAccept}
           className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors text-sm"
         >

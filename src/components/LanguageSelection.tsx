@@ -1,8 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { supportedLngs } from '../i18n';
 
 const LanguageSelection: React.FC = () => {
+  const location = useLocation();
+  
+  // 获取当前路径，去除语言前缀
+  const getCurrentPath = () => {
+    const pathname = location.pathname;
+    // 匹配 /语言代码/路径 的模式
+    const match = pathname.match(/^\/([a-z]{2})(\/.*)?$/);
+    if (match && match[2]) {
+      return match[2]; // 返回去除语言前缀的路径
+    }
+    return ''; // 如果是根路径或无法匹配，返回空字符串
+  };
+  
   const getLanguageFlag = (lng: string) => {
     switch (lng) {
       case 'en': return '🇺🇸';
@@ -28,7 +41,7 @@ const LanguageSelection: React.FC = () => {
           {Object.entries(supportedLngs).map(([code, name]) => (
             <Link
               key={code}
-              to={`/${code}`}
+              to={`/${code}${getCurrentPath()}`}
               className="flex items-center p-4 rounded-lg border-2 border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-all duration-200 group"
             >
               <span className="text-2xl mr-3">{getLanguageFlag(code)}</span>

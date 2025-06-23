@@ -14,17 +14,10 @@ const Header: React.FC<HeaderProps> = ({ currentPage }) => {
 
   const navigationItems = [
     { path: '', label: t('homeTitle'), key: 'home' },
-    { path: 'about', label: t('about'), key: 'about' },
-    { path: 'tools', label: t('tools'), key: 'tools' },
-    { path: 'tutorials', label: t('tutorials'), key: 'tutorials' },
-    { path: 'blog', label: t('blog'), key: 'blog' },
-    { path: 'news', label: t('news'), key: 'news' },
-    { path: 'case-studies', label: t('caseStudies'), key: 'case-studies' },
-    { path: 'resources', label: t('resources'), key: 'resources' },
-    { path: 'faq', label: t('faq'), key: 'faq' },
-    { path: 'help', label: t('help'), key: 'help' },
-    { path: 'creator-economy', label: t('creatorEconomy'), key: 'creator-economy' },
-    { path: 'contact', label: t('contact'), key: 'contact' }
+    { path: 'cover-maker', label: t('coverMaker'), key: 'cover-maker' },
+    { path: 'blog', label: t('blogTitle'), key: 'blog' },
+    { path: 'about', label: t('aboutTitle'), key: 'about' },
+    { path: 'help', label: t('helpTitle'), key: 'help' }
   ];
 
   const isCurrentPage = (itemKey: string) => {
