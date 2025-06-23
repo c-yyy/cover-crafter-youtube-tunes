@@ -334,16 +334,69 @@ const CoverMaker = () => {
       <Helmet>
         <title>{t('coverMakerTitle')}</title>
         <meta name="description" content={t('coverMakerDescription')} />
+        <meta name="keywords" content="YouTube thumbnail maker, cover design tool, thumbnail creator, video cover generator, YouTube thumbnail design, custom thumbnail maker, thumbnail editor online, video thumbnail creator, YouTube cover art, thumbnail design software, free thumbnail maker, professional thumbnail creator, YouTube thumbnail templates, video cover design, thumbnail generator tool, YouTube thumbnail editor, cover art maker, video thumbnail design, YouTube thumbnail creator online, thumbnail making tool" />
+        
+        {/* Open Graph tags */}
+        <meta property="og:title" content={t('coverMakerTitle')} />
+        <meta property="og:description" content={t('coverMakerDescription')} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={window.location.href} />
+        <meta property="og:site_name" content="Cover Crafter" />
+        <meta property="og:image" content="/placeholder.svg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="YouTube Thumbnail Maker - Create Professional Video Covers" />
+        
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={t('coverMakerTitle')} />
+        <meta name="twitter:description" content={t('coverMakerDescription')} />
+        <meta name="twitter:image" content="/placeholder.svg" />
+        <meta name="twitter:image:alt" content="YouTube Thumbnail Maker Tool" />
+        
+        {/* Additional SEO meta tags */}
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Cover Crafter" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#ffffff" />
+        <link rel="canonical" href={window.location.href} />
+        
+        {/* Schema.org structured data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "Cover Crafter - YouTube Thumbnail Maker",
+            "description": "Professional YouTube thumbnail maker and video cover design tool. Create stunning thumbnails with AI-powered features, custom text, images, and stickers.",
+            "url": window.location.href,
+            "applicationCategory": "DesignApplication",
+            "operatingSystem": "Web Browser",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "featureList": [
+              "YouTube thumbnail creation",
+              "AI-powered image generation",
+              "Custom text and fonts",
+              "Image upload and editing",
+              "Sticker and emoji support",
+              "Multiple canvas sizes",
+              "Professional templates"
+            ]
+          })}
+        </script>
       </Helmet>
       
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
         <Header currentPage="cover-maker" />
         
         <main className="container mx-auto px-4 py-8">
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 h-[calc(100vh-200px)]">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
             
             {/* Left Panel - Tools */}
-            <div className="lg:col-span-1 space-y-4 overflow-y-auto">
+            <div className="lg:col-span-1 space-y-4">
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center space-x-2">
@@ -641,7 +694,7 @@ const CoverMaker = () => {
             
             {/* Right Panel - Canvas */}
             <div className="lg:col-span-3">
-              <Card className="h-full">
+              <Card>
                 <CardHeader>
                   <div className="flex items-center justify-between">
                     <CardTitle className="flex items-center space-x-2">
@@ -654,20 +707,74 @@ const CoverMaker = () => {
                     </Button>
                   </div>
                 </CardHeader>
-                <CardContent className="flex items-center justify-center h-full">
+                <CardContent className="flex items-center justify-center">
                   <div className="relative border-2 border-dashed border-gray-300 rounded-lg overflow-hidden">
                     <canvas
                       ref={canvasRef}
                       width={canvasSize.width}
                       height={canvasSize.height}
-                      className="max-w-full max-h-full object-contain"
+                      className="max-w-full object-contain"
                       style={{
                         maxWidth: '100%',
-                        maxHeight: 'calc(100vh - 300px)',
                         width: 'auto',
                         height: 'auto'
                       }}
                     />
+                  </div>
+                </CardContent>
+              </Card>
+              
+              {/* SEO Content Section */}
+              <Card className="mt-6">
+                <CardContent className="p-6">
+                  <div className="prose max-w-none">
+                    <h2 className="text-2xl font-bold mb-4 text-gray-900">Professional YouTube Thumbnail Maker & Cover Design Tool</h2>
+                    
+                    <p className="text-gray-700 mb-4">
+                      Create stunning YouTube thumbnails and video covers with our advanced online design tool. Whether you're a content creator, marketer, or business owner, our Cover Maker provides everything you need to design eye-catching thumbnails that boost your video's click-through rates and engagement.
+                    </p>
+                    
+                    <h3 className="text-xl font-semibold mb-3 text-gray-900">Key Features of Our Thumbnail Creator</h3>
+                    
+                    <p className="text-gray-700 mb-4">
+                      Our YouTube thumbnail maker offers a comprehensive suite of design tools that make creating professional-quality covers simple and efficient. With support for multiple canvas sizes including YouTube thumbnails (1280x720), Instagram posts (1080x1080), Facebook covers (1200x630), and Twitter headers (1500x500), you can create content for all major social media platforms.
+                    </p>
+                    
+                    <p className="text-gray-700 mb-4">
+                      The intuitive text editor allows you to add custom typography with various font families including Arial, Helvetica, Times New Roman, Georgia, and Impact. Adjust font sizes from 12px to 100px, choose between normal and bold weights, and select from a full color palette to match your brand identity. Position text elements precisely with our drag-and-drop interface and rotate them to create dynamic layouts.
+                    </p>
+                    
+                    <h3 className="text-xl font-semibold mb-3 text-gray-900">AI-Powered Image Generation</h3>
+                    
+                    <p className="text-gray-700 mb-4">
+                      Take advantage of our cutting-edge AI image generation feature to create unique visual elements for your thumbnails. Simply describe what you want in natural language, and our AI will generate multiple high-quality images that you can instantly add to your design. This feature is perfect for creating custom backgrounds, illustrations, and graphic elements that make your thumbnails stand out from the competition.
+                    </p>
+                    
+                    <h3 className="text-xl font-semibold mb-3 text-gray-900">Extensive Customization Options</h3>
+                    
+                    <p className="text-gray-700 mb-4">
+                      Upload your own images and photos to create personalized thumbnails that reflect your content. Our image editor supports all common formats and allows you to resize, rotate, and position elements with pixel-perfect precision. Add emoji stickers and decorative elements from our curated collection including popular symbols like 🎬, 🔥, ⭐, 💎, 🚀, and many more to enhance your designs.
+                    </p>
+                    
+                    <p className="text-gray-700 mb-4">
+                      The background customization options include solid colors and image uploads, giving you complete control over your thumbnail's foundation. Layer multiple elements including text, images, and stickers to create complex, professional-looking designs that capture viewers' attention and encourage clicks.
+                    </p>
+                    
+                    <h3 className="text-xl font-semibold mb-3 text-gray-900">Optimized for YouTube Success</h3>
+                    
+                    <p className="text-gray-700 mb-4">
+                      Our thumbnail maker is specifically optimized for YouTube's requirements and best practices. The default 1280x720 pixel canvas ensures your thumbnails display perfectly across all devices, from desktop computers to mobile phones. Create thumbnails that not only look professional but also comply with YouTube's technical specifications for maximum visibility and engagement.
+                    </p>
+                    
+                    <p className="text-gray-700 mb-4">
+                      The tool's real-time preview feature lets you see exactly how your thumbnail will appear to viewers, ensuring your design looks perfect before you download. Export your finished thumbnails in high-quality PNG format, ready for immediate upload to YouTube or any other platform.
+                    </p>
+                    
+                    <h3 className="text-xl font-semibold mb-3 text-gray-900">Free and Accessible Design Solution</h3>
+                    
+                    <p className="text-gray-700">
+                      Best of all, our Cover Maker is completely free to use with no hidden costs or subscription requirements. Access all features including AI image generation, custom text editing, image uploads, and sticker additions without any limitations. Start creating professional YouTube thumbnails today and watch your video performance improve with more engaging, click-worthy covers that drive views and subscriber growth.
+                    </p>
                   </div>
                 </CardContent>
               </Card>

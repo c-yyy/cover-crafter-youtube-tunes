@@ -31,8 +31,8 @@ const Blog = () => {
   const blogPosts: BlogPost[] = [
     {
       id: '1',
-      title: t('blog.post1.title', 'YouTube缩略图设计的10个黄金法则'),
-      excerpt: '学习如何设计吸引眼球的YouTube缩略图，提高视频点击率和观看量。从色彩搭配到文字排版，掌握专业设计技巧。',
+      title: t('blog.post1.title'),
+      excerpt: t('blog.post1.excerpt'),
       content: `
 # YouTube缩略图设计的10个黄金法则
 
@@ -120,9 +120,9 @@ A/B测试是优化缩略图的有效方法：
 
 记住，最好的缩略图是那些能够在几秒钟内传达视频价值，并激发观众点击欲望的设计。持续学习、测试和优化，你的缩略图设计技能将不断提升。
       `,
-      author: '设计专家 张明',
+      author: t('blog.post1.author'),
       date: '2024-01-15',
-      readTime: '8分钟',
+      readTime: t('blog.post1.readTime'),
       category: 'design',
       views: 15420,
       likes: 892,
@@ -130,8 +130,8 @@ A/B测试是优化缩略图的有效方法：
     },
     {
       id: '3',
-      title: t('blog.post3.title', '封面制作工具完整教程：从入门到精通'),
-      excerpt: '详细介绍如何使用我们的封面制作工具，包括文字添加、图片上传、贴纸使用、AI图像生成等功能的完整指南。',
+      title: t('blog.post3.title'),
+      excerpt: t('blog.post3.excerpt'),
       content: `
 # 封面制作工具完整教程：从入门到精通
 
@@ -177,9 +177,9 @@ A/B测试是优化缩略图的有效方法：
 - 定期更新设计元素
 - 分析数据优化设计
       `,
-      author: '产品团队',
+      author: t('blog.post3.author'),
       date: '2024-01-20',
-      readTime: '12分钟',
+      readTime: t('blog.post3.readTime'),
       category: 'tutorial',
       views: 8930,
       likes: 567,
@@ -187,8 +187,8 @@ A/B测试是优化缩略图的有效方法：
     },
     {
       id: '4',
-      title: t('blog.post4.title', '创作者经济趋势：2024年YouTube变现新机会'),
-      excerpt: '分析当前创作者经济的发展趋势，探讨YouTube平台的新变现方式和机会，帮助创作者制定更好的商业策略。',
+      title: t('blog.post4.title'),
+      excerpt: t('blog.post4.excerpt'),
       content: `
 # 创作者经济趋势：2024年YouTube变现新机会
 
@@ -236,9 +236,9 @@ A/B测试是优化缩略图的有效方法：
 - 多元化收入来源
 - 品牌价值建设
       `,
-      author: '商业分析师 李华',
+      author: t('blog.post4.author'),
       date: '2024-01-18',
-      readTime: '10分钟',
+      readTime: t('blog.post4.readTime'),
       category: 'business',
       views: 12450,
       likes: 734,
@@ -246,8 +246,8 @@ A/B测试是优化缩略图的有效方法：
     },
     {
       id: '5',
-      title: t('blog.post5.title', '成功案例分享：小创作者如何在6个月内涨粉10万'),
-      excerpt: '真实案例分析，展示一位小创作者如何通过优化缩略图设计和内容策略，在短时间内实现粉丝数量的爆发式增长。',
+      title: t('blog.post5.title'),
+      excerpt: t('blog.post5.excerpt'),
       content: `
 # 成功案例分享：小创作者如何在6个月内涨粉10万
 
@@ -312,9 +312,9 @@ A/B测试是优化缩略图的有效方法：
 4. **持续学习改进**
    关注行业趋势，不断优化和创新
       `,
-      author: '案例研究团队',
+      author: t('blog.post5.author'),
       date: '2024-01-22',
-      readTime: '15分钟',
+      readTime: t('blog.post5.readTime'),
       category: 'case-study',
       views: 18760,
       likes: 1205,
@@ -322,8 +322,8 @@ A/B测试是优化缩略图的有效方法：
     },
     {
       id: '2',
-      title: t('blog.post2.title', 'YouTube算法解析：如何让你的视频被更多人看到'),
-      excerpt: '深入了解YouTube推荐算法的工作原理，学习如何优化视频内容以获得更好的曝光度和推荐机会。',
+      title: t('blog.post2.title'),
+      excerpt: t('blog.post2.excerpt'),
       content: `
 # YouTube算法解析：如何让你的视频被更多人看到
 
@@ -450,9 +450,9 @@ YouTube算法虽然复杂，但其核心逻辑是为用户提供最相关、最�
 
 记住，算法只是工具，真正的成功来自于对观众需求的深刻理解和持续的价值创造。
       `,
-      author: 'YouTube专家 李华',
+      author: t('blog.post2.author'),
       date: '2024-01-12',
-      readTime: '12分钟',
+      readTime: t('blog.post2.readTime'),
       category: 'strategy',
       views: 23150,
       likes: 1247,
@@ -460,8 +460,8 @@ YouTube算法虽然复杂，但其核心逻辑是为用户提供最相关、最�
     },
     {
       id: '6',
-      title: t('blog.post6.title', '2024年YouTube内容创作趋势预测'),
-      excerpt: '分析2024年YouTube平台的最新趋势，包括短视频、直播、AI工具等新兴内容形式的发展方向。',
+      title: t('blog.post6.title'),
+      excerpt: t('blog.post6.excerpt'),
       content: `
 # 2024年YouTube内容创作趋势预测
 
@@ -621,9 +621,9 @@ YouTube算法虽然复杂，但其核心逻辑是为用户提供最相关、最�
 
 记住，趋势只是指导方向，真正的成功来自于对观众需求的深刻理解和持续的价值创造。在追随趋势的同时，保持自己的独特性和创造力才是长期成功的关键。
       `,
-      author: '趋势分析师 王芳',
+      author: t('blog.post6.author'),
       date: '2024-01-10',
-      readTime: '15分钟',
+      readTime: t('blog.post6.readTime'),
       category: 'trends',
       views: 18750,
       likes: 956,
@@ -631,8 +631,8 @@ YouTube算法虽然复杂，但其核心逻辑是为用户提供最相关、最�
     },
     {
       id: '7',
-      title: t('blog.post7.title', '视频SEO优化完全指南：让你的内容更容易被发现'),
-      excerpt: '掌握YouTube SEO的核心技巧，从关键词研究到元数据优化，全面提升视频的搜索排名和曝光度。',
+      title: t('blog.post7.title'),
+      excerpt: t('blog.post7.excerpt'),
       content: `
 # 视频SEO优化完全指南：让你的内容更容易被发现
 
@@ -838,9 +838,9 @@ YouTube SEO是一个持续的过程，需要：
 
 成功的YouTube SEO需要时间和耐心，但通过持续的努力和正确的策略，你的视频将获得更好的曝光度和更多的观众。
       `,
-      author: 'SEO专家 陈强',
+      author: t('blog.post7.author'),
       date: '2024-01-08',
-      readTime: '18分钟',
+      readTime: t('blog.post7.readTime'),
       category: 'seo',
       views: 12890,
       likes: 743,
@@ -848,8 +848,8 @@ YouTube SEO是一个持续的过程，需要：
     },
     {
       id: '8',
-      title: t('blog.post8.title', '内容创作者必备工具推荐：提升效率的神器'),
-      excerpt: '推荐最实用的内容创作工具，包括视频编辑、图片设计、数据分析等各个环节的专业软件和在线工具。',
+      title: t('blog.post8.title'),
+      excerpt: t('blog.post8.excerpt'),
       content: `
 # 内容创作者必备工具推荐：提升效率的神器
 
@@ -1176,9 +1176,9 @@ YouTube SEO是一个持续的过程，需要：
 
 最重要的是，不要让工具的复杂性阻碍你开始创作。先用简单的工具开始，随着技能和需求的增长再逐步升级。
       `,
-      author: '工具专家 刘明',
+      author: t('blog.post8.author'),
       date: '2024-01-05',
-      readTime: '20分钟',
+      readTime: t('blog.post8.readTime'),
       category: 'tools',
       views: 9876,
       likes: 567,
@@ -1187,15 +1187,15 @@ YouTube SEO是一个持续的过程，需要：
   ];
 
   const categories = [
-    { id: 'all', name: t('blog.categories.all', '全部文章'), count: blogPosts.length },
-    { id: 'design', name: t('blog.categories.design', '设计技巧'), count: blogPosts.filter(post => post.category === 'design').length },
-    { id: 'tutorial', name: t('blog.categories.tutorial', '使用教程'), count: blogPosts.filter(post => post.category === 'tutorial').length },
-    { id: 'business', name: t('blog.categories.business', '商业策略'), count: blogPosts.filter(post => post.category === 'business').length },
-    { id: 'case-study', name: t('blog.categories.case-study', '成功案例'), count: blogPosts.filter(post => post.category === 'case-study').length },
-    { id: 'strategy', name: t('blog.categories.strategy', '策略分析'), count: blogPosts.filter(post => post.category === 'strategy').length },
-    { id: 'trends', name: t('blog.categories.trends', '趋势预测'), count: blogPosts.filter(post => post.category === 'trends').length },
-    { id: 'seo', name: t('blog.categories.seo', 'SEO优化'), count: blogPosts.filter(post => post.category === 'seo').length },
-    { id: 'tools', name: t('blog.categories.tools', '工具推荐'), count: blogPosts.filter(post => post.category === 'tools').length }
+    { id: 'all', name: t('blog.categories.all'), count: blogPosts.length },
+    { id: 'design', name: t('blog.categories.design'), count: blogPosts.filter(post => post.category === 'design').length },
+    { id: 'tutorial', name: t('blog.categories.tutorial'), count: blogPosts.filter(post => post.category === 'tutorial').length },
+    { id: 'business', name: t('blog.categories.business'), count: blogPosts.filter(post => post.category === 'business').length },
+    { id: 'case-study', name: t('blog.categories.caseStudy'), count: blogPosts.filter(post => post.category === 'case-study').length },
+    { id: 'strategy', name: t('blog.categories.strategy'), count: blogPosts.filter(post => post.category === 'strategy').length },
+    { id: 'trends', name: t('blog.categories.trends'), count: blogPosts.filter(post => post.category === 'trends').length },
+    { id: 'seo', name: t('blog.categories.seo'), count: blogPosts.filter(post => post.category === 'seo').length },
+    { id: 'tools', name: t('blog.categories.tools'), count: blogPosts.filter(post => post.category === 'tools').length }
   ];
 
   const filteredPosts = selectedCategory === 'all' 
@@ -1249,11 +1249,11 @@ YouTube SEO是一个持续的过程，需要：
                   </div>
                   <div className="flex items-center space-x-2">
                     <Eye className="h-4 w-4" />
-                    <span>{selectedPost.views.toLocaleString()} 阅读</span>
+                    <span>{selectedPost.views.toLocaleString()} read</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <ThumbsUp className="h-4 w-4" />
-                    <span>{selectedPost.likes} 点赞</span>
+                    <span>{selectedPost.likes} like</span>
                   </div>
                 </div>
                 <h1 className="text-4xl font-bold text-slate-800 mb-4">
@@ -1315,11 +1315,11 @@ YouTube SEO是一个持续的过程，需要：
                   <BookOpen className="h-8 w-8 text-white" />
                 </div>
                 <h1 className="text-4xl font-bold text-slate-800">
-                  YouTube创作博客
+                  YouTube Blog For Creater
                 </h1>
               </div>
               <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-                深入的教程、专业技巧和行业洞察，帮助你成为更优秀的内容创作者
+                In-depth tutorials, professional skills and industry insights will help you become a better content creator
               </p>
             </div>
 
@@ -1471,7 +1471,7 @@ YouTube SEO是一个持续的过程，需要：
                         size="sm" 
                         className="w-full group hover:bg-red-50 hover:border-red-200 hover:text-red-600"
                       >
-                        <span>阅读全文</span>
+                        <span>Read more</span>
                         <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" />
                       </Button>
                     </div>
@@ -1504,17 +1504,17 @@ YouTube SEO是一个持续的过程，需要：
                       <Lightbulb className="h-8 w-8 text-white" />
                     </div>
                     <h2 className="text-2xl font-bold text-slate-800">
-                      想要更多创作灵感？
+                      Want more creative inspiration?
                     </h2>
                   </div>
                   <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
-                    我们定期发布最新的YouTube创作技巧、行业趋势分析和实用工具推荐。
-                    立即开始使用我们的缩略图提取工具，为你的内容创作之路助力！
+                    We regularly release the latest youtube creation tips, industry trend analyses and practical tool recommendations.
+                    Start using our thumbnail extraction tool right away and get started on your content creation journey!
                   </p>
                   <Link to={`/${lng}`}>
                     <Button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 text-lg">
                       <Target className="h-5 w-5 mr-2" />
-                      开始使用工具
+                      Start using the tools
                     </Button>
                   </Link>
                 </CardContent>
