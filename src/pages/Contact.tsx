@@ -1,18 +1,18 @@
-import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import { useParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+import { Mail, Phone, MapPin, Send, MessageCircle, Clock, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, MessageSquare, Phone, MapPin, Clock, Send, Youtube, Menu, X } from "lucide-react";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { toast } from "@/hooks/use-toast";
-import { Link, useParams } from 'react-router-dom';
+import { Header } from "@/components/Header";
 
 const Contact = () => {
   const { t, i18n } = useTranslation();
   const { lng } = useParams<{ lng: string }>();
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -47,91 +47,25 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>{t('contactPageTitle')} - {t('siteTitle')}</title>
-        <meta name="description" content={t('contactPageDescription')} />
-        <link rel="canonical" href={`${window.location.origin}/contact`} />
+        <title>{t('contactTitle')} - {t('headerTitle')}</title>
+        <meta name="description" content={t('contactDescription')} />
+        <link rel="canonical" href={`https://yourdomain.com/${lng}/contact`} />
+        <link rel="alternate" hrefLang="en" href="https://yourdomain.com/en/contact" />
+        <link rel="alternate" hrefLang="zh" href="https://yourdomain.com/zh/contact" />
+        <link rel="alternate" hrefLang="ja" href="https://yourdomain.com/ja/contact" />
+        <link rel="alternate" hrefLang="ko" href="https://yourdomain.com/ko/contact" />
+        <link rel="alternate" hrefLang="es" href="https://yourdomain.com/es/contact" />
+        <link rel="alternate" hrefLang="fr" href="https://yourdomain.com/fr/contact" />
+        <link rel="alternate" hrefLang="de" href="https://yourdomain.com/de/contact" />
+        <link rel="alternate" hrefLang="pt" href="https://yourdomain.com/pt/contact" />
+        <link rel="alternate" hrefLang="ru" href="https://yourdomain.com/ru/contact" />
+        <link rel="alternate" hrefLang="ar" href="https://yourdomain.com/ar/contact" />
+        <link rel="alternate" hrefLang="hi" href="https://yourdomain.com/hi/contact" />
+        <link rel="alternate" hrefLang="x-default" href="https://yourdomain.com/en/contact" />
       </Helmet>
       
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b">
-          <div className="container mx-auto px-4 py-4">
-            <div className="flex items-center justify-between">
-              {/* Logo */}
-              <Link to={`/${lng}`} className="flex items-center space-x-3">
-                <div className="bg-red-600 p-2 rounded-lg">
-                  <Youtube className="h-8 w-8 text-white" />
-                </div>
-                <h1 className="text-2xl font-bold text-slate-800">
-                  {t('headerTitle')}
-                </h1>
-              </Link>
-              
-              {/* Desktop Navigation */}
-              <nav className="hidden md:flex items-center space-x-8">
-                <Link 
-                  to={`/${lng}`} 
-                  className="text-slate-600 hover:text-red-600 font-medium transition-colors"
-                >
-                  {t('homeTitle')}
-                </Link>
-                <Link 
-                  to={`/${lng}/about`} 
-                  className="text-slate-600 hover:text-red-600 font-medium transition-colors"
-                >
-                  {t('about')}
-                </Link>
-                <Link 
-                  to={`/${lng}/contact`} 
-                  className="text-red-600 font-medium"
-                >
-                  {t('contact')}
-                </Link>
-              </nav>
-              
-              {/* Mobile Menu Button */}
-              <button 
-                className="md:hidden p-2 rounded-lg hover:bg-slate-100 transition-colors"
-                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              >
-                {mobileMenuOpen ? (
-                  <X className="h-6 w-6 text-slate-600" />
-                ) : (
-                  <Menu className="h-6 w-6 text-slate-600" />
-                )}
-              </button>
-            </div>
-            
-            {/* Mobile Navigation */}
-            {mobileMenuOpen && (
-              <nav className="md:hidden mt-4 pb-4 border-t border-slate-200 pt-4">
-                <div className="flex flex-col space-y-3">
-                  <Link 
-                    to={`/${lng}`} 
-                    className="text-slate-600 hover:text-red-600 font-medium transition-colors py-2"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    {t('homeTitle')}
-                  </Link>
-                  <Link 
-                    to={`/${lng}/about`} 
-                    className="text-slate-600 hover:text-red-600 font-medium transition-colors py-2"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    {t('about')}
-                  </Link>
-                  <Link 
-                    to={`/${lng}/contact`} 
-                    className="text-red-600 font-medium py-2"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    {t('contact')}
-                  </Link>
-                </div>
-              </nav>
-            )}
-          </div>
-        </header>
+        <Header currentPage="contact" />
 
         <main className="container mx-auto px-4 py-12">
           <div className="max-w-6xl mx-auto">

@@ -3,12 +3,12 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Download, Youtube, Image as ImageIcon, Zap, ClipboardPaste } from "lucide-react";
+import { Download, Youtube, Image as ImageIcon, Zap, ClipboardPaste, Menu, X } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
 import { Link, useParams } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Header } from "@/components/Header";
 
 interface HistoryItem {
   id: string;
@@ -24,7 +24,7 @@ const Index = () => {
   const [videoData, setVideoData] = useState<any>(null);
   const [loading, setLoading] = useState(false);
   const [history, setHistory] = useState<HistoryItem[]>([]);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
 
   useEffect(() => {
     const storedHistory = localStorage.getItem('youtubeThumbnailHistory');
@@ -145,85 +145,7 @@ const Index = () => {
         ))}
       </Helmet>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            {/* Logo */}
-            <Link to={`/${lng}`} className="flex items-center space-x-3">
-              <div className="bg-red-600 p-2 rounded-lg">
-                <Youtube className="h-8 w-8 text-white" />
-              </div>
-              <h1 className="text-2xl font-bold text-slate-800">
-                {t('headerTitle')}
-              </h1>
-            </Link>
-            
-            {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center space-x-8">
-              <Link 
-                to={`/${lng}`} 
-                className="text-slate-600 hover:text-red-600 font-medium transition-colors"
-              >
-                {t('homeTitle')}
-              </Link>
-              <Link 
-                to={`/${lng}/about`} 
-                className="text-slate-600 hover:text-red-600 font-medium transition-colors"
-              >
-                {t('about')}
-              </Link>
-              <Link 
-                to={`/${lng}/contact`} 
-                className="text-slate-600 hover:text-red-600 font-medium transition-colors"
-              >
-                {t('contact')}
-              </Link>
-            </nav>
-            
-            {/* Mobile Menu Button */}
-            <button 
-              className="md:hidden p-2 rounded-lg hover:bg-slate-100 transition-colors"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            >
-              {mobileMenuOpen ? (
-                <X className="h-6 w-6 text-slate-600" />
-              ) : (
-                <Menu className="h-6 w-6 text-slate-600" />
-              )}
-            </button>
-          </div>
-          
-          {/* Mobile Navigation */}
-          {mobileMenuOpen && (
-            <nav className="md:hidden mt-4 pb-4 border-t border-slate-200 pt-4">
-              <div className="flex flex-col space-y-3">
-                <Link 
-                  to={`/${lng}`} 
-                  className="text-slate-600 hover:text-red-600 font-medium transition-colors py-2"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {t('homeTitle')}
-                </Link>
-                <Link 
-                  to={`/${lng}/about`} 
-                  className="text-slate-600 hover:text-red-600 font-medium transition-colors py-2"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {t('about')}
-                </Link>
-                <Link 
-                  to={`/${lng}/contact`} 
-                  className="text-slate-600 hover:text-red-600 font-medium transition-colors py-2"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {t('contact')}
-                </Link>
-              </div>
-            </nav>
-          )}
-        </div>
-      </header>
+        <Header currentPage="home" />
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-12">

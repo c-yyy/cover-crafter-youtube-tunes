@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { FileText, AlertTriangle, Scale, Users, Shield, Calendar } from "lucide-react";
+import { Header } from '../components/Header';
 
 const Terms = () => {
   const { t, i18n } = useTranslation();
@@ -16,19 +17,7 @@ const Terms = () => {
       </Helmet>
       
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b">
-          <div className="container mx-auto px-4 py-6">
-            <div className="flex items-center justify-center space-x-3">
-              <div className="bg-green-600 p-2 rounded-lg">
-                <FileText className="h-8 w-8 text-white" />
-              </div>
-              <h1 className="text-3xl font-bold text-slate-800">
-                {t('termsPageTitle')}
-              </h1>
-            </div>
-          </div>
-        </header>
+        <Header currentPage="terms" />
 
         <main className="container mx-auto px-4 py-12">
           <div className="max-w-4xl mx-auto">

@@ -1,7 +1,23 @@
-import { useTranslation } from 'react-i18next';
+import { Link, useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
+import { 
+  Shield,
+  Lock,
+  Eye,
+  Database,
+  UserCheck,
+  AlertTriangle,
+  CheckCircle,
+  Info,
+  Mail,
+  Phone,
+  ExternalLink,
+  Cookie,
+  Calendar
+} from 'lucide-react';
+import { Header } from '../components/Header';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Shield, Eye, Cookie, Database, Mail, Calendar } from "lucide-react";
 
 const Privacy = () => {
   const { t, i18n } = useTranslation();
@@ -16,19 +32,9 @@ const Privacy = () => {
       </Helmet>
       
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-        {/* Header */}
-        <header className="bg-white shadow-sm border-b">
-          <div className="container mx-auto px-4 py-6">
-            <div className="flex items-center justify-center space-x-3">
-              <div className="bg-blue-600 p-2 rounded-lg">
-                <Shield className="h-8 w-8 text-white" />
-              </div>
-              <h1 className="text-3xl font-bold text-slate-800">
-                {t('privacyPageTitle')}
-              </h1>
-            </div>
-          </div>
-        </header>
+        <Header currentPage="privacy" />
+
+
 
         <main className="container mx-auto px-4 py-12">
           <div className="max-w-4xl mx-auto">

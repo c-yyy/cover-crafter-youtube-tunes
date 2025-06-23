@@ -23,6 +23,15 @@ import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Contact from "./pages/Contact";
 import Changelog from "./pages/Changelog";
+import Help from "./pages/Help";
+import Blog from "./pages/Blog";
+import Resources from "./pages/Resources";
+import FAQ from "./pages/FAQ";
+import Tools from "./pages/Tools";
+import Tutorials from "./pages/Tutorials";
+import News from "./pages/News";
+import CaseStudies from "./pages/CaseStudies";
+import CreatorEconomy from "./pages/CreatorEconomy";
 import Footer from "./components/Footer"; // 导入 Footer 组件
 import LanguageSuggestion from "./components/LanguageSuggestion";
 import HreflangTags from "./components/HreflangTags";
@@ -217,6 +226,15 @@ const App = () => {
               <Route path="terms" element={<Terms />} />
               <Route path="contact" element={<Contact />} />
               <Route path="changelog" element={<Changelog />} />
+              <Route path="help" element={<Help />} />
+              <Route path="blog" element={<Blog />} />
+              <Route path="resources" element={<Resources />} />
+              <Route path="faq" element={<FAQ />} />
+              <Route path="tools" element={<Tools />} />
+              <Route path="tutorials" element={<Tutorials />} />
+              <Route path="news" element={<News />} />
+              <Route path="case-studies" element={<CaseStudies />} />
+              <Route path="creator-economy" element={<CreatorEconomy />} />
               <Route path="*" element={<NotFound />} /> 
             </Route>
           </Routes>
