@@ -427,5 +427,204 @@
   "seoContentFeaturesPara2": "Las características avanzadas incluyen descarga de miniaturas por lotes, generación automática de nombres de archivos y soporte para videos privados y no listados (cuando sean accesibles). La herramienta de extracción de miniaturas mantiene un historial de descargas para fácil reacceso y proporciona descarga con un clic para guardado instantáneo de archivos en tu dispositivo.",
   "seoContentUseCasesTitle": "Casos de Uso Profesionales",
   "seoContentUseCasesPara1": "Las agencias de marketing digital utilizan nuestro descargador de miniaturas de YouTube para crear auditorías integrales de redes sociales e informes de análisis competitivo. Las compañías de producción de video descargan miniaturas para estudiar patrones de diseño tendencia y crear tableros de inspiración para proyectos de clientes. Las instituciones educativas utilizan esta herramienta para cursos de alfabetización mediática y programas de marketing digital.",
-  "seoContentUseCasesPara2": "Las empresas de comercio electrónico descargan miniaturas de videos de productos para creación de catálogos y campañas de marketing multiplataforma. Las organizaciones de noticias y bloggers utilizan la herramienta de extracción de miniaturas para obtener imágenes para artículos y publicaciones en redes sociales mientras mantienen atribución apropiada y pautas de uso justo."
+  "seoContentUseCasesPara2": "Las empresas de comercio electrónico descargan miniaturas de videos de productos para creación de catálogos y campañas de marketing multiplataforma. Las organizaciones de noticias y bloggers utilizan la herramienta de extracción de miniaturas para obtener imágenes para artículos y publicaciones en redes sociales mientras mantienen atribución apropiada y pautas de uso justo.",
+
+  "faq": {
+    "q1": {
+      "question": "¿Cómo usar la herramienta de extracción de miniaturas de YouTube?",
+      "answer": "El uso es muy simple: 1) Copia el enlace URL del video de YouTube; 2) Pega el enlace en el cuadro de entrada de nuestro sitio; 3) Haz clic en el botón 'Obtener miniaturas'; 4) Selecciona el tamaño de miniatura deseado y descarga. Todo el proceso toma unos segundos y no requiere registro o inicio de sesión."
+    },
+    "q2": {
+      "question": "¿Qué formatos de enlaces de video de YouTube son compatibles?",
+      "answer": "Soportamos todos los formatos de enlaces de YouTube comunes:\n• Enlaces estándar: https://www.youtube.com/watch?v=VIDEO_ID\n• Enlaces cortos: https://youtu.be/VIDEO_ID\n• Enlaces móviles: https://m.youtube.com/watch?v=VIDEO_ID\n• Enlaces incrustados: https://www.youtube.com/embed/VIDEO_ID\n• Los enlaces con marca de tiempo también son totalmente compatibles"
+    },
+    "q3": {
+      "question": "¿Cuáles son los tamaños de las miniaturas extraídas?",
+      "answer": "YouTube proporciona múltiples tamaños de miniaturas para cada video:\n• Miniatura predeterminada: 120x90 píxeles\n• Calidad media: 320x180 píxeles\n• Alta calidad: 480x360 píxeles\n• Resolución estándar: 640x480 píxeles\n• Calidad máxima: 1280x720 píxeles (si está disponible)\n• Resolución máxima: 1920x1080 píxeles (si está disponible)\n\nDetectamos automáticamente y proporcionamos todas las opciones de tamaño disponibles."
+    },
+    "q4": {
+      "question": "¿Por qué algunos videos no pueden extraer miniaturas?",
+      "answer": "Posibles razones:\n• El video es privado o ha sido eliminado\n• El formato del enlace del video es incorrecto\n• El video acaba de ser publicado y las miniaturas aún no se han generado\n• Problemas de conexión de red\n• El video tiene restricciones geográficas\n\nPor favor, asegúrate de que el enlace del video sea correcto y que el video sea accesible públicamente. Si el problema persiste, contacta al soporte técnico."
+    },
+    "q5": {
+      "question": "¿La herramienta es compatible con dispositivos móviles?",
+      "answer": "¡Sí! Nuestra herramienta es totalmente compatible con dispositivos móviles, incluyendo teléfonos inteligentes y tabletas. El sitio web adopta un diseño responsivo y funciona perfectamente en todos los dispositivos. Puedes usar nuestros servicios en iOS, Android y otras plataformas móviles."
+    },
+    "q6": {
+      "question": "¿Qué hacer si la velocidad de extracción es lenta?",
+      "answer": "Si experimentas problemas de velocidad de extracción lenta, intenta:\n• Verifica que tu conexión de red sea estable\n• Actualiza la página e inténtalo de nuevo\n• Limpia la caché de tu navegador\n• Prueba con otro navegador\n• Evita las horas pico de la red\n\nNuestros servidores están distribuidos globalmente y generalmente proporcionan velocidades de respuesta rápidas."
+    },
+    "q7": {
+      "question": "¿Es legal usar las miniaturas extraídas?",
+      "answer": "Depende del uso previsto:\n• Aprendizaje e investigación personal: generalmente considerado uso justo\n• Crítica y comentario: generalmente permitido dentro de límites razonables\n• Uso comercial: requiere permiso del titular de los derechos de autor\n• Re-subida: puede constituir infracción de derechos de autor\n\nRecomendamos siempre respetar los derechos de autor del creador original y obtener los permisos apropiados cuando sea necesario al usar miniaturas de otros."
+    },
+    "q8": {
+      "question": "¿Se puede usar para fines comerciales?",
+      "answer": "Para uso comercial, recomendamos encarecidamente:\n• Obtener permiso claro del creador del video original\n• Entender las leyes de derechos de autor relevantes\n• Considerar usar contenido que hayas creado\n• Consultar con profesionales legales\n\nAunque nuestra herramienta es gratuita, el uso del contenido extraído debe cumplir con las leyes de derechos de autor relevantes y los términos de servicio de YouTube."
+    },
+    "q9": {
+      "question": "¿Almacenan datos de usuarios?",
+      "answer": "Valoramos mucho la privacidad del usuario:\n• No almacenamos los enlaces de YouTube que ingresas\n• No almacenamos las miniaturas extraídas\n• No recopilamos información de identificación personal\n• No usamos cookies de seguimiento\n• Todo el procesamiento se realiza en tu navegador\n\nPara más detalles sobre nuestra política de privacidad, consulta nuestra página de política de privacidad."
+    },
+    "q10": {
+      "question": "¿Se admite la descarga por lotes?",
+      "answer": "Actualmente, nuestra herramienta se enfoca en la extracción de miniaturas de videos individuales para garantizar la mejor experiencia de usuario y estabilidad del servicio. Si necesitas procesamiento por lotes:\n• Usa la función de historial para gestionar múltiples enlaces\n• Procesa uno por uno para asegurar la calidad\n• Sigue nuestras actualizaciones, las funciones por lotes podrían agregarse en el futuro"
+    },
+    "q11": {
+      "question": "¿Cómo usar la función de historial?",
+      "answer": "La función de historial te ayuda a gestionar las miniaturas extraídas anteriormente:\n• Guarda automáticamente los registros de extracción recientes\n• Acceso rápido a resultados anteriores\n• Limpia el historial con un clic\n• Los datos se almacenan solo en tu navegador\n• No se suben a nuestros servidores\n\nEsta función te permite gestionar y reutilizar fácilmente tu trabajo anterior."
+    },
+    "q12": {
+      "question": "¿Qué formatos de imagen son compatibles para descarga?",
+      "answer": "Proporcionamos múltiples formatos de descarga:\n• Formato JPG: el más común, tamaño de archivo más pequeño\n• Formato PNG: compatible con fondo transparente (si el original lo tiene)\n• Formato WebP: compatible con navegadores modernos, tamaño de archivo más pequeño\n\nEl sistema detecta automáticamente el formato original y proporciona las mejores opciones de descarga. La mayoría de las miniaturas de YouTube están en formato JPG."
+    },
+    "q13": {
+      "question": "¿Qué hacer cuando aparecen mensajes de error?",
+      "answer": "Errores comunes y soluciones:\n• \"URL inválida\": verifica si el formato del enlace es correcto\n• \"Video no encontrado\": confirma que el video no ha sido eliminado o puesto en privado\n• \"Error de red\": verifica la conexión de red, inténtalo más tarde\n• \"Fallo de carga\": actualiza la página o limpia la caché del navegador\n\nSi el problema persiste, por favor repórtanos el mensaje de error específico a través de la página de contacto."
+    },
+    "q14": {
+      "question": "¿Cómo es la compatibilidad del navegador?",
+      "answer": "Nuestra herramienta es compatible con todos los navegadores modernos:\n• Chrome (recomendado)\n• Firefox\n• Safari\n• Edge\n• Opera\n\nRecomendamos usar la última versión de tu navegador para la mejor experiencia. Si encuentras problemas de compatibilidad, intenta actualizar tu navegador o usar Chrome."
+    },
+    "q15": {
+      "question": "¿Qué hacer si las imágenes descargadas no están claras?",
+      "answer": "La calidad de la imagen depende de la miniatura original de YouTube:\n• Selecciona la resolución más alta disponible\n• Verifica la calidad de la miniatura del video original\n• Algunos videos antiguos pueden tener solo versiones de baja resolución\n• Prueba diferentes opciones de tamaño\n\nProporcionamos las miniaturas originales de YouTube, con calidad idéntica a la mostrada en la plataforma."
+    },
+    "q16": {
+      "question": "¿Cómo obtener la mejor calidad de miniatura?",
+      "answer": "Recomendaciones para la mejor calidad:\n• Selecciona la opción de resolución más alta (1280x720 o superior)\n• Asegúrate de que el video original tenga miniaturas de alta calidad\n• Evita la compresión excesiva o edición\n• Usa navegadores modernos para descargar\n• Verifica la estabilidad de la conexión de red\n\nRecuerda, solo podemos proporcionar la calidad de las miniaturas originales de YouTube y no podemos mejorar la resolución de la imagen original."
+    },
+    "q17": {
+      "question": "¿Se pueden extraer miniaturas de YouTube Shorts?",
+      "answer": "¡Sí! Soportamos completamente YouTube Shorts:\n• Compatible con todos los formatos de enlaces de Shorts\n• Proporciona miniaturas en orientación vertical\n• Incluye todas las opciones de resolución disponibles\n• Se procesa de la misma manera que los videos normales\n\nLas miniaturas de Shorts suelen estar en formato vertical 9:16, adecuado para visualización en dispositivos móviles."
+    },
+    "q18": {
+      "question": "¿La herramienta tiene limitaciones de uso?",
+      "answer": "Nuestro servicio es completamente gratuito, pero tiene algunas limitaciones razonables:\n• Máximo 50 solicitudes por minuto\n• Máximo 100 registros de historial por sesión\n• No compatible con scripts automatizados o bots\n• Solo para uso personal y educativo\n\nEstas limitaciones aseguran que todos los usuarios puedan disfrutar de un servicio estable y rápido."
+    }
+  },
+
+  "tools": {
+    "pageTitle": "Herramientas para Creadores de YouTube",
+    "pageDescription": "Suite de herramientas profesionales de YouTube para mejorar la eficiencia creativa y la calidad del contenido",
+    "thumbnailExtractor": {
+      "name": "Herramienta de Extracción de Miniaturas de YouTube",
+      "description": "Extrae rápidamente miniaturas de alta calidad de videos de YouTube, compatible con descarga multi-resolución"
+    },
+    "linkAnalyzer": {
+      "name": "Herramienta de Análisis de Enlaces de YouTube",
+      "description": "Analiza enlaces de YouTube y extrae ID de video, información del canal y detalles de playlist"
+    },
+    "durationCalculator": {
+      "name": "Herramienta de Cálculo de Duración de Video",
+      "description": "Calcula la duración total de videos, compatible con conversión de horas, minutos, segundos"
+    },
+    "tagGenerator": {
+      "name": "Herramienta de Generación de Etiquetas de YouTube",
+      "description": "Genera etiquetas y palabras clave relevantes de YouTube basadas en el contenido del video"
+    },
+    "titleOptimizer": {
+      "name": "Herramienta de Optimización de Títulos de Video",
+      "description": "Optimiza títulos de videos de YouTube para mejorar el ranking de búsqueda y la tasa de clics"
+    },
+    "channelAnalyzer": {
+      "name": "Herramienta de Análisis de Canal",
+      "description": "Analiza datos estadísticos y tendencias de crecimiento de canales de YouTube"
+    },
+    "thumbnailAnalyzer": {
+      "name": "Analizador de Miniaturas",
+      "description": "Analiza el color, composición y atractivo de las miniaturas, proporciona sugerencias de optimización"
+    },
+    "engagementCalculator": {
+      "name": "Calculadora de Engagement",
+      "description": "Calcula la tasa de engagement, tasa de visualización y otros indicadores clave de videos de YouTube"
+    },
+    "videoDownloader": {
+      "name": "Descargador de Videos",
+      "description": "Descarga videos de YouTube (solo uso personal, por favor respeta las leyes de derechos de autor)"
+    },
+    "subtitleExtractor": {
+      "name": "Extractor de Subtítulos",
+      "description": "Extrae archivos de subtítulos de videos de YouTube, compatible con múltiples idiomas"
+    },
+    "trendingTracker": {
+      "name": "Rastreador de Tendencias",
+      "description": "Rastrea videos tendencia de YouTube y temas populares"
+    },
+    "competitorAnalyzer": {
+      "name": "Analizador de Competidores",
+      "description": "Analiza estrategias y rendimiento de YouTube de competidores"
+    },
+    "featured": "Destacado",
+    "comingSoon": "Próximamente",
+    "useNow": "Usar Ahora",
+    "needMoreTools": "¿Necesitas Más Herramientas?",
+    "needMoreToolsDescription": "Estamos desarrollando constantemente nuevas herramientas para ayudar a los creadores de YouTube. Si tienes necesidades específicas o sugerencias, contáctanos y priorizaremos el desarrollo de las funciones que necesitas.",
+    "submitSuggestion": "Enviar Sugerencia",
+    "viewTutorials": "Ver Tutoriales",
+    "categories": {
+      "all": "Todas las Herramientas",
+      "extraction": "Extracción de Contenido",
+      "analysis": "Análisis de Datos",
+      "seo": "Optimización SEO",
+      "utility": "Herramientas Utilitarias",
+      "analytics": "Análisis Estadístico"
+    }
+  },
+
+  "tutorials": {
+    "pageTitle": "Tutoriales de Creación de YouTube",
+    "pageDescription": "Tutoriales de creación de YouTube desde nivel básico hasta avanzado, domina varias técnicas de producción, optimización y promoción de videos.",
+    "basic": {
+      "title": "Cómo Extraer Miniaturas de YouTube - Tutorial Básico",
+      "description": "Aprende a extraer rápidamente miniaturas de alta calidad de videos de YouTube, adecuado para principiantes"
+    },
+    "optimization": {
+      "title": "Mejores Prácticas de Optimización de Miniaturas",
+      "description": "Comprende en profundidad cómo optimizar miniaturas de YouTube para mejorar la tasa de clics y el rendimiento del video"
+    },
+    "batch": {
+      "title": "Procesamiento por Lotes de Miniaturas de YouTube",
+      "description": "Aprende a extraer y gestionar eficientemente miniaturas de múltiples videos por lotes"
+    },
+    "copyright": {
+      "title": "Guía de Derechos de Autor de Miniaturas de YouTube",
+      "description": "Comprende las consideraciones legales y mejores prácticas para el uso de miniaturas de YouTube"
+    },
+    "mobile": {
+      "title": "Guía de Optimización para Dispositivos Móviles",
+      "description": "Aprende a usar eficientemente la herramienta de extracción de miniaturas de YouTube en dispositivos móviles"
+    },
+    "troubleshooting": {
+      "title": "Guía de Resolución de Problemas Comunes",
+      "description": "Resuelve problemas comunes encontrados al usar la herramienta de extracción de miniaturas de YouTube"
+    },
+    "steps": {
+      "step1": {
+        "title": "Copiar el Enlace del Video de YouTube",
+        "content": "Primero, abre YouTube y encuentra el video del cual quieres extraer la miniatura. Haz clic en el botón de compartir y copia el enlace del video. Formatos de enlaces compatibles:\n• https://www.youtube.com/watch?v=VIDEO_ID\n• https://youtu.be/VIDEO_ID\n• Los enlaces móviles e incrustados también son totalmente compatibles"
+      },
+      "step2": {
+        "title": "Pegar el Enlace en la Herramienta",
+        "content": "Abre la herramienta de extracción de miniaturas de YouTube y pega el enlace copiado en el cuadro de entrada. La herramienta reconocerá automáticamente el formato del enlace y extraerá el ID del video."
+      },
+      "step3": {
+        "title": "Seleccionar la Calidad de la Miniatura",
+        "content": "Después de hacer clic en el botón 'Obtener miniaturas', el sistema mostrará todos los tamaños de miniaturas disponibles. Selecciona la calidad que necesites:\n• Predeterminado: 120x90 píxeles\n• Calidad media: 320x180 píxeles\n• Alta calidad: 480x360 píxeles\n• Calidad máxima: 1280x720 píxeles y superior"
+      },
+      "step4": {
+        "title": "Descargar la Miniatura",
+        "content": "Después de seleccionar el tamaño apropiado, haz clic en el botón de descarga para guardar la miniatura en tu dispositivo. El archivo será nombrado según el título del video y generalmente estará en formato JPG."
+      }
+    },
+    "categories": {
+      "all": "Todos los Tutoriales",
+      "basic": "Introducción Básica",
+      "optimization": "Técnicas de Optimización",
+      "advanced": "Técnicas Avanzadas",
+      "legal": "Guía Legal",
+      "mobile": "Móvil",
+      "troubleshooting": "Resolución de Problemas"
+    }
+  }
 }

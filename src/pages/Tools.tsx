@@ -108,16 +108,16 @@ const Tools = () => {
     },
     {
       id: 'thumbnail-analyzer',
-      name: '缩略图分析器',
-      description: '分析缩略图的色彩、构图和吸引力，提供优化建议',
+      name: t('tools.thumbnailAnalyzer.name', '缩略图分析器'),
+      description: t('tools.thumbnailAnalyzer.description', '分析缩略图的色彩、构图和吸引力，提供优化建议'),
       category: 'analysis',
       icon: Palette,
       featured: false
     },
     {
       id: 'engagement-calculator',
-      name: '互动率计算器',
-      description: '计算YouTube视频的互动率、观看率等关键指标',
+      name: t('tools.engagementCalculator.name', '互动率计算器'),
+      description: t('tools.engagementCalculator.description', '计算YouTube视频的互动率、观看率等关键指标'),
       category: 'analytics',
       icon: BarChart3,
       featured: true
@@ -132,8 +132,8 @@ const Tools = () => {
     },
     {
       id: 'video-downloader',
-      name: '视频下载器',
-      description: '下载YouTube视频（仅限个人使用，请遵守版权法）',
+      name: t('tools.videoDownloader.name', '视频下载器'),
+      description: t('tools.videoDownloader.description', '下载YouTube视频（仅限个人使用，请遵守版权法）'),
       category: 'extraction',
       icon: Download,
       featured: false,
@@ -141,8 +141,8 @@ const Tools = () => {
     },
     {
       id: 'subtitle-extractor',
-      name: '字幕提取器',
-      description: '提取YouTube视频的字幕文件，支持多种语言',
+      name: t('tools.subtitleExtractor.name', '字幕提取器'),
+      description: t('tools.subtitleExtractor.description', '提取YouTube视频的字幕文件，支持多种语言'),
       category: 'extraction',
       icon: FileText,
       featured: false,
@@ -150,8 +150,8 @@ const Tools = () => {
     },
     {
       id: 'trending-tracker',
-      name: '热门趋势追踪',
-      description: '追踪YouTube热门视频和趋势话题',
+      name: t('tools.trendingTracker.name', '热门趋势追踪'),
+      description: t('tools.trendingTracker.description', '追踪YouTube热门视频和趋势话题'),
       category: 'analytics',
       icon: TrendingUp,
       featured: false,
@@ -159,8 +159,8 @@ const Tools = () => {
     },
     {
       id: 'competitor-analyzer',
-      name: '竞争对手分析',
-      description: '分析竞争对手的YouTube策略和表现',
+      name: t('tools.competitorAnalyzer.name', '竞争对手分析'),
+      description: t('tools.competitorAnalyzer.description', '分析竞争对手的YouTube策略和表现'),
       category: 'analytics',
       icon: Users,
       featured: false,
@@ -581,12 +581,12 @@ const Tools = () => {
                           <div className="flex space-x-1">
                             {tool.featured && (
                               <span className="text-xs font-medium text-yellow-700 bg-yellow-100 px-2 py-1 rounded-full">
-                                精选
+                                {t('tools.featured')}
                               </span>
                             )}
                             {tool.comingSoon && (
                               <span className="text-xs font-medium text-blue-700 bg-blue-100 px-2 py-1 rounded-full">
-                                即将推出
+                                {t('tools.comingSoon')}
                               </span>
                             )}
                           </div>
@@ -601,13 +601,13 @@ const Tools = () => {
                         </p>
                         {tool.comingSoon ? (
                           <Button disabled className="w-full">
-                            即将推出
+                            {t('tools.comingSoon')}
                           </Button>
                         ) : tool.id === 'thumbnail-extractor' ? (
                           <Link to={`/${lng}`}>
                             <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
                               <Play className="h-4 w-4 mr-2" />
-                              立即使用
+                              {t('tools.useNow')}
                             </Button>
                           </Link>
                         ) : (
@@ -621,7 +621,7 @@ const Tools = () => {
                             }}
                           >
                             <Play className="h-4 w-4 mr-2" />
-                            立即使用
+                            {t('tools.useNow')}
                           </Button>
                         )}
                       </CardContent>
@@ -664,24 +664,23 @@ const Tools = () => {
                       <Zap className="h-8 w-8 text-white" />
                     </div>
                     <h2 className="text-2xl font-bold text-slate-800">
-                      需要更多工具？
+                      {t('tools.needMoreTools')}
                     </h2>
                   </div>
                   <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
-                    我们正在不断开发新的工具来帮助YouTube创作者。如果您有特定的需求或建议，
-                    请联系我们，我们会优先考虑开发您需要的功能。
+                    {t('tools.needMoreToolsDescription')}
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link to={`/${lng}/contact`}>
                       <Button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3">
                         <ExternalLink className="h-5 w-5 mr-2" />
-                        提交建议
+                        {t('tools.submitSuggestion')}
                       </Button>
                     </Link>
                     <Link to={`/${lng}/blog`}>
                       <Button variant="outline" className="px-6 py-3">
                         <Info className="h-5 w-5 mr-2" />
-                        查看教程
+                        {t('tools.viewTutorials')}
                       </Button>
                     </Link>
                   </div>

@@ -90,6 +90,14 @@ const CoverMaker = () => {
   const [aiPrompt, setAiPrompt] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
   const [generatedImages, setGeneratedImages] = useState<string[]>([]);
+  
+  // Interaction state
+  const [isDragging, setIsDragging] = useState(false);
+  const [isResizing, setIsResizing] = useState(false);
+  const [isRotating, setIsRotating] = useState(false);
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
+  const [initialElementState, setInitialElementState] = useState<any>(null);
+  const [canvasScale, setCanvasScale] = useState(1);
 
   // Predefined stickers
   const predefinedStickers = [
@@ -111,6 +119,176 @@ const CoverMaker = () => {
     { name: 'Twitter Header', width: 1500, height: 500 },
     { name: 'Custom', width: 1280, height: 720 }
   ];
+
+  // Helper functions for canvas interaction
+  const getCanvasCoordinates = (event: React.MouseEvent<HTMLCanvasElement>) => {
+    const canvas = canvasRef.current;
+    if (!canvas) return { x: 0, y: 0 };
+    
+    const rect = canvas.getBoundingClientRect();
+    const scaleX = canvasSize.width / rect.width;
+    const scaleY = canvasSize.height / rect.height;
+    
+    return {
+      x: (event.clientX - rect.left) * scaleX,
+      y: (event.clientY - rect.top) * scaleY
+    };
+  };
+
+  const findElementAt = (x: number, y: number) => {
+    // Check text elements
+    for (let i = textElements.length - 1; i >= 0; i--) {
+      const element = textElements[i];
+      if (!element.visible) continue;
+      
+      const textWidth = element.fontSize * element.text.length * 0.6; // Approximate text width
+      const textHeight = element.fontSize;
+      
+      if (x >= element.x - textWidth/2 && x <= element.x + textWidth/2 &&
+          y >= element.y - textHeight/2 && y <= element.y + textHeight/2) {
+        return { element, type: 'text' };
+      }
+    }
+    
+    // Check image elements
+    for (let i = imageElements.length - 1; i >= 0; i--) {
+      const element = imageElements[i];
+      if (!element.visible) continue;
+      
+      if (x >= element.x - element.width/2 && x <= element.x + element.width/2 &&
+          y >= element.y - element.height/2 && y <= element.y + element.height/2) {
+        return { element, type: 'image' };
+      }
+    }
+    
+    // Check sticker elements
+    for (let i = stickerElements.length - 1; i >= 0; i--) {
+      const element = stickerElements[i];
+      if (!element.visible) continue;
+      
+      if (x >= element.x - element.width/2 && x <= element.x + element.width/2 &&
+          y >= element.y - element.height/2 && y <= element.y + element.height/2) {
+        return { element, type: 'sticker' };
+      }
+    }
+    
+    return null;
+  };
+
+  const getSelectedElementData = () => {
+    if (!selectedElement) return null;
+    
+    const textElement = textElements.find(el => el.id === selectedElement);
+    if (textElement) return { element: textElement, type: 'text' };
+    
+    const imageElement = imageElements.find(el => el.id === selectedElement);
+    if (imageElement) return { element: imageElement, type: 'image' };
+    
+    const stickerElement = stickerElements.find(el => el.id === selectedElement);
+    if (stickerElement) return { element: stickerElement, type: 'sticker' };
+    
+    return null;
+  };
+
+  const updateElement = (id: string, updates: any) => {
+    setTextElements(prev => prev.map(el => el.id === id ? { ...el, ...updates } : el));
+    setImageElements(prev => prev.map(el => el.id === id ? { ...el, ...updates } : el));
+    setStickerElements(prev => prev.map(el => el.id === id ? { ...el, ...updates } : el));
+  };
+
+  // Mouse event handlers
+  const handleCanvasMouseDown = (event: React.MouseEvent<HTMLCanvasElement>) => {
+    const coords = getCanvasCoordinates(event);
+    const foundElement = findElementAt(coords.x, coords.y);
+    
+    if (foundElement) {
+      setSelectedElement(foundElement.element.id);
+      setIsDragging(true);
+      setDragStart(coords);
+      setInitialElementState({ ...foundElement.element });
+    } else {
+      setSelectedElement(null);
+    }
+  };
+
+  const handleCanvasMouseMove = (event: React.MouseEvent<HTMLCanvasElement>) => {
+    if (!isDragging || !selectedElement || !initialElementState) return;
+    
+    const coords = getCanvasCoordinates(event);
+    const deltaX = coords.x - dragStart.x;
+    const deltaY = coords.y - dragStart.y;
+    
+    updateElement(selectedElement, {
+      x: initialElementState.x + deltaX,
+      y: initialElementState.y + deltaY
+    });
+  };
+
+  const handleCanvasMouseUp = () => {
+    setIsDragging(false);
+    setIsResizing(false);
+    setIsRotating(false);
+    setInitialElementState(null);
+  };
+
+  const handleKeyDown = (event: KeyboardEvent) => {
+    if (!selectedElement) return;
+    
+    const selectedData = getSelectedElementData();
+    if (!selectedData) return;
+    
+    const { element } = selectedData;
+    
+    switch (event.key) {
+      case 'Delete':
+      case 'Backspace':
+        deleteElement(selectedElement);
+        break;
+      case 'ArrowLeft':
+        updateElement(selectedElement, { x: element.x - 1 });
+        break;
+      case 'ArrowRight':
+        updateElement(selectedElement, { x: element.x + 1 });
+        break;
+      case 'ArrowUp':
+        updateElement(selectedElement, { y: element.y - 1 });
+        break;
+      case 'ArrowDown':
+        updateElement(selectedElement, { y: element.y + 1 });
+        break;
+      case '+':
+      case '=':
+        if ('fontSize' in element) {
+          updateElement(selectedElement, { fontSize: Math.min(element.fontSize + 2, 100) });
+        } else if ('width' in element && 'height' in element) {
+          updateElement(selectedElement, { 
+            width: element.width + 10, 
+            height: element.height + 10 
+          });
+        }
+        break;
+      case '-':
+        if ('fontSize' in element) {
+          updateElement(selectedElement, { fontSize: Math.max(element.fontSize - 2, 12) });
+        } else if ('width' in element && 'height' in element) {
+          updateElement(selectedElement, { 
+            width: Math.max(element.width - 10, 10), 
+            height: Math.max(element.height - 10, 10) 
+          });
+        }
+        break;
+      case 'r':
+      case 'R':
+        updateElement(selectedElement, { rotation: (element.rotation + 15) % 360 });
+        break;
+    }
+  };
+
+  // Add keyboard event listener
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [selectedElement, textElements, imageElements, stickerElements]);
 
   // Add text element
   const addTextElement = () => {
@@ -310,6 +488,11 @@ const CoverMaker = () => {
         ctx.rotate((element.rotation * Math.PI) / 180);
         ctx.drawImage(img, -element.width/2, -element.height/2, element.width, element.height);
         ctx.restore();
+        
+        // Draw selection box if this element is selected
+        if (selectedElement === element.id) {
+          drawSelectionBox(ctx, element, 'image');
+        }
       };
       img.src = element.src;
     });
@@ -326,7 +509,62 @@ const CoverMaker = () => {
       ctx.textBaseline = 'middle';
       ctx.fillText(element.src, 0, 0);
       ctx.restore();
+      
+      // Draw selection box if this element is selected
+      if (selectedElement === element.id) {
+        drawSelectionBox(ctx, element, 'sticker');
+      }
     });
+    
+    // Draw selection boxes for text elements (after rendering to be on top)
+    textElements.forEach(element => {
+      if (!element.visible || selectedElement !== element.id) return;
+      drawSelectionBox(ctx, element, 'text');
+    });
+  };
+
+  const drawSelectionBox = (ctx: CanvasRenderingContext2D, element: any, type: string) => {
+    ctx.save();
+    
+    let width, height;
+    if (type === 'text') {
+      width = element.fontSize * element.text.length * 0.6;
+      height = element.fontSize;
+    } else {
+      width = element.width;
+      height = element.height;
+    }
+    
+    // Draw selection rectangle
+    ctx.strokeStyle = '#007bff';
+    ctx.lineWidth = 2;
+    ctx.setLineDash([5, 5]);
+    ctx.strokeRect(element.x - width/2, element.y - height/2, width, height);
+    
+    // Draw control points
+    ctx.fillStyle = '#007bff';
+    ctx.setLineDash([]);
+    const controlSize = 8;
+    
+    // Corner control points for resizing
+    const corners = [
+      { x: element.x - width/2, y: element.y - height/2 }, // top-left
+      { x: element.x + width/2, y: element.y - height/2 }, // top-right
+      { x: element.x - width/2, y: element.y + height/2 }, // bottom-left
+      { x: element.x + width/2, y: element.y + height/2 }  // bottom-right
+    ];
+    
+    corners.forEach(corner => {
+      ctx.fillRect(corner.x - controlSize/2, corner.y - controlSize/2, controlSize, controlSize);
+    });
+    
+    // Rotation control point
+    ctx.fillStyle = '#28a745';
+    ctx.beginPath();
+    ctx.arc(element.x, element.y - height/2 - 20, 6, 0, 2 * Math.PI);
+    ctx.fill();
+    
+    ctx.restore();
   };
 
   return (
@@ -540,6 +778,18 @@ const CoverMaker = () => {
                           {t('uploadBackground')}
                         </Button>
                         
+                        {backgroundImage && (
+                          <Button
+                            onClick={() => setBackgroundImage(null)}
+                            className="w-full mb-2"
+                            variant="destructive"
+                            size="sm"
+                          >
+                            <Trash2 className="h-4 w-4 mr-2" />
+                            {t('removeBackground')}
+                          </Button>
+                        )}
+                        
                         <Button
                           onClick={() => {
                             setCurrentTool('image');
@@ -690,6 +940,148 @@ const CoverMaker = () => {
                   </div>
                 </CardContent>
               </Card>
+              
+              {/* Selected Element Properties */}
+              {selectedElement && (() => {
+                const selectedData = getSelectedElementData();
+                if (!selectedData) return null;
+                const { element, type } = selectedData;
+                
+                return (
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-sm flex items-center space-x-2">
+                        <Move className="h-4 w-4" />
+                        <span>{t('elementProperties')}</span>
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent className="space-y-4">
+                      {/* Position Controls */}
+                      <div className="grid grid-cols-2 gap-2">
+                        <div>
+                          <Label className="text-xs">X: {Math.round(element.x)}</Label>
+                          <Slider
+                            value={[element.x]}
+                            onValueChange={(value) => updateElement(selectedElement, { x: value[0] })}
+                            max={canvasSize.width}
+                            min={0}
+                            step={1}
+                            className="mt-1"
+                          />
+                        </div>
+                        <div>
+                          <Label className="text-xs">Y: {Math.round(element.y)}</Label>
+                          <Slider
+                            value={[element.y]}
+                            onValueChange={(value) => updateElement(selectedElement, { y: value[0] })}
+                            max={canvasSize.height}
+                            min={0}
+                            step={1}
+                            className="mt-1"
+                          />
+                        </div>
+                      </div>
+                      
+                      {/* Rotation Control */}
+                      <div>
+                        <Label className="text-xs">{t('rotation')}: {element.rotation}°</Label>
+                        <Slider
+                          value={[element.rotation]}
+                          onValueChange={(value) => updateElement(selectedElement, { rotation: value[0] })}
+                          max={360}
+                          min={0}
+                          step={15}
+                          className="mt-1"
+                        />
+                      </div>
+                      
+                      {/* Type-specific controls */}
+                      {type === 'text' && (
+                        <>
+                          <div>
+                            <Label className="text-xs">{t('fontSize')}: {element.fontSize}px</Label>
+                            <Slider
+                              value={[element.fontSize]}
+                              onValueChange={(value) => updateElement(selectedElement, { fontSize: value[0] })}
+                              max={100}
+                              min={12}
+                              step={1}
+                              className="mt-1"
+                            />
+                          </div>
+                          <div>
+                            <Label className="text-xs">{t('textColor')}</Label>
+                            <Input
+                              type="color"
+                              value={element.color}
+                              onChange={(e) => updateElement(selectedElement, { color: e.target.value })}
+                              className="mt-1 h-8"
+                            />
+                          </div>
+                        </>
+                      )}
+                      
+                      {(type === 'image' || type === 'sticker') && (
+                        <div className="grid grid-cols-2 gap-2">
+                          <div>
+                            <Label className="text-xs">{t('width')}: {element.width}px</Label>
+                            <Slider
+                              value={[element.width]}
+                              onValueChange={(value) => updateElement(selectedElement, { width: value[0] })}
+                              max={500}
+                              min={10}
+                              step={5}
+                              className="mt-1"
+                            />
+                          </div>
+                          <div>
+                            <Label className="text-xs">{t('height')}: {element.height}px</Label>
+                            <Slider
+                              value={[element.height]}
+                              onValueChange={(value) => updateElement(selectedElement, { height: value[0] })}
+                              max={500}
+                              min={10}
+                              step={5}
+                              className="mt-1"
+                            />
+                          </div>
+                        </div>
+                      )}
+                      
+                      {/* Quick Actions */}
+                      <div className="flex space-x-2">
+                        <Button
+                          size="sm"
+                          variant="outline"
+                          onClick={() => updateElement(selectedElement, { visible: !element.visible })}
+                          className="flex-1"
+                        >
+                          {element.visible ? <EyeOff className="h-3 w-3 mr-1" /> : <Eye className="h-3 w-3 mr-1" />}
+                          {element.visible ? t('hide') : t('show')}
+                        </Button>
+                        <Button
+                          size="sm"
+                          variant="destructive"
+                          onClick={() => deleteElement(selectedElement)}
+                          className="flex-1"
+                        >
+                          <Trash2 className="h-3 w-3 mr-1" />
+                          {t('delete')}
+                        </Button>
+                      </div>
+                      
+                      {/* Keyboard Shortcuts Help */}
+                      <div className="text-xs text-gray-500 space-y-1">
+                        <div className="font-medium">{t('keyboardShortcuts')}:</div>
+                        <div>• {t('arrowKeys')}: {t('moveElement')}</div>
+                        <div>• +/-: {t('resizeElement')}</div>
+                        <div>• R: {t('rotateElement')}</div>
+                        <div>• Delete: {t('deleteElement')}</div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                );
+              })()}
             </div>
             
             {/* Right Panel - Canvas */}
@@ -713,12 +1105,16 @@ const CoverMaker = () => {
                       ref={canvasRef}
                       width={canvasSize.width}
                       height={canvasSize.height}
-                      className="max-w-full object-contain"
+                      className="max-w-full object-contain cursor-crosshair"
                       style={{
                         maxWidth: '100%',
                         width: 'auto',
                         height: 'auto'
                       }}
+                      onMouseDown={handleCanvasMouseDown}
+                      onMouseMove={handleCanvasMouseMove}
+                      onMouseUp={handleCanvasMouseUp}
+                      onMouseLeave={handleCanvasMouseUp}
                     />
                   </div>
                 </CardContent>

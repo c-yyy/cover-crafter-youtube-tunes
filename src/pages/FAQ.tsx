@@ -37,6 +37,7 @@ const FAQ = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
   const [expandedItems, setExpandedItems] = useState<string[]>([]);
+  const [expandedPopularItems, setExpandedPopularItems] = useState<string[]>([]);
 
   const faqItems: FAQItem[] = [
     // 基础使用问题
@@ -118,15 +119,15 @@ const FAQ = () => {
     },
     {
       id: '11',
-      question: '历史记录功能如何使用？',
-      answer: '历史记录功能帮助您管理之前提取的缩略图：\n• 自动保存最近的提取记录\n• 快速重新访问之前的结果\n• 一键清除历史记录\n• 数据仅存储在您的浏览器中\n• 不会上传到我们的服务器\n\n这个功能让您能够轻松管理和重用之前的工作。',
+      question: t('faq.q11.question', '历史记录功能如何使用？'),
+      answer: t('faq.q11.answer', '历史记录功能帮助您管理之前提取的缩略图：\n• 自动保存最近的提取记录\n• 快速重新访问之前的结果\n• 一键清除历史记录\n• 数据仅存储在您的浏览器中\n• 不会上传到我们的服务器\n\n这个功能让您能够轻松管理和重用之前的工作。'),
       category: 'features',
       popular: true
     },
     {
       id: '12',
-      question: '支持哪些图片格式下载？',
-      answer: '我们提供多种下载格式：\n• JPG格式：最常用，文件较小\n• PNG格式：支持透明背景（如果原图有）\n• WebP格式：现代浏览器支持，文件更小\n\n系统会自动检测原始格式并提供最佳的下载选项。大多数YouTube缩略图都是JPG格式。',
+      question: t('faq.q12.question', '支持哪些图片格式下载？'),
+      answer: t('faq.q12.answer', '我们提供多种下载格式：\n• JPG格式：最常用，文件较小\n• PNG格式：支持透明背景（如果原图有）\n• WebP格式：现代浏览器支持，文件更小\n\n系统会自动检测原始格式并提供最佳的下载选项。大多数YouTube缩略图都是JPG格式。'),
       category: 'features',
       popular: false
     },
@@ -134,22 +135,22 @@ const FAQ = () => {
     // 故障排除
     {
       id: '13',
-      question: '遇到错误提示怎么办？',
-      answer: '常见错误及解决方法：\n• "无效的URL"：检查链接格式是否正确\n• "视频不存在"：确认视频未被删除或设为私有\n• "网络错误"：检查网络连接，稍后重试\n• "加载失败"：刷新页面或清除浏览器缓存\n\n如果问题持续存在，请通过联系页面向我们报告具体的错误信息。',
+      question: t('faq.q13.question', '遇到错误提示怎么办？'),
+      answer: t('faq.q13.answer', '常见错误及解决方法：\n• "无效的URL"：检查链接格式是否正确\n• "视频不存在"：确认视频未被删除或设为私有\n• "网络错误"：检查网络连接，稍后重试\n• "加载失败"：刷新页面或清除浏览器缓存\n\n如果问题持续存在，请通过联系页面向我们报告具体的错误信息。'),
       category: 'troubleshooting',
       popular: true
     },
     {
       id: '14',
-      question: '浏览器兼容性如何？',
-      answer: '我们的工具支持所有现代浏览器：\n• Chrome（推荐）\n• Firefox\n• Safari\n• Edge\n• Opera\n\n建议使用最新版本的浏览器以获得最佳体验。如果遇到兼容性问题，请尝试更新浏览器或使用Chrome。',
+      question: t('faq.q14.question', '浏览器兼容性如何？'),
+      answer: t('faq.q14.answer', '我们的工具支持所有现代浏览器：\n• Chrome（推荐）\n• Firefox\n• Safari\n• Edge\n• Opera\n\n建议使用最新版本的浏览器以获得最佳体验。如果遇到兼容性问题，请尝试更新浏览器或使用Chrome。'),
       category: 'troubleshooting',
       popular: false
     },
     {
       id: '15',
-      question: '下载的图片质量不清晰怎么办？',
-      answer: '图片质量取决于YouTube原始缩略图：\n• 选择最高可用分辨率\n• 检查原视频的缩略图质量\n• 某些老视频可能只有低分辨率版本\n• 尝试不同的尺寸选项\n\n我们提供的是YouTube原始缩略图，质量与平台上显示的完全一致。',
+      question: t('faq.q15.question', '下载的图片质量不清晰怎么办？'),
+      answer: t('faq.q15.answer', '图片质量取决于YouTube原始缩略图：\n• 选择最高可用分辨率\n• 检查原视频的缩略图质量\n• 某些老视频可能只有低分辨率版本\n• 尝试不同的尺寸选项\n\n我们提供的是YouTube原始缩略图，质量与平台上显示的完全一致。'),
       category: 'troubleshooting',
       popular: false
     },
@@ -157,22 +158,22 @@ const FAQ = () => {
     // 高级使用
     {
       id: '16',
-      question: '如何获得最佳的缩略图质量？',
-      answer: '获得最佳质量的建议：\n• 选择最高分辨率选项（1280x720或更高）\n• 确保原视频有高质量缩略图\n• 避免过度压缩或编辑\n• 使用现代浏览器下载\n• 检查网络连接稳定性\n\n记住，我们只能提供YouTube原始缩略图的质量，无法提升原始图片的分辨率。',
+      question: t('faq.q16.question', '如何获得最佳的缩略图质量？'),
+      answer: t('faq.q16.answer', '获得最佳质量的建议：\n• 选择最高分辨率选项（1280x720或更高）\n• 确保原视频有高质量缩略图\n• 避免过度压缩或编辑\n• 使用现代浏览器下载\n• 检查网络连接稳定性\n\n记住，我们只能提供YouTube原始缩略图的质量，无法提升原始图片的分辨率。'),
       category: 'advanced',
       popular: false
     },
     {
       id: '17',
-      question: '可以提取YouTube Shorts的缩略图吗？',
-      answer: '是的！我们完全支持YouTube Shorts：\n• 支持所有Shorts链接格式\n• 提供垂直方向的缩略图\n• 包含所有可用的分辨率选项\n• 处理方式与普通视频相同\n\nShorts的缩略图通常是9:16的垂直格式，适合移动设备显示。',
+      question: t('faq.q17.question', '可以提取YouTube Shorts的缩略图吗？'),
+      answer: t('faq.q17.answer', '是的！我们完全支持YouTube Shorts：\n• 支持所有Shorts链接格式\n• 提供垂直方向的缩略图\n• 包含所有可用的分辨率选项\n• 处理方式与普通视频相同\n\nShorts的缩略图通常是9:16的垂直格式，适合移动设备显示。'),
       category: 'advanced',
       popular: true
     },
     {
       id: '18',
-      question: '工具是否有使用限制？',
-      answer: '我们的服务是完全免费的，但有一些合理的限制：\n• 每分钟最多50次请求\n• 单次会话最多100个历史记录\n• 不支持自动化脚本或机器人\n• 仅限个人和教育用途\n\n这些限制确保所有用户都能享受稳定快速的服务。',
+      question: t('faq.q18.question', '工具是否有使用限制？'),
+      answer: t('faq.q18.answer', '我们的服务是完全免费的，但有一些合理的限制：\n• 每分钟最多50次请求\n• 单次会话最多100个历史记录\n• 不支持自动化脚本或机器人\n• 仅限个人和教育用途\n\n这些限制确保所有用户都能享受稳定快速的服务。'),
       category: 'advanced',
       popular: false
     }
@@ -201,6 +202,14 @@ const FAQ = () => {
 
   const toggleExpanded = (itemId: string) => {
     setExpandedItems(prev => 
+      prev.includes(itemId) 
+        ? prev.filter(id => id !== itemId)
+        : [...prev, itemId]
+    );
+  };
+
+  const togglePopularExpanded = (itemId: string) => {
+    setExpandedPopularItems(prev => 
       prev.includes(itemId) 
         ? prev.filter(id => id !== itemId)
         : [...prev, itemId]
@@ -266,7 +275,7 @@ const FAQ = () => {
             </div>
 
             {/* Popular Questions */}
-            {popularItems.length > 0 && selectedCategory === 'all' && searchTerm === '' && (
+            {popularItems.length > 0 && searchTerm === '' && (
               <div className="mb-12">
                 <h2 className="text-2xl font-bold text-slate-800 mb-6 flex items-center space-x-2">
                   <Star className="h-6 w-6 text-yellow-500" />
@@ -275,9 +284,9 @@ const FAQ = () => {
                 <div className="grid md:grid-cols-2 gap-4">
                   {popularItems.slice(0, 6).map((item) => (
                     <Card 
-                      key={item.id} 
+                      key={`popular-${item.id}`} 
                       className="cursor-pointer hover:shadow-lg transition-all duration-300 border-2 border-yellow-200 bg-gradient-to-br from-yellow-50 to-orange-50"
-                      onClick={() => toggleExpanded(item.id)}
+                      onClick={() => togglePopularExpanded(`popular-${item.id}`)}
                     >
                       <CardHeader className="pb-3">
                         <div className="flex items-center justify-between">
@@ -285,11 +294,11 @@ const FAQ = () => {
                             <div className="bg-yellow-500 p-1 rounded">
                               <Star className="h-4 w-4 text-white" />
                             </div>
-                            <span className="text-xs font-medium text-yellow-700 bg-yellow-100 px-2 py-1 rounded-full">
-                              热门
+                            <span className="text-xs font-medium text-red-700 bg-red-100 px-2 py-1 rounded-full">
+                              Hot
                             </span>
                           </div>
-                          {expandedItems.includes(item.id) ? (
+                          {expandedPopularItems.includes(`popular-${item.id}`) ? (
                             <ChevronUp className="h-5 w-5 text-slate-400" />
                           ) : (
                             <ChevronDown className="h-5 w-5 text-slate-400" />
@@ -299,7 +308,7 @@ const FAQ = () => {
                           {item.question}
                         </CardTitle>
                       </CardHeader>
-                      {expandedItems.includes(item.id) && (
+                      {expandedPopularItems.includes(`popular-${item.id}`) && (
                         <CardContent className="pt-0">
                           <div className="text-slate-600 text-sm leading-relaxed">
                             {formatAnswer(item.answer)}
@@ -314,7 +323,7 @@ const FAQ = () => {
 
             {/* Category Filter */}
             <div className="mb-8">
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">问题分类</h2>
+              <h2 className="text-2xl font-bold text-slate-800 mb-4">{t('faqAllCategories')}</h2>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3">
                 {categories.map((category) => {
                   const IconComponent = category.icon;
@@ -388,10 +397,10 @@ const FAQ = () => {
                   <Search className="h-12 w-12 text-slate-400" />
                 </div>
                 <h3 className="text-xl font-semibold text-slate-800 mb-2">
-                  未找到相关问题
+                  {t('faq.noResultsTitle', '未找到相关问题')}
                 </h3>
                 <p className="text-slate-600 mb-4">
-                  请尝试调整搜索关键词或选择其他分类。
+                  {t('faq.noResultsDescription', '请尝试调整搜索关键词或选择其他分类。')}
                 </p>
                 <Button 
                   onClick={() => {

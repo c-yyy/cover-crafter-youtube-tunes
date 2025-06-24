@@ -21,6 +21,7 @@
   "canvasSize": "Canvas Size",
   "backgroundColor": "Background Color",
   "uploadBackground": "Upload Background",
+  "removeBackground": "Remove Background",
   "uploadImage": "Upload Image",
   "predefinedStickers": "Predefined Stickers",
   "aiImageGeneration": "AI Image Generation",
@@ -700,5 +701,219 @@
   "seoContentFeaturesPara2": "Advanced features include batch thumbnail downloading, automatic filename generation, and support for private and unlisted videos (when accessible). The thumbnail extractor maintains download history for easy re-access and provides one-click downloading for immediate file saving to your device.",
   "seoContentUseCasesTitle": "Professional Use Cases",
   "seoContentUseCasesPara1": "Digital marketing agencies use our YouTube thumbnail downloader to create comprehensive social media audits and competitor analysis reports. Video production companies download thumbnails to study trending design patterns and create mood boards for client projects. Educational institutions utilize the tool for media literacy courses and digital marketing curricula.",
-  "seoContentUseCasesPara2": "E-commerce businesses download product video thumbnails for catalog creation and cross-platform marketing campaigns. News organizations and bloggers use the thumbnail extractor to source images for articles and social media posts while maintaining proper attribution and fair use guidelines."
+  "seoContentUseCasesPara2": "E-commerce businesses download product video thumbnails for catalog creation and cross-platform marketing campaigns. News organizations and bloggers use the thumbnail extractor to source images for articles and social media posts while maintaining proper attribution and fair use guidelines.",
+
+  "faq": {
+    "q1": {
+      "question": "How to use YouTube Thumbnail Extractor?",
+      "answer": "It's very simple to use: 1) Copy the YouTube video URL; 2) Paste the link into our website's input box; 3) Click the 'Get Thumbnails' button; 4) Select the thumbnail size you need and download. The whole process takes only a few seconds, no registration or login required."
+    },
+    "q2": {
+      "question": "What YouTube video link formats are supported?",
+      "answer": "We support all common YouTube link formats, including:\n• Standard links: https://www.youtube.com/watch?v=VIDEO_ID\n• Short links: https://youtu.be/VIDEO_ID\n• Mobile links: https://m.youtube.com/watch?v=VIDEO_ID\n• Embed links: https://www.youtube.com/embed/VIDEO_ID\n• Links with timestamps are also fully supported"
+    },
+    "q3": {
+      "question": "What sizes are available for extracted thumbnails?",
+      "answer": "YouTube provides multiple thumbnail sizes for each video:\n• Default thumbnail: 120x90 pixels\n• Medium quality: 320x180 pixels\n• High quality: 480x360 pixels\n• Standard definition: 640x480 pixels\n• Highest quality: 1280x720 pixels (if available)\n• Maximum resolution: 1920x1080 pixels (if available)\n\nWe automatically detect and provide all available size options."
+    },
+    "q4": {
+      "question": "Why can't some videos extract thumbnails?",
+      "answer": "Possible reasons include:\n• Video is set to private or has been deleted\n• Video link format is incorrect\n• Video was just uploaded and thumbnails haven't been generated yet\n• Network connection issues\n• Video is region-restricted\n\nPlease check if the video link is correct and ensure the video is publicly accessible. If the problem persists, please contact our technical support."
+    },
+    "q5": {
+      "question": "Does the tool support mobile devices?",
+      "answer": "Yes! Our tool fully supports mobile devices, including smartphones and tablets. The website uses responsive design and works perfectly on any device. You can use our service on iOS, Android, or any other mobile platform."
+    },
+    "q6": {
+      "question": "What to do if extraction speed is slow?",
+      "answer": "If you encounter slow extraction speed, please try:\n• Check if your network connection is stable\n• Refresh the page and retry\n• Clear browser cache\n• Try using a different browser\n• Avoid using during peak network hours\n\nOur servers are distributed globally and usually provide fast response times."
+    },
+    "q7": {
+      "question": "Is it legal to use extracted thumbnails?",
+      "answer": "This depends on your intended use:\n• Personal learning and research: Usually considered fair use\n• Commentary and criticism: Generally allowed within reasonable limits\n• Commercial use: Requires permission from the copyright owner\n• Re-uploading: May involve copyright infringement\n\nWe recommend always respecting the original creator's copyright when using others' thumbnails and obtaining appropriate permission when necessary."
+    },
+    "q8": {
+      "question": "Can it be used for commercial purposes?",
+      "answer": "For commercial use, we strongly recommend:\n• Obtaining explicit permission from the original video creator\n• Understanding relevant copyright laws\n• Consider using your own created content\n• Consult legal professionals\n\nOur tool itself is free, but using extracted content must comply with relevant copyright laws and YouTube's terms of service."
+    },
+    "q9": {
+      "question": "Do you store user data?",
+      "answer": "We take user privacy very seriously:\n• We don't store YouTube links you input\n• We don't save extracted thumbnails\n• We don't collect personal identification information\n• We don't use tracking cookies\n• All processing is done in your browser\n\nFor detailed privacy policy, please check our privacy policy page."
+    },
+    "q10": {
+      "question": "Is batch downloading supported?",
+      "answer": "Currently our tool focuses on single video thumbnail extraction to ensure the best user experience and service stability. If you need batch processing, we recommend:\n• Using our history feature to manage multiple links\n• Processing one by one to ensure quality\n• Follow our updates, batch functionality may be added in the future"
+    },
+    "q11": {
+      "question": "How to use the history feature?",
+      "answer": "The history feature helps you manage previously extracted thumbnails:\n• Automatically saves recent extraction records\n• Quickly revisit previous results\n• One-click clear history\n• Data is only stored in your browser\n• Not uploaded to our servers\n\nThis feature allows you to easily manage and reuse your previous work."
+    },
+    "q12": {
+      "question": "What image formats are supported for download?",
+      "answer": "We provide multiple download formats:\n• JPG format: Most common, smaller file size\n• PNG format: Supports transparent background (if original has it)\n• WebP format: Modern browser support, smaller file size\n\nThe system automatically detects the original format and provides the best download options. Most YouTube thumbnails are in JPG format."
+    },
+    "q13": {
+      "question": "What to do when encountering error messages?",
+      "answer": "Common errors and solutions:\n• \"Invalid URL\": Check if the link format is correct\n• \"Video not found\": Confirm the video hasn't been deleted or set to private\n• \"Network error\": Check network connection, try again later\n• \"Loading failed\": Refresh the page or clear browser cache\n\nIf the problem persists, please report the specific error message to us through the contact page."
+    },
+    "q14": {
+      "question": "How is browser compatibility?",
+      "answer": "Our tool supports all modern browsers:\n• Chrome (recommended)\n• Firefox\n• Safari\n• Edge\n• Opera\n\nWe recommend using the latest version of your browser for the best experience. If you encounter compatibility issues, please try updating your browser or using Chrome."
+    },
+    "q15": {
+      "question": "What to do if downloaded images are not clear?",
+      "answer": "Image quality depends on YouTube's original thumbnail:\n• Select the highest available resolution\n• Check the original video's thumbnail quality\n• Some older videos may only have low-resolution versions\n• Try different size options\n\nWe provide YouTube's original thumbnails, with quality identical to what's displayed on the platform."
+    },
+    "q16": {
+      "question": "How to get the best thumbnail quality?",
+      "answer": "Recommendations for best quality:\n• Select the highest resolution option (1280x720 or higher)\n• Ensure the original video has high-quality thumbnails\n• Avoid over-compression or editing\n• Use modern browsers for downloading\n• Check network connection stability\n\nRemember, we can only provide the quality of YouTube's original thumbnails and cannot enhance the original image resolution."
+    },
+    "q17": {
+      "question": "Can I extract thumbnails from YouTube Shorts?",
+      "answer": "Yes! We fully support YouTube Shorts:\n• Support all Shorts link formats\n• Provide vertical orientation thumbnails\n• Include all available resolution options\n• Process the same way as regular videos\n\nShorts thumbnails are usually in 9:16 vertical format, suitable for mobile device display."
+    },
+    "q18": {
+      "question": "Are there usage limitations for the tool?",
+      "answer": "Our service is completely free, but has some reasonable limitations:\n• Maximum 50 requests per minute\n• Maximum 100 history records per session\n• No support for automated scripts or bots\n• Personal and educational use only\n\nThese limitations ensure all users can enjoy stable and fast service."
+    },
+    "noResultsTitle": "No relevant questions found",
+    "noResultsDescription": "Please try adjusting your search keywords or selecting other categories."
+  },
+
+  "tools": {
+    "pageTitle": "YouTube Creator Tools",
+    "pageDescription": "Professional YouTube tool suite to enhance your creation efficiency and content quality",
+    "thumbnailExtractor": {
+      "name": "YouTube Thumbnail Extractor",
+      "description": "Quickly extract high-quality thumbnails from YouTube videos, supporting multiple resolution downloads"
+    },
+    "linkAnalyzer": {
+      "name": "YouTube Link Analyzer",
+      "description": "Analyze YouTube links, extract video ID, channel information and playlist details"
+    },
+    "durationCalculator": {
+      "name": "Video Duration Calculator",
+      "description": "Calculate total video duration, supporting hours, minutes, and seconds conversion"
+    },
+    "tagGenerator": {
+      "name": "YouTube Tag Generator",
+      "description": "Generate relevant YouTube tags and keywords based on video content"
+    },
+    "titleOptimizer": {
+      "name": "Video Title Optimizer",
+      "description": "Optimize YouTube video titles to improve search ranking and click-through rates"
+    },
+    "channelAnalyzer": {
+      "name": "Channel Analyzer",
+      "description": "Analyze YouTube channel statistics and growth trends"
+    },
+    "thumbnailAnalyzer": {
+      "name": "Thumbnail Analyzer",
+      "description": "Analyze thumbnail color, composition and attractiveness, providing optimization suggestions"
+    },
+    "engagementCalculator": {
+      "name": "Engagement Calculator",
+      "description": "Calculate YouTube video engagement rate, view rate and other key metrics"
+    },
+    "videoDownloader": {
+      "name": "Video Downloader",
+      "description": "Download YouTube videos (for personal use only, please comply with copyright laws)"
+    },
+    "subtitleExtractor": {
+      "name": "Subtitle Extractor",
+      "description": "Extract subtitle files from YouTube videos, supporting multiple languages"
+    },
+    "trendingTracker": {
+      "name": "Trending Tracker",
+      "description": "Track YouTube trending videos and trending topics"
+    },
+    "competitorAnalyzer": {
+      "name": "Competitor Analyzer",
+      "description": "Analyze competitors' YouTube strategies and performance"
+    },
+    "featured": "Featured",
+    "comingSoon": "Coming Soon",
+    "useNow": "Use Now",
+    "needMoreTools": "Need More Tools?",
+    "needMoreToolsDescription": "We are constantly developing new tools to help YouTube creators. If you have specific needs or suggestions, please contact us and we will prioritize developing the features you need.",
+    "submitSuggestion": "Submit Suggestion",
+    "viewTutorials": "View Tutorials",
+    "categories": {
+      "all": "All Tools",
+      "extraction": "Content Extraction",
+      "analysis": "Data Analysis",
+      "seo": "SEO Optimization",
+      "utility": "Utility Tools",
+      "analytics": "Statistical Analysis"
+    }
+  },
+
+  "elementProperties": "Element Properties",
+  "rotation": "Rotation",
+  "width": "Width",
+  "height": "Height",
+  "hide": "Hide",
+  "show": "Show",
+  "keyboardShortcuts": "Keyboard Shortcuts",
+  "arrowKeys": "Arrow Keys",
+  "moveElement": "Move Element",
+  "resizeElement": "Resize Element",
+  "rotateElement": "Rotate Element",
+  "deleteElement": "Delete Element",
+
+  "tutorials": {
+    "pageTitle": "YouTube Creation Tutorials",
+    "pageDescription": "From basic to advanced YouTube creation tutorials, helping you master video production, optimization and promotion techniques.",
+    "basic": {
+      "title": "How to Extract YouTube Thumbnails - Basic Tutorial",
+      "description": "Learn how to quickly extract high-quality thumbnails from YouTube videos, suitable for beginners"
+    },
+    "optimization": {
+      "title": "Thumbnail Optimization Best Practices",
+      "description": "Deep dive into how to optimize YouTube thumbnails to improve click-through rates and video performance"
+    },
+    "batch": {
+      "title": "Batch Processing YouTube Thumbnails",
+      "description": "Learn how to efficiently batch extract and manage thumbnails from multiple videos"
+    },
+    "copyright": {
+      "title": "YouTube Thumbnail Copyright Guide",
+      "description": "Understand legal considerations and best practices for using YouTube thumbnails"
+    },
+    "mobile": {
+      "title": "Mobile Device Optimization Guide",
+      "description": "Learn how to efficiently use YouTube thumbnail extraction tools on mobile devices"
+    },
+    "troubleshooting": {
+      "title": "Common Issues Resolution Guide",
+      "description": "Resolve common issues encountered when using YouTube thumbnail extraction tools"
+    },
+    "steps": {
+      "step1": {
+        "title": "Copy YouTube Video Link",
+        "content": "First, open YouTube and find the video you want to extract thumbnails from. Click the share button, then copy the video link. Supported link formats include:\n• https://www.youtube.com/watch?v=VIDEO_ID\n• https://youtu.be/VIDEO_ID\n• Mobile and embed links are also fully supported"
+      },
+      "step2": {
+        "title": "Paste Link to Tool",
+        "content": "Open our YouTube thumbnail extractor and paste the copied link into the input box. The tool will automatically recognize the link format and extract the video ID."
+      },
+      "step3": {
+        "title": "Select Thumbnail Quality",
+        "content": "After clicking the 'Get Thumbnails' button, the system will display all available thumbnail sizes. Choose the quality you need:\n• Default: 120x90 pixels\n• Medium: 320x180 pixels\n• High quality: 480x360 pixels\n• Highest quality: 1280x720 pixels or higher"
+      },
+      "step4": {
+        "title": "Download Thumbnail",
+        "content": "After selecting the appropriate size, click the download button to save the thumbnail to your device. The file will be named after the video title, usually in JPG format."
+      }
+    },
+    "categories": {
+      "all": "All Tutorials",
+      "basic": "Basic Introduction",
+      "optimization": "Optimization Tips",
+      "advanced": "Advanced Techniques",
+      "legal": "Legal Guide",
+      "mobile": "Mobile",
+      "troubleshooting": "Problem Solving"
+    }
+  }
 }
