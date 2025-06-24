@@ -2,662 +2,1598 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <!-- EN Pages -->
   <url>
-    <loc>https://youtubethumbnail.download/en</loc>
+    <loc>https://youtube-cover.com/en</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/en/about</loc>
+    <loc>https://youtube-cover.com/en/cover-maker</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/cover-maker" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/en/about</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/about" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/about" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/about" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/about" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/about" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/about" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/en/privacy</loc>
+    <loc>https://youtube-cover.com/en/privacy</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/privacy" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/privacy" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/en/terms</loc>
+    <loc>https://youtube-cover.com/en/terms</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/terms" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/terms" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/terms" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/en/contact</loc>
+    <loc>https://youtube-cover.com/en/contact</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/contact" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/contact" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/contact" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/contact" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/contact" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/contact" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/en/help</loc>
+    <loc>https://youtube-cover.com/en/changelog</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/changelog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/changelog" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/changelog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/changelog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/changelog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/changelog" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/en/help</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/en/help/getting-started</loc>
+    <loc>https://youtube-cover.com/en/help/getting-started</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/getting-started" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/en/help/advanced-tips</loc>
+    <loc>https://youtube-cover.com/en/help/advanced-tips</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/advanced-tips" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/en/help/troubleshooting</loc>
+    <loc>https://youtube-cover.com/en/help/troubleshooting</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/troubleshooting" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/en/blog</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/en/blog/bg7k9m2x</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/bg7k9m2x" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/en/blog/xk3p8q1z</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/xk3p8q1z" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/en/blog/m9n4r7s2</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/m9n4r7s2" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/en/resources</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/resources" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/resources" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/resources" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/resources" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/resources" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/resources" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/en/faq</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/faq" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/en/tools</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/tools" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/tools" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/tools" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/tools" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/tools" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/tools" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/en/tutorials</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/tutorials" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/tutorials" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/tutorials" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/tutorials" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/tutorials" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/tutorials" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/en/news</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/news" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/news" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/news" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/news" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/news" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/news" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/en/case-studies</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/case-studies" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/case-studies" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/case-studies" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/case-studies" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/case-studies" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/case-studies" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/en/creator-economy</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/creator-economy" />
   </url>
 
   <!-- ZH Pages -->
   <url>
-    <loc>https://youtubethumbnail.download/zh</loc>
+    <loc>https://youtube-cover.com/zh</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/zh/about</loc>
+    <loc>https://youtube-cover.com/zh/cover-maker</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/cover-maker" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/zh/about</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/about" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/about" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/about" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/about" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/about" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/about" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/zh/privacy</loc>
+    <loc>https://youtube-cover.com/zh/privacy</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/privacy" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/privacy" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/zh/terms</loc>
+    <loc>https://youtube-cover.com/zh/terms</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/terms" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/terms" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/terms" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/zh/contact</loc>
+    <loc>https://youtube-cover.com/zh/contact</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/contact" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/contact" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/contact" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/contact" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/contact" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/contact" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/zh/help</loc>
+    <loc>https://youtube-cover.com/zh/changelog</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/changelog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/changelog" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/changelog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/changelog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/changelog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/changelog" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/zh/help</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/zh/help/getting-started</loc>
+    <loc>https://youtube-cover.com/zh/help/getting-started</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/getting-started" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/zh/help/advanced-tips</loc>
+    <loc>https://youtube-cover.com/zh/help/advanced-tips</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/advanced-tips" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/zh/help/troubleshooting</loc>
+    <loc>https://youtube-cover.com/zh/help/troubleshooting</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/troubleshooting" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/zh/blog</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/zh/blog/bg7k9m2x</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/bg7k9m2x" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/zh/blog/xk3p8q1z</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/xk3p8q1z" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/zh/blog/m9n4r7s2</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/m9n4r7s2" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/zh/resources</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/resources" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/resources" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/resources" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/resources" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/resources" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/resources" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/zh/faq</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/faq" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/zh/tools</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/tools" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/tools" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/tools" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/tools" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/tools" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/tools" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/zh/tutorials</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/tutorials" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/tutorials" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/tutorials" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/tutorials" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/tutorials" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/tutorials" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/zh/news</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/news" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/news" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/news" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/news" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/news" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/news" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/zh/case-studies</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/case-studies" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/case-studies" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/case-studies" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/case-studies" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/case-studies" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/case-studies" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/zh/creator-economy</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/creator-economy" />
   </url>
 
   <!-- JA Pages -->
   <url>
-    <loc>https://youtubethumbnail.download/ja</loc>
+    <loc>https://youtube-cover.com/ja</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ja/about</loc>
+    <loc>https://youtube-cover.com/ja/cover-maker</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/cover-maker" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ja/about</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/about" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/about" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/about" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/about" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/about" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/about" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ja/privacy</loc>
+    <loc>https://youtube-cover.com/ja/privacy</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/privacy" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/privacy" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ja/terms</loc>
+    <loc>https://youtube-cover.com/ja/terms</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/terms" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/terms" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/terms" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ja/contact</loc>
+    <loc>https://youtube-cover.com/ja/contact</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/contact" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/contact" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/contact" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/contact" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/contact" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/contact" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ja/help</loc>
+    <loc>https://youtube-cover.com/ja/changelog</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/changelog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/changelog" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/changelog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/changelog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/changelog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/changelog" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ja/help</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ja/help/getting-started</loc>
+    <loc>https://youtube-cover.com/ja/help/getting-started</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/getting-started" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ja/help/advanced-tips</loc>
+    <loc>https://youtube-cover.com/ja/help/advanced-tips</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/advanced-tips" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ja/help/troubleshooting</loc>
+    <loc>https://youtube-cover.com/ja/help/troubleshooting</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/troubleshooting" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ja/blog</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ja/blog/bg7k9m2x</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/bg7k9m2x" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ja/blog/xk3p8q1z</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/xk3p8q1z" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ja/blog/m9n4r7s2</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/m9n4r7s2" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ja/resources</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/resources" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/resources" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/resources" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/resources" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/resources" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/resources" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ja/faq</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/faq" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ja/tools</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/tools" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/tools" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/tools" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/tools" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/tools" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/tools" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ja/tutorials</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/tutorials" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/tutorials" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/tutorials" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/tutorials" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/tutorials" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/tutorials" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ja/news</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/news" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/news" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/news" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/news" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/news" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/news" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ja/case-studies</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/case-studies" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/case-studies" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/case-studies" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/case-studies" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/case-studies" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/case-studies" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ja/creator-economy</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/creator-economy" />
   </url>
 
   <!-- FR Pages -->
   <url>
-    <loc>https://youtubethumbnail.download/fr</loc>
+    <loc>https://youtube-cover.com/fr</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/fr/about</loc>
+    <loc>https://youtube-cover.com/fr/cover-maker</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/cover-maker" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/fr/about</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/about" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/about" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/about" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/about" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/about" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/about" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/fr/privacy</loc>
+    <loc>https://youtube-cover.com/fr/privacy</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/privacy" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/privacy" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/fr/terms</loc>
+    <loc>https://youtube-cover.com/fr/terms</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/terms" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/terms" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/terms" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/fr/contact</loc>
+    <loc>https://youtube-cover.com/fr/contact</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/contact" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/contact" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/contact" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/contact" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/contact" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/contact" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/fr/help</loc>
+    <loc>https://youtube-cover.com/fr/changelog</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/changelog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/changelog" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/changelog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/changelog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/changelog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/changelog" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/fr/help</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/fr/help/getting-started</loc>
+    <loc>https://youtube-cover.com/fr/help/getting-started</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/getting-started" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/fr/help/advanced-tips</loc>
+    <loc>https://youtube-cover.com/fr/help/advanced-tips</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/advanced-tips" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/fr/help/troubleshooting</loc>
+    <loc>https://youtube-cover.com/fr/help/troubleshooting</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/troubleshooting" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/fr/blog</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/fr/blog/bg7k9m2x</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/bg7k9m2x" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/fr/blog/xk3p8q1z</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/xk3p8q1z" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/fr/blog/m9n4r7s2</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/m9n4r7s2" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/fr/resources</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/resources" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/resources" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/resources" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/resources" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/resources" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/resources" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/fr/faq</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/faq" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/fr/tools</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/tools" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/tools" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/tools" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/tools" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/tools" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/tools" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/fr/tutorials</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/tutorials" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/tutorials" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/tutorials" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/tutorials" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/tutorials" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/tutorials" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/fr/news</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/news" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/news" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/news" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/news" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/news" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/news" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/fr/case-studies</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/case-studies" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/case-studies" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/case-studies" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/case-studies" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/case-studies" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/case-studies" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/fr/creator-economy</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/creator-economy" />
   </url>
 
   <!-- ES Pages -->
   <url>
-    <loc>https://youtubethumbnail.download/es</loc>
+    <loc>https://youtube-cover.com/es</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/es/about</loc>
+    <loc>https://youtube-cover.com/es/cover-maker</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/cover-maker" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/es/about</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/about" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/about" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/about" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/about" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/about" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/about" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/es/privacy</loc>
+    <loc>https://youtube-cover.com/es/privacy</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/privacy" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/privacy" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/es/terms</loc>
+    <loc>https://youtube-cover.com/es/terms</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/terms" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/terms" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/terms" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/es/contact</loc>
+    <loc>https://youtube-cover.com/es/contact</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/contact" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/contact" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/contact" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/contact" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/contact" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/contact" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/es/help</loc>
+    <loc>https://youtube-cover.com/es/changelog</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/changelog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/changelog" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/changelog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/changelog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/changelog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/changelog" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/es/help</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/es/help/getting-started</loc>
+    <loc>https://youtube-cover.com/es/help/getting-started</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/getting-started" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/es/help/advanced-tips</loc>
+    <loc>https://youtube-cover.com/es/help/advanced-tips</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/advanced-tips" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/es/help/troubleshooting</loc>
+    <loc>https://youtube-cover.com/es/help/troubleshooting</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/troubleshooting" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/es/blog</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/es/blog/bg7k9m2x</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/bg7k9m2x" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/es/blog/xk3p8q1z</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/xk3p8q1z" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/es/blog/m9n4r7s2</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/m9n4r7s2" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/es/resources</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/resources" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/resources" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/resources" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/resources" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/resources" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/resources" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/es/faq</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/faq" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/es/tools</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/tools" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/tools" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/tools" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/tools" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/tools" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/tools" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/es/tutorials</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/tutorials" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/tutorials" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/tutorials" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/tutorials" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/tutorials" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/tutorials" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/es/news</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/news" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/news" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/news" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/news" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/news" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/news" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/es/case-studies</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/case-studies" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/case-studies" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/case-studies" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/case-studies" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/case-studies" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/case-studies" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/es/creator-economy</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/creator-economy" />
   </url>
 
   <!-- KO Pages -->
   <url>
-    <loc>https://youtubethumbnail.download/ko</loc>
+    <loc>https://youtube-cover.com/ko</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ko/about</loc>
+    <loc>https://youtube-cover.com/ko/cover-maker</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/cover-maker" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/cover-maker" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ko/about</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/about" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/about" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/about" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/about" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/about" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/about" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ko/privacy</loc>
+    <loc>https://youtube-cover.com/ko/privacy</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/privacy" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/privacy" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ko/terms</loc>
+    <loc>https://youtube-cover.com/ko/terms</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/terms" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/terms" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/terms" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ko/contact</loc>
+    <loc>https://youtube-cover.com/ko/contact</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/contact" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/contact" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/contact" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/contact" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/contact" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/contact" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ko/help</loc>
+    <loc>https://youtube-cover.com/ko/changelog</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/changelog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/changelog" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/changelog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/changelog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/changelog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/changelog" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ko/help</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ko/help/getting-started</loc>
+    <loc>https://youtube-cover.com/ko/help/getting-started</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/getting-started" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/getting-started" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/getting-started" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ko/help/advanced-tips</loc>
+    <loc>https://youtube-cover.com/ko/help/advanced-tips</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/advanced-tips" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/advanced-tips" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/advanced-tips" />
   </url>
   <url>
-    <loc>https://youtubethumbnail.download/ko/help/troubleshooting</loc>
+    <loc>https://youtube-cover.com/ko/help/troubleshooting</loc>
     <lastmod>2025-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://youtubethumbnail.download/en/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://youtubethumbnail.download/zh/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://youtubethumbnail.download/ja/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://youtubethumbnail.download/fr/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://youtubethumbnail.download/es/help/troubleshooting" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://youtubethumbnail.download/ko/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/help/troubleshooting" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/help/troubleshooting" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ko/blog</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ko/blog/bg7k9m2x</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/bg7k9m2x" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/bg7k9m2x" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ko/blog/xk3p8q1z</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/xk3p8q1z" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/xk3p8q1z" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ko/blog/m9n4r7s2</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/blog/m9n4r7s2" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/blog/m9n4r7s2" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ko/resources</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/resources" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/resources" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/resources" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/resources" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/resources" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/resources" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ko/faq</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/faq" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ko/tools</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/tools" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/tools" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/tools" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/tools" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/tools" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/tools" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ko/tutorials</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/tutorials" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/tutorials" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/tutorials" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/tutorials" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/tutorials" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/tutorials" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ko/news</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/news" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/news" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/news" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/news" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/news" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/news" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ko/case-studies</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/case-studies" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/case-studies" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/case-studies" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/case-studies" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/case-studies" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/case-studies" />
+  </url>
+  <url>
+    <loc>https://youtube-cover.com/ko/creator-economy</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://youtube-cover.com/en/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://youtube-cover.com/zh/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://youtube-cover.com/ja/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://youtube-cover.com/fr/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://youtube-cover.com/es/creator-economy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://youtube-cover.com/ko/creator-economy" />
   </url>
 
 </urlset>

@@ -248,6 +248,7 @@ const App = () => {
               <Route path="help/advanced-tips" element={<AdvancedTips />} />
               <Route path="help/troubleshooting" element={<Troubleshooting />} />
               <Route path="blog" element={<Blog />} />
+              <Route path="blog/:id" element={<Blog />} />
               <Route path="resources" element={<Resources />} />
               <Route path="faq" element={<FAQ />} />
               <Route path="tools" element={<Tools />} />

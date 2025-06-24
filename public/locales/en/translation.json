@@ -915,5 +915,70 @@
       "mobile": "Mobile",
       "troubleshooting": "Problem Solving"
     }
+  },
+  "blog": {
+    "pageTitle": "Blog Articles - YouTube Creation Tips and Tutorials",
+    "pageDescription": "In-depth YouTube creation tutorials, design tips, SEO optimization strategies and industry trend analysis. Help content creators improve their skills and get better performance.",
+    "categoriesTitle": "Article Categories",
+    "categories": {
+      "all": "All Articles",
+      "design": "Design",
+      "tutorial": "Tutorial",
+      "business": "Business",
+      "caseStudy": "Case Study",
+      "strategy": "Strategy",
+      "trends": "Trends",
+      "seo": "SEO",
+      "tools": "Tools",
+      "other": "Other"
+    },
+    "post1": {
+      "title": "10 Golden Rules for YouTube Thumbnail Design",
+      "excerpt": "On the competitive YouTube platform, thumbnails are one of the key factors that determine the success of a video. An excellent thumbnail can grab the audience's attention in seconds and significantly improve click-through rates.",
+      "author": "Design Expert",
+      "readTime": "8 min read"
+    },
+    "post2": {
+      "title": "YouTube Algorithm Analysis: How to Get Your Videos Seen by More People",
+      "excerpt": "YouTube's recommendation algorithm is a complex system that determines which videos appear in users' homepages, search results, and recommendation lists. Understanding how this algorithm works is crucial for content creators.",
+      "author": "Algorithm Specialist",
+      "readTime": "12 min read"
+    },
+    "post3": {
+      "title": "Complete Tutorial for Cover Making Tools: From Beginner to Expert",
+      "excerpt": "Our cover making tool provides professional-level design features for YouTube creators. This tutorial will take you from zero to mastering all the features.",
+      "author": "Tool Expert",
+      "readTime": "15 min read"
+    },
+    "post4": {
+      "title": "Creator Economy Trends: New YouTube Monetization Opportunities in 2024",
+      "excerpt": "The creator economy is rapidly developing, and YouTube, as one of the largest video platforms, provides creators with diverse monetization opportunities.",
+      "author": "Business Analyst",
+      "readTime": "10 min read"
+    },
+    "post5": {
+      "title": "Success Story: How a Small Creator Gained 100K Followers in 6 Months",
+      "excerpt": "Today we share a real success story about how Xiao Zhang grew his channel subscribers from 0 to 100,000 in 6 months starting from scratch.",
+      "author": "Case Study Expert",
+      "readTime": "7 min read"
+    },
+    "post6": {
+      "title": "2024 YouTube Content Creation Trend Predictions",
+      "excerpt": "With the rapid development of the digital media industry, YouTube as the world's largest video platform, its content creation trends are constantly evolving. Let's look at the main trends worth paying attention to in 2024.",
+      "author": "Trend Analyst",
+      "readTime": "11 min read"
+    },
+    "post7": {
+      "title": "Complete Guide to Video SEO Optimization: Make Your Content More Discoverable",
+      "excerpt": "On YouTube, a platform with over 2 billion users, excellent content without good SEO optimization is likely to be buried in the massive amount of videos. This guide will help you master the core techniques of YouTube SEO.",
+      "author": "SEO Expert",
+      "readTime": "14 min read"
+    },
+    "post8": {
+      "title": "Essential Tools for Content Creators: Efficiency-Boosting Tools",
+      "excerpt": "In the era of digital content creation, choosing the right tools can greatly improve creation efficiency and content quality. This article will recommend essential tools for each stage of creation.",
+      "author": "Tool Specialist",
+      "readTime": "13 min read"
+    }
   }
 }

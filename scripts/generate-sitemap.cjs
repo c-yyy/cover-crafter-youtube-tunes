@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // 网站基础URL
-const BASE_URL = 'https://youtubethumbnail.download';
+const BASE_URL = 'https://youtube-cover.com';
 
 // 支持的语言
 const LANGUAGES = ['en', 'zh', 'ja', 'fr', 'es', 'ko'];
@@ -12,6 +12,11 @@ const PAGES = [
   {
     path: '',
     priority: '1.0',
+    changefreq: 'weekly'
+  },
+  {
+    path: '/cover-maker',
+    priority: '0.9',
     changefreq: 'weekly'
   },
   {
@@ -35,6 +40,11 @@ const PAGES = [
     changefreq: 'monthly'
   },
   {
+    path: '/changelog',
+    priority: '0.6',
+    changefreq: 'monthly'
+  },
+  {
     path: '/help',
     priority: '0.8',
     changefreq: 'weekly'
@@ -52,6 +62,61 @@ const PAGES = [
   {
     path: '/help/troubleshooting',
     priority: '0.7',
+    changefreq: 'monthly'
+  },
+  {
+    path: '/blog',
+    priority: '0.8',
+    changefreq: 'weekly'
+  },
+  {
+    path: '/blog/bg7k9m2x',
+    priority: '0.6',
+    changefreq: 'monthly'
+  },
+  {
+    path: '/blog/xk3p8q1z',
+    priority: '0.6',
+    changefreq: 'monthly'
+  },
+  {
+    path: '/blog/m9n4r7s2',
+    priority: '0.6',
+    changefreq: 'monthly'
+  },
+  {
+    path: '/resources',
+    priority: '0.7',
+    changefreq: 'weekly'
+  },
+  {
+    path: '/faq',
+    priority: '0.7',
+    changefreq: 'monthly'
+  },
+  {
+    path: '/tools',
+    priority: '0.7',
+    changefreq: 'weekly'
+  },
+  {
+    path: '/tutorials',
+    priority: '0.7',
+    changefreq: 'weekly'
+  },
+  {
+    path: '/news',
+    priority: '0.6',
+    changefreq: 'weekly'
+  },
+  {
+    path: '/case-studies',
+    priority: '0.6',
+    changefreq: 'monthly'
+  },
+  {
+    path: '/creator-economy',
+    priority: '0.6',
     changefreq: 'monthly'
   }
 ];

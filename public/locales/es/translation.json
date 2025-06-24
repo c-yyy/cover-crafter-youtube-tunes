@@ -626,5 +626,70 @@
       "mobile": "Móvil",
       "troubleshooting": "Resolución de Problemas"
     }
+  },
+  "blog": {
+    "pageTitle": "Artículos de Blog - Consejos y Tutoriales de Creación de YouTube",
+    "pageDescription": "Tutoriales profundos de creación de YouTube, consejos de diseño, estrategias de optimización SEO y análisis de tendencias de la industria. Ayuda a los creadores de contenido a mejorar sus habilidades y obtener mejor rendimiento.",
+    "categoriesTitle": "Categorías de Artículos",
+    "categories": {
+      "all": "Todos los Artículos",
+      "design": "Diseño",
+      "tutorial": "Tutorial",
+      "business": "Negocio",
+      "caseStudy": "Caso de Estudio",
+      "strategy": "Estrategia",
+      "trends": "Tendencias",
+      "seo": "SEO",
+      "tools": "Herramientas",
+      "other": "Otro"
+    },
+    "post1": {
+      "title": "10 Reglas de Oro para el Diseño de Miniaturas de YouTube",
+      "excerpt": "En la plataforma competitiva de YouTube, las miniaturas son uno de los factores clave que determinan el éxito de un video. Una excelente miniatura puede captar la atención de la audiencia en segundos y mejorar significativamente la tasa de clics.",
+      "author": "Experto en Diseño",
+      "readTime": "8 min de lectura"
+    },
+    "post2": {
+      "title": "Análisis del Algoritmo de YouTube: Cómo Hacer que Más Personas Vean Tus Videos",
+      "excerpt": "El algoritmo de recomendación de YouTube es un sistema complejo que determina qué videos aparecen en las páginas de inicio, resultados de búsqueda y listas de recomendaciones de los usuarios. Entender cómo funciona este algoritmo es crucial para los creadores de contenido.",
+      "author": "Especialista en Algoritmos",
+      "readTime": "12 min de lectura"
+    },
+    "post3": {
+      "title": "Tutorial Completo de Herramientas de Creación de Portadas: De Principiante a Experto",
+      "excerpt": "Nuestra herramienta de creación de portadas ofrece funcionalidades de diseño de nivel profesional para creadores de YouTube. Este tutorial te llevará de cero a dominar todas las características.",
+      "author": "Experto en Herramientas",
+      "readTime": "15 min de lectura"
+    },
+    "post4": {
+      "title": "Tendencias de la Economía de Creadores: Nuevas Oportunidades de Monetización de YouTube en 2024",
+      "excerpt": "La economía de creadores está creciendo rápidamente, y YouTube, como una de las plataformas de video más grandes, ofrece a los creadores oportunidades de monetización diversificadas.",
+      "author": "Analista de Negocios",
+      "readTime": "10 min de lectura"
+    },
+    "post5": {
+      "title": "Compartiendo Historia de Éxito: Cómo un Pequeño Creador Ganó 100K Suscriptores en 6 Meses",
+      "excerpt": "Hoy compartimos una verdadera historia de éxito sobre cómo Xiao Zhang hizo crecer los suscriptores de su canal de 0 a 100,000 en 6 meses empezando desde cero.",
+      "author": "Experto en Casos de Estudio",
+      "readTime": "7 min de lectura"
+    },
+    "post6": {
+      "title": "Predicciones de Tendencias de Creación de Contenido de YouTube 2024",
+      "excerpt": "Con el rápido desarrollo de la industria de medios digitales, YouTube como la plataforma de video más grande del mundo, sus tendencias de creación de contenido están evolucionando constantemente. Veamos las principales tendencias a observar en 2024.",
+      "author": "Analista de Tendencias",
+      "readTime": "11 min de lectura"
+    },
+    "post7": {
+      "title": "Guía Completa de Optimización SEO de Video: Haz que tu Contenido sea Más Descubrible",
+      "excerpt": "En YouTube, una plataforma con más de 2 mil millones de usuarios, el contenido excelente sin buena optimización SEO corre el riesgo de ser enterrado en la masa de videos. Esta guía te ayudará a dominar las técnicas esenciales de SEO de YouTube.",
+      "author": "Experto en SEO",
+      "readTime": "14 min de lectura"
+    },
+    "post8": {
+      "title": "Recomendaciones de Herramientas Esenciales para Creadores de Contenido: Herramientas Mágicas de Mejora de Eficiencia",
+      "excerpt": "En la era de la creación de contenido digital, elegir las herramientas correctas puede mejorar significativamente la eficiencia de creación y la calidad del contenido. Este artículo recomendará herramientas esenciales para cada etapa de creación.",
+      "author": "Especialista en Herramientas",
+      "readTime": "13 min de lectura"
+    }
   }
 }
