@@ -14,7 +14,7 @@ const HelpIndex = () => {
     {
       id: 'getting-started',
       title: t('help.gettingStarted', '快速开始'),
-      description: t('help.gettingStartedDesc', '学习如何快速开始使用YouTube缩略图下载工具'),
+      description: t('help.gettingStartedDescription', '学习如何快速开始使用YouTube缩略图下载工具'),
       icon: CheckCircle,
       color: 'green',
       path: 'getting-started'
@@ -22,7 +22,7 @@ const HelpIndex = () => {
     {
       id: 'advanced-tips',
       title: t('help.advancedTips', '高级技巧'),
-      description: t('help.advancedTipsDesc', '掌握专业技巧，提升下载效率和图片质量'),
+      description: t('help.advancedTipsDescription', '掌握专业技巧，提升下载效率和图片质量'),
       icon: Lightbulb,
       color: 'yellow',
       path: 'advanced-tips'
@@ -30,31 +30,31 @@ const HelpIndex = () => {
     {
       id: 'troubleshooting',
       title: t('help.troubleshooting', '问题解决'),
-      description: t('help.troubleshootingDesc', '快速解决使用过程中遇到的常见问题'),
+      description: t('help.troubleshootingDescription', '快速解决使用过程中遇到的常见问题'),
       icon: AlertCircle,
       color: 'red',
       path: 'troubleshooting'
     },
     {
       id: 'tools',
-      title: t('tools', '工具'),
-      description: t('help.toolsDesc', '了解我们提供的各种YouTube相关工具'),
+      title: t('toolsTitle', '工具'),
+      description: t('toolsDescription', '了解我们提供的各种YouTube相关工具'),
       icon: Monitor,
       color: 'blue',
       path: '/tools'
     },
     {
       id: 'tutorials',
-      title: t('tutorials', '教程'),
-      description: t('help.tutorialsDesc', '详细的视频和图文教程'),
+      title: t('tutorialsTitle', '教程'),
+      description: t('tutorialsDescription', '详细的视频和图文教程'),
       icon: FileImage,
       color: 'purple',
       path: '/tutorials'
     },
     {
       id: 'faq',
-      title: t('faq', '常见问题'),
-      description: t('help.faqDesc', '查看用户最常问的问题和答案'),
+      title: t('faqTitle', '常见问题'),
+      description: t('faqDescription', '查看用户最常问的问题和答案'),
       icon: HelpCircle,
       color: 'indigo',
       path: '/faq'
@@ -122,7 +122,7 @@ const HelpIndex = () => {
                       <CardContent>
                         <p className="text-slate-600 mb-4">{section.description}</p>
                         <div className="flex items-center text-blue-600 font-medium group-hover:text-blue-700">
-                          <span className="mr-2">{t('help.learnMore', '了解更多')}</span>
+                          <span className="mr-2">{t('learnMore', '了解更多')}</span>
                           <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                       </CardContent>
@@ -135,7 +135,7 @@ const HelpIndex = () => {
             {/* Quick Start Section */}
             <Card className="bg-gradient-to-r from-blue-50 to-indigo-50 border-blue-200">
               <CardHeader>
-                <CardTitle className="text-2xl text-center">{t('help.quickStart', '快速开始')}</CardTitle>
+                <CardTitle className="text-2xl text-center">{t('help.quickStartGuide', '快速开始')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="grid md:grid-cols-3 gap-6 text-center">
