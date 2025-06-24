@@ -17,7 +17,30 @@ const About = () => {
       <Helmet>
         <title>{t('aboutPageTitle')} - {t('siteTitle')}</title>
         <meta name="description" content={t('aboutPageDescription')} />
-        <link rel="canonical" href={`${window.location.origin}/about`} />
+        <meta name="keywords" content={t('aboutPageKeywords')} />
+        <meta property="og:title" content={`${t('aboutPageTitle')} - ${t('siteTitle')}`} />
+        <meta property="og:description" content={t('aboutPageDescription')} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={`${window.location.origin}/${lng || 'en'}/about`} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={`${t('aboutPageTitle')} - ${t('siteTitle')}`} />
+        <meta name="twitter:description" content={t('aboutPageDescription')} />
+        <link rel="canonical" href={`${window.location.origin}/${lng || 'en'}/about`} />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "name": t('aboutPageTitle'),
+            "description": t('aboutPageDescription'),
+            "url": `${window.location.origin}/${lng || 'en'}/about`,
+            "mainEntity": {
+              "@type": "Organization",
+              "name": t('siteTitle'),
+              "description": t('aboutIntroDescription'),
+              "url": window.location.origin
+            }
+          })}
+        </script>
       </Helmet>
       
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
@@ -55,7 +78,7 @@ const About = () => {
               <Card className="shadow-lg border-0 bg-white hover:shadow-xl transition-shadow">
                 <CardContent className="p-6 text-center">
                   <div className="bg-red-100 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                    <ImageIcon className="h-8 w-8 text-red-600" />
+                    <ImageIcon className="h-8 w-8 text-red-600" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-semibold text-slate-800 mb-3">
                     {t('aboutFeatureQualityTitle')}
@@ -69,7 +92,7 @@ const About = () => {
               <Card className="shadow-lg border-0 bg-white hover:shadow-xl transition-shadow">
                 <CardContent className="p-6 text-center">
                   <div className="bg-blue-100 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                    <Download className="h-8 w-8 text-blue-600" />
+                    <Download className="h-8 w-8 text-blue-600" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-semibold text-slate-800 mb-3">
                     {t('aboutFeatureEasyTitle')}
@@ -83,7 +106,7 @@ const About = () => {
               <Card className="shadow-lg border-0 bg-white hover:shadow-xl transition-shadow">
                 <CardContent className="p-6 text-center">
                   <div className="bg-green-100 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                    <Shield className="h-8 w-8 text-green-600" />
+                    <Shield className="h-8 w-8 text-green-600" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-semibold text-slate-800 mb-3">
                     {t('aboutFeatureSecureTitle')}
@@ -97,7 +120,7 @@ const About = () => {
               <Card className="shadow-lg border-0 bg-white hover:shadow-xl transition-shadow">
                 <CardContent className="p-6 text-center">
                   <div className="bg-purple-100 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                    <Clock className="h-8 w-8 text-purple-600" />
+                    <Clock className="h-8 w-8 text-purple-600" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-semibold text-slate-800 mb-3">
                     {t('aboutFeatureFastTitle')}
@@ -111,7 +134,7 @@ const About = () => {
               <Card className="shadow-lg border-0 bg-white hover:shadow-xl transition-shadow">
                 <CardContent className="p-6 text-center">
                   <div className="bg-orange-100 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                    <Users className="h-8 w-8 text-orange-600" />
+                    <Users className="h-8 w-8 text-orange-600" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-semibold text-slate-800 mb-3">
                     {t('aboutFeatureFreeTitle')}
@@ -125,7 +148,7 @@ const About = () => {
               <Card className="shadow-lg border-0 bg-white hover:shadow-xl transition-shadow">
                 <CardContent className="p-6 text-center">
                   <div className="bg-indigo-100 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                    <Youtube className="h-8 w-8 text-indigo-600" />
+                    <Youtube className="h-8 w-8 text-indigo-600" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-semibold text-slate-800 mb-3">
                     {t('aboutFeatureCompatibleTitle')}

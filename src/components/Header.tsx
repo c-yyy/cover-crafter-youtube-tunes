@@ -46,9 +46,13 @@ const Header: React.FC<HeaderProps> = ({ currentPage }) => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to={`/${lng}`} className="flex items-center space-x-3">
+          <Link 
+            to={`/${lng}`} 
+            className="flex items-center space-x-3"
+            aria-label={t('header.logoLink', { siteName: t('headerTitle') })}
+          >
             <div className="bg-red-600 p-2 rounded-lg">
-              <Youtube className="h-8 w-8 text-white" />
+              <Youtube className="h-8 w-8 text-white" aria-hidden="true" />
             </div>
             <h1 className="text-2xl font-bold text-slate-800">
               {t('headerTitle')}
@@ -85,6 +89,8 @@ const Header: React.FC<HeaderProps> = ({ currentPage }) => {
           <button 
             className="md:hidden p-2 rounded-lg hover:bg-slate-100 transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label={mobileMenuOpen ? t('header.closeMobileMenu') : t('header.openMobileMenu')}
+            aria-expanded={mobileMenuOpen}
           >
             {mobileMenuOpen ? (
               <X className="h-6 w-6 text-slate-600" />
