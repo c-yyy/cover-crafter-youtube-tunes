@@ -31,8 +31,13 @@
   "generatedImages": "生成的图片",
   "elements": "元素",
   "coverPreview": "封面预览",
-  "download": "下载",
-  "error": "错误",
+   "download": "下载",
+  "error": {
+    "404": {
+      "consoleLog": "404错误：页面未找到，路径："
+    }
+  },
+  "errorTitle": "错误",
   "success": "成功",
   "pleaseEnterText": "请输入一些文字",
   "pleaseEnterPrompt": "请输入 AI 生成提示",
@@ -74,6 +79,13 @@
   "toastDownloadFailedDescription": "无法下载缩略图。请再试一次。",
   "notFoundTitle": "页面未找到",
   "notFoundDescription": "您正在查找的页面不存在。",
+  "notFound": {
+    "title": "页面未找到",
+    "description": "您正在查找的页面不存在。",
+    "heading": "404 - 页面未找到",
+    "message": "抱歉，您要查找的页面无法找到。",
+    "homeLink": "返回首页"
+  },
   "goBackButton": "返回首页",
   "historyTitle": "历史记录",
   "clearHistoryButtonText": "清除历史记录",
@@ -943,5 +955,30 @@
       "author": "工具专家",
       "readTime": "13分钟阅读"
     }
+  },
+  "login": {
+    "title": "登录账户",
+    "subtitle": "使用您的Google账户登录以享受更多功能",
+    "googleLogin": "使用Google登录",
+    "loggingIn": "登录中...",
+    "loginSuccess": "登录成功",
+    "loginFailed": "登录失败",
+    "welcomeBack": "欢迎回来，{{name}}！",
+    "loginError": "登录过程中出现错误，请重试。",
+    "termsAgreement": "登录即表示您同意我们的",
+    "termsOfService": "服务条款",
+    "and": "和",
+    "privacyPolicy": "隐私政策",
+    "featuresTitle": "登录后您可以：",
+    "features": {
+      "savePreferences": "保存您的设计偏好",
+      "accessHistory": "访问您的下载历史",
+      "premiumFeatures": "使用高级功能",
+      "syncDevices": "在多个设备间同步",
+      "prioritySupport": "获得优先客户支持"
+    },
+    "logout": "退出登录",
+    "loggedOut": "已退出登录",
+    "loggedOutMessage": "您已成功退出登录。"
   }
 }

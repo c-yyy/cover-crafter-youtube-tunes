@@ -26,6 +26,13 @@
   "featureOneClickDownloadDescription": "ワンクリックですべての画質のサムネイルの直接ダウンロードリンク",
   "footerText": "© {{year}} YouTubeカバーダウンロード。YouTubeサムネイルを抽出するためのシンプルなツール。",
   "footerDisclaimer": "このサービスはYouTubeとは提携していません。",
+  "error": {
+    "404": {
+      "consoleLog": "404エラー：ページが見つかりません。パス："
+    }
+  },
+  "errorTitle": "エラー",
+  "success": "成功",
   "toastErrorTitle": "エラー",
   "toastInvalidURLTitle": "無効なURL",
   "toastSuccessTitle": "成功しました！",
@@ -38,6 +45,13 @@
   "toastDownloadFailedDescription": "サムネイルをダウンロードできませんでした。もう一度お試しください。",
   "notFoundTitle": "ページが見つかりません",
   "notFoundDescription": "お探しのページは存在しません。",
+  "notFound": {
+    "title": "ページが見つかりません",
+    "description": "お探しのページは存在しません。",
+    "heading": "404 - ページが見つかりません",
+    "message": "申し訳ございませんが、お探しのページが見つかりませんでした。",
+    "homeLink": "ホームに戻る"
+  },
   "goBackButton": "ホームページに戻る",
   "historyTitle": "履歴",
   "clearHistoryButtonText": "履歴をクリア",
@@ -690,5 +704,30 @@
       "author": "ツール専門家",
       "readTime": "13分で読める"
     }
+  },
+  "login": {
+    "title": "アカウントにログイン",
+    "subtitle": "Googleアカウントでサインインして、より多くの機能をお楽しみください",
+    "googleLogin": "Googleでサインイン",
+    "loggingIn": "サインイン中...",
+    "loginSuccess": "ログイン成功",
+    "loginFailed": "ログイン失敗",
+    "welcomeBack": "おかえりなさい、{{name}}さん！",
+    "loginError": "ログイン中にエラーが発生しました。もう一度お試しください。",
+    "termsAgreement": "ログインすることで、当社の",
+    "termsOfService": "利用規約",
+    "and": "および",
+    "privacyPolicy": "プライバシーポリシー",
+    "featuresTitle": "ログイン後にできること：",
+    "features": {
+      "savePreferences": "デザイン設定を保存",
+      "accessHistory": "ダウンロード履歴にアクセス",
+      "premiumFeatures": "プレミアム機能を使用",
+      "syncDevices": "複数デバイス間で同期",
+      "prioritySupport": "優先カスタマーサポートを受ける"
+    },
+    "logout": "ログアウト",
+    "loggedOut": "ログアウトしました",
+    "loggedOutMessage": "正常にログアウトしました。"
   }
 }

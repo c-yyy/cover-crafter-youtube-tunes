@@ -26,6 +26,13 @@
   "featureOneClickDownloadDescription": "එක් ක්ලික් එකකින් සියලුම thumbnail තත්ත්ව සඳහා සෘජු බාගැනීම් සබැඳි",
   "footerText": "© {{year}} YouTube Thumbnail Downloader. YouTube ආවරණ රූප ලබා ගැනීමට සරල මෙවලමක්.",
   "footerDisclaimer": "මෙම සේවාව YouTube සමඟ සම්බන්ධ නොවේ.",
+  "error": {
+    "404": {
+      "consoleLog": "දෝෂය 404: මාර්ගයේ පිටුව සොයා ගත නොහැක:"
+    }
+  },
+  "errorTitle": "දෝෂය",
+  "success": "සාර්ථකයි",
   "toastErrorTitle": "දෝෂය",
   "toastInvalidURLTitle": "වලංගු නොවන URL",
   "toastSuccessTitle": "සාර්ථකයි!",
@@ -38,6 +45,13 @@
   "toastDownloadFailedDescription": "thumbnail බාගත කළ නොහැක. කරුණාකර නැවත උත්සාහ කරන්න.",
   "notFoundTitle": "පිටුව හමු නොවිණි",
   "notFoundDescription": "ඔබ සොයන පිටුව නොමැත.",
+  "notFound": {
+    "title": "පිටුව හමු නොවිණි",
+    "description": "ඔබ සොයන පිටුව නොමැත.",
+    "heading": "404 - පිටුව හමු නොවිණි",
+    "message": "කණගාටුයි, ඔබ සොයන පිටුව සොයාගත නොහැක.",
+    "homeLink": "මුල් පිටුවට යන්න"
+  },
   "goBackButton": "මුල් පිටුවට යන්න",
   "historyTitle": "ඉතිහාසය",
   "clearHistoryButtonText": "ඉතිහාසය මකන්න",
@@ -684,5 +698,30 @@
       "author": "මෙවලම් විශේෂඥ",
       "readTime": "මිනිත්තු 13 කියවීම"
     }
+  },
+  "login": {
+    "title": "ඔබේ ගිණුමට පිවිසෙන්න",
+    "subtitle": "වැඩි විශේෂාංග භුක්ති විඳීමට ඔබේ Google ගිණුම සමඟ පිවිසෙන්න",
+    "googleLogin": "Google සමඟ පිවිසෙන්න",
+    "loggingIn": "පිවිසෙමින්...",
+    "loginSuccess": "පිවිසීම සාර්ථකයි",
+    "loginFailed": "පිවිසීම අසාර්ථකයි",
+    "welcomeBack": "නැවත පැමිණීම සාදරයෙන් පිළිගනිමු, {{name}}!",
+    "loginError": "පිවිසීමේදී දෝෂයක් ඇති විය, කරුණාකර නැවත උත්සාහ කරන්න.",
+    "termsAgreement": "පිවිසීමෙන්, ඔබ අපගේ",
+    "termsOfService": "සේවා කොන්දේසි",
+    "and": "සහ",
+    "privacyPolicy": "පෞද්ගලිකත්ව ප්‍රතිපත්තිය",
+    "featuresTitle": "පිවිසීමෙන් පසු, ඔබට හැකිය:",
+    "features": {
+      "savePreferences": "ඔබේ නිර්මාණ මනාපයන් සුරකින්න",
+      "accessHistory": "ඔබේ බාගත ඉතිහාසයට ප්‍රවේශ වන්න",
+      "premiumFeatures": "වාරික විශේෂාංග භාවිතා කරන්න",
+      "syncDevices": "උපකරණ කිහිපයක් හරහා සමමුහුර්ත කරන්න",
+      "prioritySupport": "ප්‍රමුඛතා පාරිභෝගික සහාය ලබා ගන්න"
+    },
+    "logout": "ඉවත් වන්න",
+    "loggedOut": "ඉවත් වී ඇත",
+    "loggedOutMessage": "ඔබ සාර්ථකව ඉවත් වී ඇත."
   }
 }

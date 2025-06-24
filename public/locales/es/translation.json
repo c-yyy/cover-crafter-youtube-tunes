@@ -26,6 +26,13 @@
   "featureOneClickDownloadDescription": "Enlaces de descarga directa para todas las calidades de miniaturas con un solo clic",
   "footerText": "© {{year}} Descarga de portadas de YouTube. Una herramienta sencilla para extraer miniaturas de YouTube.",
   "footerDisclaimer": "Este servicio no está afiliado a YouTube.",
+  "error": {
+    "404": {
+      "consoleLog": "Error 404: Página no encontrada en la ruta:"
+    }
+  },
+  "errorTitle": "Error",
+  "success": "Éxito",
   "toastErrorTitle": "Error",
   "toastInvalidURLTitle": "URL inválida",
   "toastSuccessTitle": "¡Éxito!",
@@ -38,6 +45,13 @@
   "toastDownloadFailedDescription": "No se pudo descargar la miniatura. Por favor, inténtalo de nuevo.",
   "notFoundTitle": "Página no encontrada",
   "notFoundDescription": "La página que estás buscando no existe.",
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La página que estás buscando no existe.",
+    "heading": "404 - Página no encontrada",
+    "message": "Lo sentimos, la página que buscas no se pudo encontrar.",
+    "homeLink": "Volver al inicio"
+  },
   "goBackButton": "Volver al inicio",
   "historyTitle": "Historial",
   "clearHistoryButtonText": "Borrar historial",
@@ -691,5 +705,30 @@
       "author": "Especialista en Herramientas",
       "readTime": "13 min de lectura"
     }
+  },
+  "login": {
+    "title": "Inicia sesión en tu cuenta",
+    "subtitle": "Inicia sesión con tu cuenta de Google para disfrutar de más funciones",
+    "googleLogin": "Iniciar sesión con Google",
+    "loggingIn": "Iniciando sesión...",
+    "loginSuccess": "Inicio de sesión exitoso",
+    "loginFailed": "Error al iniciar sesión",
+    "welcomeBack": "¡Bienvenido de vuelta, {{name}}!",
+    "loginError": "Ocurrió un error durante el inicio de sesión, por favor inténtalo de nuevo.",
+    "termsAgreement": "Al iniciar sesión, aceptas nuestros",
+    "termsOfService": "Términos de Servicio",
+    "and": "y",
+    "privacyPolicy": "Política de Privacidad",
+    "featuresTitle": "Después de iniciar sesión, puedes:",
+    "features": {
+      "savePreferences": "Guardar tus preferencias de diseño",
+      "accessHistory": "Acceder a tu historial de descargas",
+      "premiumFeatures": "Usar funciones premium",
+      "syncDevices": "Sincronizar en múltiples dispositivos",
+      "prioritySupport": "Obtener soporte al cliente prioritario"
+    },
+    "logout": "Cerrar sesión",
+    "loggedOut": "Sesión cerrada",
+    "loggedOutMessage": "Has cerrado sesión exitosamente."
   }
 }

@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Youtube, Menu, X } from 'lucide-react';
+import UserProfile from './UserProfile';
+import { useAuth } from '@/contexts/AuthContext';
+import { Button } from '@/components/ui/button';
+import LanguageSelector from './LanguageSelector';
 
 interface HeaderProps {
   currentPage?: string;
@@ -10,6 +14,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ currentPage }) => {
   const { t } = useTranslation();
   const { lng } = useParams<{ lng: string }>();
+  const { isAuthenticated } = useAuth();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navigationItems = [
@@ -51,17 +56,30 @@ const Header: React.FC<HeaderProps> = ({ currentPage }) => {
           </Link>
           
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
-            {navigationItems.map((item) => (
-              <Link 
-                key={item.key}
-                to={`/${lng}${item.path ? `/${item.path}` : ''}`} 
-                className={getLinkClassName(item.key)}
-              >
-                {item.label}
+          <div className="hidden md:flex items-center space-x-8">
+            <nav className="flex items-center space-x-8">
+              {navigationItems.map((item) => (
+                <Link 
+                  key={item.key}
+                  to={`/${lng}${item.path ? `/${item.path}` : ''}`} 
+                  className={getLinkClassName(item.key)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </nav>
+            
+            {/* User Profile or Login Button */}
+            {isAuthenticated ? (
+              <UserProfile className="ml-4" />
+            ) : (
+              <Link to={`/${lng}/login`}>
+                <Button variant="outline" size="sm">
+                  {t('login.title')}
+                </Button>
               </Link>
-            ))}
-          </nav>
+            )}
+          </div>
           
           {/* Mobile Menu Button */}
           <button 
@@ -91,6 +109,19 @@ const Header: React.FC<HeaderProps> = ({ currentPage }) => {
                 </Link>
               ))}
             </nav>
+            
+            {/* Mobile User Profile or Login */}
+            <div className="mt-4 pt-4 border-t">
+              {isAuthenticated ? (
+                <UserProfile />
+              ) : (
+                <Link to={`/${lng}/login`} onClick={() => setMobileMenuOpen(false)}>
+                  <Button variant="outline" className="w-full">
+                    {t('login.title')}
+                  </Button>
+                </Link>
+              )}
+            </div>
           </div>
         )}
       </div>

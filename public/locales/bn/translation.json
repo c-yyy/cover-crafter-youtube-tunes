@@ -26,6 +26,13 @@
   "featureOneClickDownloadDescription": "একটি ক্লিকেই সব thumbnail মানের জন্য সরাসরি ডাউনলোড লিংক",
   "footerText": "© {{year}} YouTube কভার ডাউনলোড। YouTube কভার ছবি বের করার একটি সহজ টুল।",
   "footerDisclaimer": "এই সেবা YouTube এর সাথে সংযুক্ত নয়।",
+  "error": {
+    "404": {
+      "consoleLog": "ত্রুটি ৪০৪: পথে পৃষ্ঠা খুঁজে পাওয়া যায়নি:"
+    }
+  },
+  "errorTitle": "ত্রুটি",
+  "success": "সফল",
   "toastErrorTitle": "ত্রুটি",
   "toastInvalidURLTitle": "অবৈধ URL",
   "toastSuccessTitle": "সফল!",
@@ -38,6 +45,13 @@
   "toastDownloadFailedDescription": "thumbnail ডাউনলোড করা যায়নি। অনুগ্রহ করে আবার চেষ্টা করুন।",
   "notFoundTitle": "পৃষ্ঠা পাওয়া যায়নি",
   "notFoundDescription": "আপনি যে পৃষ্ঠাটি খুঁজছেন তা বিদ্যমান নেই।",
+  "notFound": {
+    "title": "পৃষ্ঠা পাওয়া যায়নি",
+    "description": "আপনি যে পৃষ্ঠাটি খুঁজছেন তা বিদ্যমান নেই।",
+    "heading": "৪০৪ - পৃষ্ঠা পাওয়া যায়নি",
+    "message": "দুঃখিত, আপনি যে পৃষ্ঠাটি খুঁজছেন তা খুঁজে পাওয়া যায়নি।",
+    "homeLink": "হোমে ফিরে যান"
+  },
   "goBackButton": "হোমে ফিরে যান",
   "historyTitle": "ইতিহাস",
   "clearHistoryButtonText": "ইতিহাস মুছুন",
@@ -628,5 +642,30 @@
       "author": "টুল বিশেষজ্ঞ",
       "readTime": "১৩ মিনিট পড়া"
     }
+  },
+  "login": {
+    "title": "আপনার অ্যাকাউন্টে লগইন করুন",
+    "subtitle": "আরও বৈশিষ্ট্য উপভোগ করতে আপনার Google অ্যাকাউন্ট দিয়ে সাইন ইন করুন",
+    "googleLogin": "Google দিয়ে সাইন ইন করুন",
+    "loggingIn": "সাইন ইন করা হচ্ছে...",
+    "loginSuccess": "লগইন সফল",
+    "loginFailed": "লগইন ব্যর্থ",
+    "welcomeBack": "স্বাগতম ফিরে, {{name}}!",
+    "loginError": "লগইনের সময় একটি ত্রুটি ঘটেছে, অনুগ্রহ করে আবার চেষ্টা করুন।",
+    "termsAgreement": "লগইন করে, আপনি আমাদের",
+    "termsOfService": "সেবার শর্তাবলী",
+    "and": "এবং",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "featuresTitle": "লগইনের পর, আপনি পারবেন:",
+    "features": {
+      "savePreferences": "আপনার ডিজাইন পছন্দ সংরক্ষণ করুন",
+      "accessHistory": "আপনার ডাউনলোড ইতিহাস অ্যাক্সেস করুন",
+      "premiumFeatures": "প্রিমিয়াম বৈশিষ্ট্য ব্যবহার করুন",
+      "syncDevices": "একাধিক ডিভাইসে সিঙ্ক করুন",
+      "prioritySupport": "অগ্রাধিকার গ্রাহক সহায়তা পান"
+    },
+    "logout": "লগআউট",
+    "loggedOut": "লগআউট হয়েছে",
+    "loggedOutMessage": "আপনি সফলভাবে লগআউট হয়েছেন।"
   }
 }

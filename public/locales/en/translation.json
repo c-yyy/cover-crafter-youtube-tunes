@@ -32,7 +32,12 @@
   "elements": "Elements",
   "coverPreview": "Cover Preview",
   "download": "Download",
-  "error": "Error",
+  "error": {
+    "404": {
+      "consoleLog": "404 Error: Page not found at path:"
+    }
+  },
+  "errorTitle": "Error",
   "success": "Success",
   "pleaseEnterText": "Please enter some text",
   "pleaseEnterPrompt": "Please enter a prompt for AI generation",
@@ -74,6 +79,13 @@
   "toastDownloadFailedDescription": "Could not download the thumbnail. Please try again.",
   "notFoundTitle": "Page Not Found",
   "notFoundDescription": "The page you are looking for does not exist.",
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist.",
+    "heading": "404 - Page Not Found",
+    "message": "Sorry, the page you are looking for could not be found.",
+    "homeLink": "Go Back Home"
+  },
   "goBackButton": "Go Back Home",
   "historyTitle": "History",
   "clearHistoryButtonText": "Clear History",
@@ -980,5 +992,30 @@
       "author": "Tool Specialist",
       "readTime": "13 min read"
     }
+  },
+  "login": {
+    "title": "Login to Your Account",
+    "subtitle": "Sign in with your Google account to enjoy more features",
+    "googleLogin": "Sign in with Google",
+    "loggingIn": "Signing in...",
+    "loginSuccess": "Login Successful",
+    "loginFailed": "Login Failed",
+    "welcomeBack": "Welcome back, {{name}}!",
+    "loginError": "An error occurred during login, please try again.",
+    "termsAgreement": "By logging in, you agree to our",
+    "termsOfService": "Terms of Service",
+    "and": "and",
+    "privacyPolicy": "Privacy Policy",
+    "featuresTitle": "After logging in, you can:",
+    "features": {
+      "savePreferences": "Save your design preferences",
+      "accessHistory": "Access your download history",
+      "premiumFeatures": "Use premium features",
+      "syncDevices": "Sync across multiple devices",
+      "prioritySupport": "Get priority customer support"
+    },
+    "logout": "Logout",
+    "loggedOut": "Logged Out",
+    "loggedOutMessage": "You have successfully logged out."
   }
 }

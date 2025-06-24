@@ -37,9 +37,12 @@ import Tutorials from "./pages/Tutorials";
 import News from "./pages/News";
 import CaseStudies from "./pages/CaseStudies";
 import CreatorEconomy from "./pages/CreatorEconomy";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
 import Footer from "./components/Footer"; // 导入 Footer 组件
 import LanguageSuggestion from "./components/LanguageSuggestion";
 import HreflangTags from "./components/HreflangTags";
+import { AuthProvider } from "./contexts/AuthContext";
 
 const queryClient = new QueryClient();
 
@@ -229,10 +232,11 @@ const LanguageSelection = () => {
 const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <BrowserRouter>
+      <AuthProvider>
+        <TooltipProvider>
+          <Toaster />
+          <Sonner />
+          <BrowserRouter>
           <Routes>
             <Route path="/" element={<Navigate to="/en" replace />} />
             <Route path="/:lng" element={<LanguageWrapper />}>
@@ -256,11 +260,14 @@ const App = () => {
               <Route path="news" element={<News />} />
               <Route path="case-studies" element={<CaseStudies />} />
               <Route path="creator-economy" element={<CreatorEconomy />} />
+              <Route path="login" element={<Login />} />
+              <Route path="dashboard" element={<Dashboard />} />
               <Route path="*" element={<NotFound />} /> 
             </Route>
           </Routes>
-        </BrowserRouter>
-      </TooltipProvider>
+          </BrowserRouter>
+        </TooltipProvider>
+      </AuthProvider>
     </QueryClientProvider>
   );
 };

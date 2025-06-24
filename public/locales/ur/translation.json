@@ -26,6 +26,13 @@
   "featureOneClickDownloadDescription": "ایک کلک کے ساتھ تمام thumbnail کوالٹیز کے لیے براہ راست ڈاؤن لوڈ لنکس",
   "footerText": "© {{year}} YouTube کور ڈاؤن لوڈ۔ YouTube کور تصاویر نکالنے کا ایک آسان ٹول۔",
   "footerDisclaimer": "یہ سروس YouTube سے منسلک نہیں ہے۔",
+  "error": {
+    "404": {
+      "consoleLog": "خرابی 404: راستے میں صفحہ نہیں ملا:"
+    }
+  },
+  "errorTitle": "خرابی",
+  "success": "کامیاب",
   "toastErrorTitle": "خرابی",
   "toastInvalidURLTitle": "غلط URL",
   "toastSuccessTitle": "کامیاب!",
@@ -38,6 +45,13 @@
   "toastDownloadFailedDescription": "thumbnail ڈاؤن لوڈ نہیں ہو سکا۔ براہ کرم دوبارہ کوشش کریں۔",
   "notFoundTitle": "صفحہ نہیں ملا",
   "notFoundDescription": "آپ جو صفحہ تلاش کر رہے ہیں وہ موجود نہیں ہے۔",
+  "notFound": {
+    "title": "صفحہ نہیں ملا",
+    "description": "آپ جو صفحہ تلاش کر رہے ہیں وہ موجود نہیں ہے۔",
+    "heading": "404 - صفحہ نہیں ملا",
+    "message": "معذرت، آپ جو صفحہ تلاش کر رہے ہیں وہ نہیں مل سکا۔",
+    "homeLink": "ہوم پر واپس جائیں"
+  },
   "goBackButton": "گھر واپس جائیں",
   "historyTitle": "تاریخ",
   "clearHistoryButtonText": "تاریخ صاف کریں",
@@ -628,5 +642,30 @@
       "author": "ٹولز ماہر",
       "readTime": "13 منٹ پڑھیں"
     }
+  },
+  "login": {
+    "title": "اپنے اکاؤنٹ میں لاگ ان کریں",
+    "subtitle": "مزید فیچرز کا لطف اٹھانے کے لیے اپنے Google اکاؤنٹ سے سائن ان کریں",
+    "googleLogin": "Google کے ساتھ سائن ان کریں",
+    "loggingIn": "سائن ان ہو رہا ہے...",
+    "loginSuccess": "لاگ ان کامیاب",
+    "loginFailed": "لاگ ان ناکام",
+    "welcomeBack": "واپسی مبارک، {{name}}!",
+    "loginError": "لاگ ان کے دوران خرابی ہوئی، براہ کرم دوبارہ کوشش کریں۔",
+    "termsAgreement": "لاگ ان کرکے، آپ ہماری",
+    "termsOfService": "سروس کی شرائط",
+    "and": "اور",
+    "privacyPolicy": "رازداری کی پالیسی",
+    "featuresTitle": "لاگ ان کے بعد، آپ کر سکتے ہیں:",
+    "features": {
+      "savePreferences": "اپنی ڈیزائن ترجیحات محفوظ کریں",
+      "accessHistory": "اپنی ڈاؤن لوڈ تاریخ تک رسائی حاصل کریں",
+      "premiumFeatures": "پریمیم فیچرز استعمال کریں",
+      "syncDevices": "متعدد آلات میں ہم آہنگ کریں",
+      "prioritySupport": "ترجیحی کسٹمر سپورٹ حاصل کریں"
+    },
+    "logout": "لاگ آؤٹ",
+    "loggedOut": "لاگ آؤٹ ہو گئے",
+    "loggedOutMessage": "آپ کامیابی سے لاگ آؤٹ ہو گئے ہیں۔"
   }
 }

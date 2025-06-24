@@ -26,6 +26,13 @@
   "featureOneClickDownloadDescription": "Liens de téléchargement direct pour toutes les qualités de miniatures en un seul clic",
   "footerText": "© {{year}} Téléchargement de couvertures YouTube. Un outil simple pour extraire les miniatures YouTube.",
   "footerDisclaimer": "Ce service n'est pas affilié à YouTube.",
+  "error": {
+    "404": {
+      "consoleLog": "Erreur 404 : Page non trouvée au chemin :"
+    }
+  },
+  "errorTitle": "Erreur",
+  "success": "Succès",
   "toastErrorTitle": "Erreur",
   "toastInvalidURLTitle": "URL invalide",
   "toastSuccessTitle": "Succès !",
@@ -38,6 +45,13 @@
   "toastDownloadFailedDescription": "Impossible de télécharger la miniature. Veuillez réessayer.",
   "notFoundTitle": "Page non trouvée",
   "notFoundDescription": "La page que vous recherchez n'existe pas.",
+  "notFound": {
+    "title": "Page non trouvée",
+    "description": "La page que vous recherchez n'existe pas.",
+    "heading": "404 - Page non trouvée",
+    "message": "Désolé, la page que vous recherchez est introuvable.",
+    "homeLink": "Retour à l'accueil"
+  },
   "goBackButton": "Retour à l'accueil",
   "historyTitle": "Historique",
   "clearHistoryButtonText": "Effacer l'historique",
@@ -690,5 +704,30 @@
       "author": "Spécialiste en Outils",
       "readTime": "13 min de lecture"
     }
+  },
+  "login": {
+    "title": "Connectez-vous à votre compte",
+    "subtitle": "Connectez-vous avec votre compte Google pour profiter de plus de fonctionnalités",
+    "googleLogin": "Se connecter avec Google",
+    "loggingIn": "Connexion en cours...",
+    "loginSuccess": "Connexion réussie",
+    "loginFailed": "Échec de la connexion",
+    "welcomeBack": "Bon retour, {{name}} !",
+    "loginError": "Une erreur s'est produite lors de la connexion, veuillez réessayer.",
+    "termsAgreement": "En vous connectant, vous acceptez nos",
+    "termsOfService": "Conditions d'utilisation",
+    "and": "et",
+    "privacyPolicy": "Politique de confidentialité",
+    "featuresTitle": "Après connexion, vous pouvez :",
+    "features": {
+      "savePreferences": "Sauvegarder vos préférences de design",
+      "accessHistory": "Accéder à votre historique de téléchargement",
+      "premiumFeatures": "Utiliser les fonctionnalités premium",
+      "syncDevices": "Synchroniser sur plusieurs appareils",
+      "prioritySupport": "Obtenir un support client prioritaire"
+    },
+    "logout": "Déconnexion",
+    "loggedOut": "Déconnecté",
+    "loggedOutMessage": "Vous avez été déconnecté avec succès."
   }
 }

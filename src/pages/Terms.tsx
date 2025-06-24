@@ -1,5 +1,6 @@
-import { useTranslation } from 'react-i18next';
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { FileText, AlertTriangle, Scale, Users, Shield, Calendar } from "lucide-react";
 import { Header } from '../components/Header';
