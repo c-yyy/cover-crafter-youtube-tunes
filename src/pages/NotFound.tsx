@@ -1,5 +1,5 @@
-import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
 
@@ -20,9 +20,9 @@ const NotFound = () => {
       <Helmet>
         <title>{t('notFound.title')}</title>
         <meta name="description" content={t('notFound.description')} />
-        <link rel="canonical" href={`https://yourdomain.com/${currentLanguage}/404`} />
-        {['en', 'zh', 'ja', 'fr', 'es'].map(lang => (
-          <link key={lang} rel="alternate" hrefLang={lang} href={`https://yourdomain.com/${lang}/404`} />
+        <link rel="canonical" href={`https://youtube-cover.com/${currentLanguage}/404`} />
+        {['en', 'zh', 'ja', 'fr', 'es', 'ko', 'km', 'si', 'bn', 'ur'].map(lang => (
+          <link key={lang} rel="alternate" hrefLang={lang} href={`https://youtube-cover.com/${lang}/404`} />
         ))}
       </Helmet>
       <div className="min-h-screen flex items-center justify-center bg-gray-100">

@@ -75,7 +75,12 @@ const UserProfile: React.FC<UserProfileProps> = ({ className }) => {
         <DropdownMenuContent className="w-56" align="end" forceMount>
           <DropdownMenuLabel className="font-normal">
             <div className="flex flex-col space-y-1">
-              <p className="text-sm font-medium leading-none">{user?.name}</p>
+              <p className="text-sm font-medium leading-none">
+                {user?.name && !/[\u00C0-\u00FF]{2,}|[\uFFFD]/.test(user.name) 
+                  ? user.name 
+                  : user?.email?.split('@')[0] || 'User'
+                }
+              </p>
               <p className="text-xs leading-none text-muted-foreground">
                 {user?.email}
               </p>

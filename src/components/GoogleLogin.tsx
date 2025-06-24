@@ -60,16 +60,80 @@ const GoogleLogin: React.FC<GoogleLoginProps> = ({ onSuccess, onError, className
     }
   };
 
+  // 安全的 base64 解码函数，支持 UTF-8
+  const safeBase64Decode = (str: string): string => {
+    try {
+      // 处理 URL 安全的 base64 编码
+      let base64 = str.replace(/-/g, '+').replace(/_/g, '/');
+      
+      // 添加必要的填充
+      while (base64.length % 4) {
+        base64 += '=';
+      }
+      
+      // 使用 TextDecoder 正确处理 UTF-8 编码
+      const binaryString = atob(base64);
+      const bytes = new Uint8Array(binaryString.length);
+      for (let i = 0; i < binaryString.length; i++) {
+        bytes[i] = binaryString.charCodeAt(i);
+      }
+      
+      return new TextDecoder('utf-8').decode(bytes);
+    } catch (error) {
+      console.error('Base64 decode error:', error);
+      // 如果 UTF-8 解码失败，回退到原始方法
+      try {
+        let base64 = str.replace(/-/g, '+').replace(/_/g, '/');
+        while (base64.length % 4) {
+          base64 += '=';
+        }
+        return atob(base64);
+      } catch (fallbackError) {
+        throw new Error('Invalid base64 string');
+      }
+    }
+  };
+
   const handleCredentialResponse = (response: any) => {
     try {
-      // 解码 JWT token 获取用户信息
-      const payload = JSON.parse(atob(response.credential.split('.')[1]));
+      if (!response || !response.credential) {
+        throw new Error('Invalid credential response');
+      }
+
+      // 分割 JWT token
+      const tokenParts = response.credential.split('.');
+      if (tokenParts.length !== 3) {
+        throw new Error('Invalid JWT token format');
+      }
+
+      // 安全解码 JWT payload
+      const payloadString = safeBase64Decode(tokenParts[1]);
+      const payload = JSON.parse(payloadString);
       
+      // 验证必要的字段
+      if (!payload.sub || !payload.email) {
+        throw new Error('Missing required user information');
+      }
+
+      // 清理和验证用户名
+      const cleanUserName = (name: string): string => {
+        if (!name) return '';
+        
+        // 检查是否包含乱码字符
+        const hasGarbledChars = /[\u00C0-\u00FF]{2,}|[\uFFFD]/.test(name);
+        if (hasGarbledChars) {
+          console.warn('Detected garbled characters in name, using email as fallback');
+          return payload.email.split('@')[0]; // 使用邮箱用户名部分
+        }
+        
+        return name.trim();
+      };
+
       const user: GoogleUser = {
         id: payload.sub,
-        name: payload.name,
+        name: cleanUserName(payload.name) || payload.email.split('@')[0],
         email: payload.email,
-        picture: payload.picture,
+        picture: payload.picture || '',
       };
 
       toast({

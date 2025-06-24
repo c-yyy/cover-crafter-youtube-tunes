@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    historyApiFallback: true,
   },
   plugins: [
     react(),
@@ -34,6 +35,8 @@ export default defineConfig(({ mode }) => ({
         '/en/terms', '/zh/terms', '/ja/terms', '/fr/terms', '/es/terms', '/ko/terms', '/km/terms', '/si/terms', '/bn/terms', '/ur/terms',
         '/en/contact', '/zh/contact', '/ja/contact', '/fr/contact', '/es/contact', '/ko/contact', '/km/contact', '/si/contact', '/bn/contact', '/ur/contact',
         '/en/changelog', '/zh/changelog', '/ja/changelog', '/fr/changelog', '/es/changelog', '/ko/changelog', '/km/changelog', '/si/changelog', '/bn/changelog', '/ur/changelog',
+        '/en/login', '/zh/login', '/ja/login', '/fr/login', '/es/login', '/ko/login', '/km/login', '/si/login', '/bn/login', '/ur/login',
+        '/en/dashboard', '/zh/dashboard', '/ja/dashboard', '/fr/dashboard', '/es/dashboard', '/ko/dashboard', '/km/dashboard', '/si/dashboard', '/bn/dashboard', '/ur/dashboard',
         // Cover Maker 页面 - 各语言版本
         '/en/cover-maker', '/zh/cover-maker', '/ja/cover-maker', '/fr/cover-maker', '/es/cover-maker', '/ko/cover-maker', '/km/cover-maker', '/si/cover-maker', '/bn/cover-maker', '/ur/cover-maker',
         // 帮助页面 - 各语言版本
@@ -87,6 +90,10 @@ export default defineConfig(({ mode }) => ({
         '/en/contact': 0.7, '/zh/contact': 0.6, '/ja/contact': 0.6, '/fr/contact': 0.6, '/es/contact': 0.6, '/ko/contact': 0.6, '/km/contact': 0.6, '/si/contact': 0.6, '/bn/contact': 0.6, '/ur/contact': 0.6,
         // 更新日志页面
         '/en/changelog': 0.8, '/zh/changelog': 0.7, '/ja/changelog': 0.7, '/fr/changelog': 0.7, '/es/changelog': 0.7, '/ko/changelog': 0.7, '/km/changelog': 0.7, '/si/changelog': 0.7, '/bn/changelog': 0.7, '/ur/changelog': 0.7,
+        // 登录页面
+        '/en/login': 0.8, '/zh/login': 0.7, '/ja/login': 0.7, '/fr/login': 0.7, '/es/login': 0.7, '/ko/login': 0.7, '/km/login': 0.7, '/si/login': 0.7, '/bn/login': 0.7, '/ur/login': 0.7,
+        // 仪表板页面
+        '/en/dashboard': 0.9, '/zh/dashboard': 0.8, '/ja/dashboard': 0.8, '/fr/dashboard': 0.8, '/es/dashboard': 0.8, '/ko/dashboard': 0.8, '/km/dashboard': 0.8, '/si/dashboard': 0.8, '/bn/dashboard': 0.8, '/ur/dashboard': 0.8,
         // 帮助页面
         '/en/help': 0.7, '/zh/help': 0.6, '/ja/help': 0.6, '/fr/help': 0.6, '/es/help': 0.6, '/ko/help': 0.6, '/km/help': 0.6, '/si/help': 0.6, '/bn/help': 0.6, '/ur/help': 0.6,
         // 帮助子页面
