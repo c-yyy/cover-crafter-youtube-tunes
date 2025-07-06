@@ -3,12 +3,13 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Download, Youtube, Image as ImageIcon, Zap, ClipboardPaste, Menu, X } from "lucide-react";
+import { Download, Youtube, Image as ImageIcon, Zap, ClipboardPaste, Menu, X, Ruler } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
 import { Link, useParams } from 'react-router-dom';
 import { Header } from "@/components/Header";
+import ThumbnailSizeGuide from "@/components/ThumbnailSizeGuide";
 
 interface HistoryItem {
   id: string;
@@ -148,25 +149,64 @@ const Index = () => {
         <Header currentPage="home" />
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 py-12">
-        {/* Hero Section */}
-        <div className="text-center mb-12">
-          <h2 className="text-5xl font-bold text-slate-800 mb-4">
-            {t('heroTitle')}
-          </h2>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            {t('heroSubtitle')}
+      <main className="container mx-auto px-4 py-8">
+        {/* Hero Section - Compact */}
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold text-slate-800 mb-3 flex items-center justify-center gap-3">
+            {t('heroTitleNew')}
+          </h1>
+          <p className="text-lg text-slate-600 max-w-4xl mx-auto">
+            {t('heroSubtitleNew')}
           </p>
         </div>
 
-        {/* Input Form */}
-        <Card className="max-w-2xl mx-auto mb-12 shadow-lg border-0 bg-white">
-          <CardHeader>
-            <CardTitle className="text-center flex items-center justify-center space-x-2">
-              <ImageIcon className="h-6 w-6 text-red-600" />
-              <span>{t('formCardTitle')}</span>
-            </CardTitle>
-          </CardHeader>
+        {/* Main Content - Two Column Layout for Desktop */}
+        <style>
+          {`
+            .line-clamp-2 {
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+          `}
+        </style>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-12">
+          {/* Left Column: Size Guide */}
+          <div className="space-y-4">
+            <div className="text-center">
+              <h2 className="text-xl font-bold text-slate-800 mb-2 flex items-center justify-center gap-2">
+                <Ruler className="w-5 h-5 text-red-600" />
+                {t('sizeGuideTitle')}
+              </h2>
+              <p className="text-sm text-slate-600 mb-3">
+                {t('sizeGuideDescription')}
+              </p>
+            </div>
+            <div className="bg-white rounded-lg shadow-lg p-3">
+              <ThumbnailSizeGuide />
+            </div>
+          </div>
+
+          {/* Right Column: Downloader */}
+          <div className="space-y-4">
+            <div className="text-center">
+              <h2 className="text-xl font-bold text-slate-800 mb-2 flex items-center justify-center gap-2" id="thumbnail-downloader">
+                <Download className="w-5 h-5 text-red-600" />
+                {t('downloaderTitle')}
+              </h2>
+              <p className="text-sm text-slate-600 mb-3">
+                {t('downloaderSubtitle')}
+              </p>
+            </div>
+            
+            <Card className="shadow-lg border-0 bg-white">
+            <CardHeader>
+              <CardTitle className="text-center flex items-center justify-center space-x-2">
+                <ImageIcon className="h-6 w-6 text-red-600" />
+                <span>{t('formCardTitle')}</span>
+              </CardTitle>
+            </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="relative">
@@ -228,15 +268,15 @@ const Index = () => {
 
         {/* Results */}
         {videoData && (
-          <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">
+          <div className="mt-6">
+            <h3 className="text-lg font-bold text-slate-800 mb-4 text-center">
               {t('resultsTitle')}
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {Object.entries(videoData.thumbnails).map(([quality, url]) => (
-                <Card key={quality} className="shadow-lg hover:shadow-xl transition-shadow duration-300 border-0 bg-white">
-                  <CardContent className="p-6">
-                    <div className="aspect-video mb-4 rounded-lg overflow-hidden bg-slate-100">
+                <Card key={quality} className="shadow-md hover:shadow-lg transition-shadow duration-300 border-0 bg-white">
+                  <CardContent className="p-4">
+                    <div className="aspect-video mb-3 rounded-lg overflow-hidden bg-slate-100">
                       <img
                         src={url as string}
                         alt={`${quality} thumbnail`}
@@ -249,18 +289,19 @@ const Index = () => {
                     </div>
                     <div className="flex items-center justify-between">
                       <div>
-                        <h4 className="font-semibold text-slate-800 capitalize">
+                        <h4 className="font-semibold text-slate-800 capitalize text-sm">
                           {t(`thumbnailQuality${quality === 'maxres' ? 'MaxRes' : quality.charAt(0).toUpperCase() + quality.slice(1)}`)}
                         </h4>
-                        <p className="text-sm text-slate-600">
+                        <p className="text-xs text-slate-600">
                           {t(`thumbnailResolution${quality === 'maxres' ? 'MaxRes' : quality.charAt(0).toUpperCase() + quality.slice(1)}`)}
                         </p>
                       </div>
                       <Button
                         onClick={() => downloadImage(url as string, quality)}
+                        size="sm"
                         className="bg-red-600 hover:bg-red-700 rounded-lg"
                       >
-                        <Download className="h-4 w-4 mr-2" />
+                        <Download className="h-3 w-3 mr-1" />
                         {t('downloadButtonText')}
                       </Button>
                     </div>
@@ -273,11 +314,10 @@ const Index = () => {
 
         {/* History Section */}
         {history.length > 0 && (
-          <div className="mt-8"> {/* Added margin-top here */}
-          <Card className="max-w-2xl mx-auto mb-12 shadow-lg border-0 bg-white">
+          <div className="mt-6">
+          <Card className="shadow-md border-0 bg-white">
             <CardHeader>
               <CardTitle className="text-center flex items-center justify-center space-x-2">
-                {/* You might want to add an icon for history here */}
                 <span>{t('historyTitle')}</span>
               </CardTitle>
             </CardHeader>
@@ -285,13 +325,11 @@ const Index = () => {
               <ul className="space-y-2">
                 {history.map((item) => (
                   <li key={item.id} 
-                      className="p-2 hover:bg-slate-100 rounded-md cursor-pointer flex justify-between items-center group relative"
+                      className="p-2 hover:bg-slate-100 rounded-md cursor-pointer flex justify-between items-center group relative text-sm"
                       onClick={() => {
                         setUrl(item.url);
-                        // Optionally, trigger form submission directly
-                        // handleSubmit(new Event('submit') as any); 
                       }}>
-                    <span className="truncate text-sm text-slate-700" title={item.title}>{item.title}</span>
+                    <span className="truncate text-slate-700" title={item.title}>{item.title}</span>
                     <span className="text-xs text-slate-500">{new Date(item.timestamp).toLocaleString()}</span>
                     <div className="absolute right-0 bottom-full mb-2 hidden group-hover:block p-1 bg-white border border-slate-200 rounded shadow-lg z-10">
                       <img src={`https://img.youtube.com/vi/${item.id}/default.jpg`} alt={t('thumbnailAltText', { videoTitle: item.title })} className="w-32 h-auto" />
@@ -320,90 +358,72 @@ const Index = () => {
           </Card>
           </div>
         )}
+        </div>
+        </div>
 
-        {/* Features Section */}
-        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-          <div className="text-center p-6">
-            <div className="bg-red-100 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-              <Zap className="h-8 w-8 text-red-600" />
+        {/* Features Section - Below the main content */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto mb-12">
+          <div className="text-center p-4">
+            <div className="bg-red-100 p-3 rounded-full w-12 h-12 mx-auto mb-3 flex items-center justify-center">
+              <Zap className="h-6 w-6 text-red-600" />
             </div>
-            <h3 className="text-xl font-semibold text-slate-800 mb-2">{t('featureFastEasyTitle')}</h3>
-            <p className="text-slate-600">
+            <h3 className="text-lg font-semibold text-slate-800 mb-2">{t('featureFastEasyTitle')}</h3>
+            <p className="text-slate-600 text-sm">
               {t('featureFastEasyDescription')}
             </p>
           </div>
-          <div className="text-center p-6">
-            <div className="bg-red-100 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-              <ImageIcon className="h-8 w-8 text-red-600" />
+          <div className="text-center p-4">
+            <div className="bg-red-100 p-3 rounded-full w-12 h-12 mx-auto mb-3 flex items-center justify-center">
+              <ImageIcon className="h-6 w-6 text-red-600" />
             </div>
-            <h3 className="text-xl font-semibold text-slate-800 mb-2">{t('featureMultipleSizesTitle')}</h3>
-            <p className="text-slate-600">
+            <h3 className="text-lg font-semibold text-slate-800 mb-2">{t('featureMultipleSizesTitle')}</h3>
+            <p className="text-slate-600 text-sm">
               {t('featureMultipleSizesDescription')}
             </p>
           </div>
-          <div className="text-center p-6">
-            <div className="bg-red-100 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-              <Download className="h-8 w-8 text-red-600" />
+          <div className="text-center p-4">
+            <div className="bg-red-100 p-3 rounded-full w-12 h-12 mx-auto mb-3 flex items-center justify-center">
+              <Download className="h-6 w-6 text-red-600" />
             </div>
-            <h3 className="text-xl font-semibold text-slate-800 mb-2">{t('featureOneClickDownloadTitle')}</h3>
-            <p className="text-slate-600">
+            <h3 className="text-lg font-semibold text-slate-800 mb-2">{t('featureOneClickDownloadTitle')}</h3>
+            <p className="text-slate-600 text-sm">
               {t('featureOneClickDownloadDescription')}
             </p>
           </div>
         </div>
 
-        {/* SEO Content Section - Download YouTube Thumbnail Images */}
-        <section className="py-16">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Compact SEO Content Section */}
+        <section className="py-8">
+          <div className="max-w-6xl mx-auto px-4">
             <div className="prose max-w-none">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">{t('seoContentTitle')}</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 text-center">{t('seoContentTitle')}</h2>
               
-              <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                {t('seoContentIntro')}
-              </p>
-              
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">{t('seoContentWhyTitle')}</h3>
-              
-              <p className="text-gray-700 mb-4">
-                {t('seoContentWhyPara1')}
-              </p>
-              
-              <p className="text-gray-700 mb-4">
-                {t('seoContentWhyPara2')}
-              </p>
-              
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">{t('seoContentFormatsTitle')}</h3>
-              
-              <p className="text-gray-700 mb-4">
-                {t('seoContentFormatsPara1')}
-              </p>
-              
-              <p className="text-gray-700 mb-4">
-                {t('seoContentFormatsPara2')}
-              </p>
-              
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">{t('seoContentFeaturesTitle')}</h3>
-              
-              <p className="text-gray-700 mb-4">
-                {t('seoContentFeaturesPara1')}
-              </p>
-              
-              <p className="text-gray-700 mb-4">
-                {t('seoContentFeaturesPara2')}
-              </p>
-              
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">{t('seoContentUseCasesTitle')}</h3>
-              
-              <p className="text-gray-700 mb-4">
-                {t('seoContentUseCasesPara1')}
-              </p>
-              
-              <p className="text-gray-700">
-                {t('seoContentUseCasesPara2')}
-              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('seoContentWhyTitle')}</h3>
+                  <p className="text-gray-700 mb-3">
+                    {t('seoContentWhyPara1')}
+                  </p>
+                  <p className="text-gray-700">
+                    {t('seoContentWhyPara2')}
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('seoContentFormatsTitle')}</h3>
+                  <p className="text-gray-700 mb-3">
+                    {t('seoContentFormatsPara1')}
+                  </p>
+                  <p className="text-gray-700">
+                    {t('seoContentFormatsPara2')}
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
+
+
 
         {/* User Reviews Section */}
         <section className="py-16">

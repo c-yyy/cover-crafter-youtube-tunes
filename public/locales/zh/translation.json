@@ -1,6 +1,6 @@
 {
-  "siteTitle": "YouTube 缩略图下载器 & 封面制作器",
-  "siteDescription": "从任何 YouTube 视频中下载高质量缩略图，或使用我们先进的设计工具创建精美封面。快速提取配备专业创作功能。",
+  "siteTitle": "YouTube 缩略图尺寸指南与下载工具",
+  "siteDescription": "完整的 YouTube 缩略图尺寸指南 (1920x1080, 1280x720, 480x360, 320x180, 120x90) 配备专业下载工具。学习规格要求、尺寸标准，并从任何视频下载高质量缩略图。",
   "headerTitle": "YouTube 缩略图下载器",
   "coverMaker": "封面制作器",
   "thumbnailExtractor": "缩略图提取器",
@@ -45,6 +45,10 @@
   "coverDownloaded": "封面设计下载成功",
   "heroTitle": "下载 YouTube 缩略图",
   "heroSubtitle": "专业的 YouTube 缩略图下载工具，支持提取任何视频的高清封面图片。提供多种分辨率选择（最高1920x1080），完全免费使用。适用于内容创作者、设计师和营销人员，帮助您获取优质素材用于视频制作、社交媒体推广和设计项目。简单粘贴URL即可快速下载，无需注册或安装软件。",
+  "heroTitleNew": "YouTube 缩略图尺寸指南 & 下载器",
+  "heroSubtitleNew": "完整的 YouTube 缩略图尺寸指南与专业下载工具。了解所有可用尺寸，掌握规格要求，并从任何视频中下载高质量缩略图。内容创作者、设计师和营销人员的必备资源。",
+  "downloaderTitle": "YouTube 缩略图下载器",
+  "downloaderSubtitle": "从任何 YouTube 视频中提取并下载多种分辨率的高质量缩略图。",
   "formCardTitle": "输入 YouTube 链接",
   "formInputPlaceholder": "https://www.youtube.com/watch?v=...",
   "formButtonText": "获取缩略图",
@@ -152,6 +156,65 @@
   "aboutFaq5Question": "我的隐私是否受到保护？",
   "aboutFaq5Answer": "是的，我们不存储您的个人信息或浏览历史，完全保护您的隐私。",
   
+  "sizeGuideTitle": "YouTube 缩略图尺寸指南",
+  "sizeGuideDescription": "完整的 YouTube 缩略图尺寸和规格指南。了解所有可用尺寸、宽高比和最佳实践，以获得最佳的视频缩略图效果。",
+  "sizeGuideTabSizes": "全部尺寸",
+  "sizeGuideTabComparison": "尺寸对比",
+  "sizeGuideTabGuide": "最佳实践",
+  
+  "sizeGuideMaxRes": "最高分辨率",
+  "sizeGuideHigh": "高清画质",
+  "sizeGuideMedium": "中等画质",
+  "sizeGuideStandard": "标准画质",
+  "sizeGuideSmall": "小尺寸",
+  "sizeGuideMini": "迷你缩略图",
+  
+  "sizeGuideQualityUHD": "超高清 (4K)",
+  "sizeGuideQualityHD": "高清",
+  "sizeGuideQualitySD": "标准清晰度",
+  "sizeGuideQualityLD": "低清晰度",
+  
+  "sizeGuideUsageMaxRes": "适用于专业用途、营销材料和高质量显示。最适合频道艺术和宣传内容。",
+  "sizeGuideUsageHigh": "适用于大部分 YouTube 视频、社交媒体分享和常规内容创作。最常用的尺寸。",
+  "sizeGuideUsageMedium": "适用于嵌入网站、博客文章和移动应用。平衡质量和文件大小。",
+  "sizeGuideUsageStandard": "适用于预览、视频列表中的缩略图和快速加载场景。经典 YouTube 尺寸。",
+  "sizeGuideUsageSmall": "适用于移动应用、电子邮件通讯和带宽有限的情况。",
+  "sizeGuideUsageMini": "用于微小预览、视频历史记录和最小化 UI 元素。最小可用尺寸。",
+  
+  "sizeGuideOptimal": "最佳",
+  "sizeGuideRecommended": "推荐",
+  "sizeGuideDimensions": "尺寸",
+  "sizeGuideFileSize": "文件大小",
+  "sizeGuideQuality": "画质",
+  "sizeGuideRatio": "宽高比",
+  "sizeGuideResolution": "分辨率",
+  "sizeGuideEstimatedFileSize": "预估文件大小",
+  
+  "sizeGuideSelectedInfo": "{{name}} 详情",
+  "sizeGuideTechnicalSpecs": "技术规格",
+  "sizeGuideBestUsedFor": "最适合用于",
+  "sizeGuideComparisonTitle": "尺寸对比",
+  
+  "sizeGuideBestPractices": "最佳实践",
+  "sizeGuideCommonMistakes": "常见错误",
+  
+  "sizeGuideTip1": "使用 1920x1080 以获得最大质量并为您的内容做好未来准备",
+  "sizeGuideTip2": "保持正确的宽高比 (16:9) 以适应现代 YouTube 显示",
+  "sizeGuideTip3": "保持文件大小在 2MB 以下以获得最佳加载速度",
+  "sizeGuideTip4": "使用高对比度和可读字体以获得更好的可见性",
+  
+  "sizeGuideMistake1": "对新内容使用小于 1280x720 的尺寸",
+  "sizeGuideMistake2": "忽略宽高比并创建扭曲的缩略图",
+  "sizeGuideMistake3": "使缩略图过于繁忙或文字过于杂乱",
+  "sizeGuideMistake4": "不针对移动观看进行优化，而大多数用户都在移动设备上观看",
+  
+  "sizeGuideQuickAction": "准备下载缩略图？",
+  "sizeGuideQuickActionDescription": "现在您已经了解了 YouTube 缩略图尺寸，使用我们的下载器从任何视频中获取高质量缩略图。",
+  "sizeGuideStartDownloading": "开始下载",
+
+  "sizeGuidePageTitle": "YouTube 缩略图尺寸完整指南",
+  "sizeGuidePageDescription": "YouTube 缩略图尺寸、规格和最佳实践的综合指南。了解从 1920x1080 到 120x90 的所有可用尺寸，获得专业建议。",
+
   "userReviewsTitle": "用户评价",
   "userReviewsSubtitle": "来自数千名满意用户的真实反馈",
   "userReview1Name": "Sarah Johnson",
@@ -588,7 +651,7 @@
     }
   },
 
-  "seoContentTitle": "下载YouTube缩略图图片 - 完整指南",
+  "seoContentTitle": "YouTube 缩略图尺寸：完整指南与下载工具",
   "seoContentIntro": "使用我们全面的YouTube缩略图下载工具，下载YouTube缩略图图片从未如此简单。无论您是内容创作者、数字营销人员还是研究人员，获取高质量的YouTube视频缩略图对于各种项目都至关重要，包括竞争分析、内容灵感和营销活动。",
   "seoContentWhyTitle": "为什么要下载YouTube缩略图？",
   "seoContentWhyPara1": "YouTube缩略图是您视频内容的第一印象，在点击率方面发挥着至关重要的作用。通过下载YouTube缩略图图片，您可以分析成功的缩略图设计，研究竞争对手策略，并为自己的视频营销工作收集灵感。我们的YouTube缩略图提取器提供对所有可用缩略图分辨率的即时访问，包括高清、中等和标准质量格式。",

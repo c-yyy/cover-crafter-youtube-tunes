@@ -298,7 +298,7 @@ const Contact = () => {
                           {t('contactBusinessNameTitle')}
                         </h4>
                         <p className="text-slate-600">
-                          YouTube Thumbnail Downloader Service
+                          YouTube Thumbnail Size Guide & Downloader Service
                         </p>
                       </div>
                       

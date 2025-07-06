@@ -1,7 +1,7 @@
 {
-  "siteTitle": "YouTube Thumbnail Downloader",
+  "siteTitle": "YouTube Thumbnail Size Guide & Downloader",
   "siteDescription": "ඕනෑම YouTube වීඩියෝවකින් උසස් තත්ත්වයේ ආවරණ රූප බාගන්න. URL එක පිටපත් කර වීඩියෝ ආවරණ රූප විවිධ විභේදනවල බාගන්න.",
-  "headerTitle": "YouTube Thumbnail Downloader",
+  "headerTitle": "YouTube Thumbnail Size Guide & Downloader",
   "heroTitle": "YouTube ආවරණ රූප බාගන්න",
   "heroSubtitle": "ඕනෑම YouTube වීඩියෝවකින් උසස් තත්ත්වයේ ආවරණ රූප ලබා ගන්න. URL එක පිටපත් කර වීඩියෝ ආවරණ රූප විවිධ විභේදනවල බාගන්න.",
   "formCardTitle": "YouTube URL ඇතුළත් කරන්න",
@@ -24,7 +24,7 @@
   "featureMultipleSizesDescription": "120x90 සිට 1920x1080 දක්වා විවිධ විභේදනවල ආවරණ රූප බාගන්න",
   "featureOneClickDownloadTitle": "එක් ක්ලික් බාගැනීම",
   "featureOneClickDownloadDescription": "එක් ක්ලික් එකකින් සියලුම thumbnail තත්ත්ව සඳහා සෘජු බාගැනීම් සබැඳි",
-  "footerText": "© {{year}} YouTube Thumbnail Downloader. YouTube ආවරණ රූප ලබා ගැනීමට සරල මෙවලමක්.",
+  "footerText": "© {{year}} YouTube Thumbnail Size Guide & Downloader. YouTube ආවරණ රූප ලබා ගැනීමට සරල මෙවලමක්.",
   "footerDisclaimer": "මෙම සේවාව YouTube සමඟ සම්බන්ධ නොවේ.",
   "error": {
     "404": {
@@ -207,10 +207,10 @@
   "tutorialsConclusion": "Conclusion",
   "tutorialsBackToList": "Back to Tutorials",
   "faqPageTitle": "FAQ",
-  "faqPageDescription": "Frequently asked questions about YouTube thumbnail downloader and optimization",
+  "faqPageDescription": "Frequently asked questions about YouTube Thumbnail Size Guide & Downloader and optimization",
   "faqTitle": "Frequently Asked Questions",
   "faqSubtitle": "Find answers to common questions",
-  "faqDescription": "Get quick answers to the most commonly asked questions about our YouTube thumbnail downloader service.",
+  "faqDescription": "Get quick answers to the most commonly asked questions about our YouTube Thumbnail Size Guide & Downloader service.",
   "faqSearchPlaceholder": "Search questions...",
   "faqPopularQuestions": "Popular Questions",
   "faqAllCategories": "All Categories",
