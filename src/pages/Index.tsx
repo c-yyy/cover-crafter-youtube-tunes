@@ -392,32 +392,114 @@ const Index = () => {
           </div>
         </div>
 
-        {/* Compact SEO Content Section */}
-        <section className="py-8">
-          <div className="max-w-6xl mx-auto px-4">
+        {/* Comprehensive SEO Content Section */}
+        <section className="py-12 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
             <div className="prose max-w-none">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4 text-center">{t('seoContentTitle')}</h2>
+              <div className="text-center mb-12">
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('seoContentTitle')}</h2>
+                <p className="text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
+                  {t('seoContentIntro')}
+                </p>
+              </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('seoContentWhyTitle')}</h3>
-                  <p className="text-gray-700 mb-3">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                <div className="bg-slate-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('seoContentWhyTitle')}</h3>
+                  <p className="text-gray-700 mb-4 leading-relaxed">
                     {t('seoContentWhyPara1')}
                   </p>
-                  <p className="text-gray-700">
+                  <p className="text-gray-700 leading-relaxed">
                     {t('seoContentWhyPara2')}
                   </p>
                 </div>
                 
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('seoContentFormatsTitle')}</h3>
-                  <p className="text-gray-700 mb-3">
+                <div className="bg-slate-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('seoContentFormatsTitle')}</h3>
+                  <p className="text-gray-700 mb-4 leading-relaxed">
                     {t('seoContentFormatsPara1')}
                   </p>
-                  <p className="text-gray-700">
+                  <p className="text-gray-700 leading-relaxed">
                     {t('seoContentFormatsPara2')}
                   </p>
                 </div>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                <div className="bg-blue-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('seoContentOptimizationTitle')}</h3>
+                  <p className="text-gray-700 mb-4 leading-relaxed">
+                    {t('seoContentOptimizationPara1')}
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t('seoContentOptimizationPara2')}
+                  </p>
+                </div>
+                
+                <div className="bg-blue-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('seoContentToolFeaturesTitle')}</h3>
+                  <p className="text-gray-700 mb-4 leading-relaxed">
+                    {t('seoContentToolFeaturesPara1')}
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t('seoContentToolFeaturesPara2')}
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                <div className="bg-green-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('seoContentUseCasesTitle')}</h3>
+                  <p className="text-gray-700 mb-4 leading-relaxed">
+                    {t('seoContentUseCasesPara1')}
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t('seoContentUseCasesPara2')}
+                  </p>
+                </div>
+                
+                <div className="bg-green-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('seoContentTechnicalTitle')}</h3>
+                  <p className="text-gray-700 mb-4 leading-relaxed">
+                    {t('seoContentTechnicalPara1')}
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t('seoContentTechnicalPara2')}
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div className="bg-purple-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('seoContentSEOTitle')}</h3>
+                  <p className="text-gray-700 mb-4 leading-relaxed">
+                    {t('seoContentSEOPara1')}
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t('seoContentSEOPara2')}
+                  </p>
+                </div>
+                
+                <div className="bg-purple-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('seoContentCreatorTitle')}</h3>
+                  <p className="text-gray-700 mb-4 leading-relaxed">
+                    {t('seoContentCreatorPara1')}
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    {t('seoContentCreatorPara2')}
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-12 text-center bg-gradient-to-r from-red-50 to-orange-50 p-8 rounded-lg">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Start Using Our YouTube Thumbnail Tools Today</h3>
+                <p className="text-lg text-gray-700 mb-6 max-w-3xl mx-auto">
+                  Join thousands of content creators, marketers, and designers who trust our platform for professional YouTube thumbnail extraction and analysis. Get started instantly with no registration required.
+                </p>
+                <a href="#thumbnail-downloader" className="inline-flex items-center px-6 py-3 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition-colors duration-200">
+                  <Download className="h-5 w-5 mr-2" />
+                  Start Downloading Thumbnails
+                </a>
               </div>
             </div>
           </div>

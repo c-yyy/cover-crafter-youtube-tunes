@@ -1,7 +1,12 @@
 {
   "siteTitle": "YouTube Thumbnail Size Guide & Downloader",
-  "siteDescription": "ඕනෑම YouTube වීඩියෝවකින් උසස් තත්ත්වයේ ආවරණ රූප බාගන්න. URL එක පිටපත් කර වීඩියෝ ආවරණ රූප විවිධ විභේදනවල බාගන්න.",
+  "siteDescription": "වෘත්තීය YouTube thumbnail ප්‍රමාණ මාර්ගෝපදේශය සහ බාගත කිරීමේ මෙවලම. ඕනෑම YouTube වීඩියෝවකින් සියලුම විභේදන (1920x1080, 1280x720, 480x360, 320x180, 120x90) වලදී උසස් තත්ත්වයේ thumbnails නිස්සාරණය කරන්න. අන්තර්ගත නිර්මාතෘවරුන්, නිර්මාණකරුවන් සහ අලෙවිකරුවන් සඳහා නොමිලේ මෙවලම, ක්ෂණික බාගත කිරීම්, ලියාපදිංචිය අවශ්‍ය නැත. thumbnail පිරිවිතර, ප්‍රශස්තකරණ හොඳම පරිචයන් සහ තාක්ෂණික විස්තර ඉගෙන ගෙන උපරිම වීඩියෝ කාර්ය සාධනය ලබා ගන්න.",
   "headerTitle": "YouTube Thumbnail Size Guide & Downloader",
+  "header": {
+    "logoLink": "Go to {{siteName}} homepage",
+    "openMobileMenu": "Open mobile menu",
+    "closeMobileMenu": "Close mobile menu"
+  },
   "heroTitle": "YouTube ආවරණ රූප බාගන්න",
   "heroSubtitle": "ඕනෑම YouTube වීඩියෝවකින් උසස් තත්ත්වයේ ආවරණ රූප ලබා ගන්න. URL එක පිටපත් කර වීඩියෝ ආවරණ රූප විවිධ විභේදනවල බාගන්න.",
   "formCardTitle": "YouTube URL ඇතුළත් කරන්න",
@@ -65,6 +70,8 @@
   "languageSuggestionAccept": "භාෂාව මාරු කරන්න",
   "languageSuggestionDismiss": "මෙහි රැඳී සිටින්න",
   "about": "අප ගැන",
+  "aboutTitle": "අප ගැන",
+  "coverMaker": "Maker",
   "privacy": "පෞද්ගලිකත්ව ප්‍රතිපත්තිය",
   "terms": "සේවා කොන්දේසි",
   "contact": "සම්බන්ධ වන්න",
@@ -260,6 +267,7 @@
   "blogPageTitle": "Blog",
   "blogPageDescription": "Latest articles, tips, and insights for YouTube creators",
   "blogTitle": "Blog Articles",
+  "helpTitle": "Help & Support",
   "blogSubtitle": "YouTube Creation Tips & Tutorials",
   "blogDescription": "Stay updated with the latest YouTube creation tips, thumbnail design trends, and platform insights from our expert team.",
   "blogFilterAll": "All Posts",

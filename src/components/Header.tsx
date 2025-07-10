@@ -5,7 +5,6 @@ import { Youtube, Menu, X } from 'lucide-react';
 import UserProfile from './UserProfile';
 import { useAuth } from '@/contexts/AuthContext';
 import { Button } from '@/components/ui/button';
-import LanguageSelector from './LanguageSelector';
 
 interface HeaderProps {
   currentPage?: string;

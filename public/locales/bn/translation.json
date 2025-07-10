@@ -1,7 +1,12 @@
 {
   "siteTitle": "YouTube কভার ডাউনলোড",
-  "siteDescription": "যেকোনো YouTube ভিডিও থেকে উচ্চ মানের কভার ছবি ডাউনলোড করুন। শুধু URL পেস্ট করুন এবং একাধিক রেজোলিউশনে ভিডিও কভার ছবি ডাউনলোড করুন।",
+  "siteDescription": "পেশাদার YouTube thumbnail সাইজ গাইড এবং ডাউনলোডার টুল। যেকোনো YouTube ভিডিও থেকে সমস্ত রেজোলিউশন (1920x1080, 1280x720, 480x360, 320x180, 120x90) এ উচ্চ মানের thumbnails নিষ্কাশন করুন। কন্টেন্ট ক্রিয়েটর, ডিজাইনার এবং মার্কেটারদের জন্য বিনামূল্যে টুল, তাৎক্ষণিক ডাউনলোড, নিবন্ধনের প্রয়োজন নেই। thumbnail বিশেষকরণ, অপ্টিমাইজেশন সেরা অনুশীলন এবং প্রযুক্তিগত বিশদ শিখে সর্বোচ্চ ভিডিও পারফরম্যান্স অর্জন করুন।",
   "headerTitle": "YouTube কভার ডাউনলোড",
+  "header": {
+    "logoLink": "{{siteName}} এর হোমপেজে যান",
+    "openMobileMenu": "মোবাইল মেনু খুলুন",
+    "closeMobileMenu": "মোবাইল মেনু বন্ধ করুন"
+  },
   "heroTitle": "YouTube কভার ছবি ডাউনলোড করুন",
   "heroSubtitle": "যেকোনো YouTube ভিডিও থেকে উচ্চ মানের কভার ছবি বের করুন। শুধু URL পেস্ট করুন এবং একাধিক রেজোলিউশনে ভিডিও কভার ছবি ডাউনলোড করুন।",
   "formCardTitle": "YouTube URL প্রবেশ করান",
@@ -65,6 +70,8 @@
   "languageSuggestionAccept": "ভাষা পরিবর্তন করুন",
   "languageSuggestionDismiss": "এখানেই থাকুন",
   "about": "আমাদের সম্পর্কে",
+  "aboutTitle": "আমাদের সম্পর্কে",
+  "coverMaker": "মেকার",
   "privacy": "গোপনীয়তা নীতি",
   "terms": "ব্যবহারের শর্তাবলী",
   "contact": "যোগাযোগ",
@@ -260,6 +267,7 @@
   "blogPageTitle": "Blog",
   "blogPageDescription": "Latest articles, tips, and insights for YouTube creators",
   "blogTitle": "Blog Articles",
+  "helpTitle": "Help & Support",
   "blogSubtitle": "YouTube Creation Tips & Tutorials",
   "blogDescription": "Stay updated with the latest YouTube creation tips, thumbnail design trends, and platform insights from our expert team.",
   "blogFilterAll": "All Posts",

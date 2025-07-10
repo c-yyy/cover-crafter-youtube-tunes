@@ -1,7 +1,12 @@
 {
   "siteTitle": "YouTube کور ڈاؤن لوڈ",
-  "siteDescription": "کسی بھی YouTube ویڈیو سے اعلیٰ معیار کی کور تصاویر ڈاؤن لوڈ کریں۔ صرف URL پیسٹ کریں اور متعدد ریزولیوشنز میں ویڈیو کور تصاویر ڈاؤن لوڈ کریں۔",
+  "siteDescription": "پروفیشنل YouTube thumbnail سائز گائیڈ اور ڈاؤنلوڈر ٹول۔ کسی بھی YouTube ویڈیو سے تمام ریزولیوشنز (1920x1080, 1280x720, 480x360, 320x180, 120x90) میں اعلیٰ معیار کے thumbnails حاصل کریں۔ کنٹینٹ کریٹرز، ڈیزائنرز اور مارکیٹرز کے لیے مفت ٹول، فوری ڈاؤن لوڈ، رجسٹریشن کی ضرورت نہیں۔ thumbnail کی تفصیلات، بہترین practices اور تکنیکی تفصیلات سیکھ کر زیادہ سے زیادہ ویڈیو کارکردگی حاصل کریں۔",
   "headerTitle": "YouTube کور ڈاؤن لوڈ",
+  "header": {
+    "logoLink": "{{siteName}} کی ہوم پیج پر جائیں",
+    "openMobileMenu": "موبائل مینو کھولیں",
+    "closeMobileMenu": "موبائل مینو بند کریں"
+  },
   "heroTitle": "YouTube کور تصاویر ڈاؤن لوڈ کریں",
   "heroSubtitle": "کسی بھی YouTube ویڈیو سے اعلیٰ معیار کی کور تصاویر نکالیں۔ صرف URL پیسٹ کریں اور متعدد ریزولیوشنز میں ویڈیو کور تصاویر ڈاؤن لوڈ کریں۔",
   "formCardTitle": "YouTube URL داخل کریں",
@@ -65,6 +70,8 @@
   "languageSuggestionAccept": "زبان تبدیل کریں",
   "languageSuggestionDismiss": "یہیں رہیں",
   "about": "ہمارے بارے میں",
+  "aboutTitle": "ہمارے بارے میں",
+  "coverMaker": "میکر",
   "privacy": "پرائیویسی پالیسی",
   "terms": "استعمال کی شرائط",
   "contact": "رابطہ",
@@ -260,6 +267,7 @@
   "blogPageTitle": "Blog",
   "blogPageDescription": "Latest articles, tips, and insights for YouTube creators",
   "blogTitle": "Blog Articles",
+  "helpTitle": "Help & Support",
   "blogSubtitle": "YouTube Creation Tips & Tutorials",
   "blogDescription": "Stay updated with the latest YouTube creation tips, thumbnail design trends, and platform insights from our expert team.",
   "blogFilterAll": "All Posts",

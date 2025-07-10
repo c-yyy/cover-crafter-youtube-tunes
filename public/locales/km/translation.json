@@ -1,7 +1,12 @@
 {
   "siteTitle": "ទាញយក Thumbnail របស់ YouTube",
-  "siteDescription": "ទាញយករូបភាព thumbnail គុណភាពខ្ពស់ពីវីដេអូ YouTube ណាមួយ។ គ្រាន់តែបិទភ្ជាប់ URL ហើយទាញយករូបភាព thumbnail វីដេអូក្នុងគុណភាពច្រើន។",
+  "siteDescription": "មគ្គុទ្ទេសក៍ទំហំ thumbnail YouTube វិជ្ជាជីវៈ និងឧបករណ៍ទាញយក។ ស្រង់យក thumbnail គុណភាពខ្ពស់ពីវីដេអូ YouTube ណាមួយ នៅគុណភាពទាំងអស់ (1920x1080, 1280x720, 480x360, 320x180, 120x90)។ ឧបករណ៍ឥតគិតថ្លៃសម្រាប់អ្នកបង្កើតមាតិកា អ្នករចនា និងអ្នកទីផ្សារ ជាមួយនឹងការទាញយកភ្លាមៗ គ្មានតម្រូវការចុះឈ្មោះ។ រៀនបច្ចេកតម្រូវការ thumbnail វិធីល្អបំផុត និងព័ត៌មានបច្ចេកទេសដើម្បីទទួលបានកარកម្មវីដេអូអតិបរមា។",
   "headerTitle": "ទាញយក Thumbnail របស់ YouTube",
+  "header": {
+    "logoLink": "Go to {{siteName}} homepage",
+    "openMobileMenu": "Open mobile menu",
+    "closeMobileMenu": "Close mobile menu"
+  },
   "heroTitle": "ទាញយករូបភាព Thumbnail របស់ YouTube",
   "heroSubtitle": "ស្រង់យករូបភាព thumbnail គុណភាពខ្ពស់ពីវីដេអូ YouTube ណាមួយ។ គ្រាន់តែបិទភ្ជាប់ URL ហើយទាញយករូបភាព thumbnail វីដេអូក្នុងគុណភាពច្រើន។",
   "formCardTitle": "បញ្ចូល URL របស់ YouTube",
@@ -65,6 +70,8 @@
   "languageSuggestionAccept": "ប្តូរភាសា",
   "languageSuggestionDismiss": "នៅទីនេះ",
   "about": "អំពីយើង",
+  "aboutTitle": "អំពីយើង",
+  "coverMaker": "Maker",
   "privacy": "គោលការណ៍ឯកជនភាព",
   "terms": "លក្ខខណ្ឌសេវាកម្ម",
   "contact": "ទាក់ទង",
@@ -260,6 +267,7 @@
   "blogPageTitle": "Blog",
   "blogPageDescription": "Latest articles, tips, and insights for YouTube creators",
   "blogTitle": "Blog Articles",
+  "helpTitle": "Help & Support",
   "blogSubtitle": "YouTube Creation Tips & Tutorials",
   "blogDescription": "Stay updated with the latest YouTube creation tips, thumbnail design trends, and platform insights from our expert team.",
   "blogFilterAll": "All Posts",
