@@ -24,7 +24,7 @@ import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Contact from "./pages/Contact";
 import Changelog from "./pages/Changelog";
-import Help from "./pages/Help";
+
 import HelpIndex from "./pages/help/HelpIndex";
 import GettingStarted from "./pages/help/GettingStarted";
 import AdvancedTips from "./pages/help/AdvancedTips";
@@ -146,7 +146,7 @@ const LanguageWrapper = () => {
         i18n.changeLanguage(lng);
       }
     } else if (lng && !supportedLngs.hasOwnProperty(lng)) {
-      // 如果语言代码无效，跳转到404页面
+      // 如果语言代码无效，跳转到默认语言的404页面
       navigate('/en/404', { replace: true });
       return;
     }

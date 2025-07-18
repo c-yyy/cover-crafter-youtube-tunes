@@ -56,7 +56,7 @@
   "downloaderSubtitle": "Extract and download high-quality thumbnails from any YouTube video in multiple resolutions.",
   "formCardTitle": "Enter YouTube URL",
   "formInputPlaceholder": "https://www.youtube.com/watch?v=...",
-  "formButtonText": "Get Cover Images",
+  "formButtonText": "Get",
   "formButtonProcessingText": "Processing...",
   "resultsTitle": "Available Cover Images",
   "thumbnailQualityMaxRes": "Max Resolution",

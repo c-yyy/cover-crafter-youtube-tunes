@@ -173,7 +173,7 @@ const ThumbnailSizeGuide: React.FC = () => {
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-0">
-             <Tabs defaultValue="sizes" className="w-full">
+             <Tabs defaultValue="guide" className="w-full">
          <TabsList className="grid w-full grid-cols-3 mb-4">
            <TabsTrigger value="sizes" className="text-xs sm:text-sm">{t('sizeGuideTabSizes')}</TabsTrigger>
            <TabsTrigger value="comparison" className="text-xs sm:text-sm">{t('sizeGuideTabComparison')}</TabsTrigger>

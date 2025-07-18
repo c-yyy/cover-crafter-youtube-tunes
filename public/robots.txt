@@ -1,26 +1,62 @@
+User-agent: *
+Allow: /
+
+# 阻止爬虫访问用户相关页面
+Disallow: /login
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /search?
+Disallow: /?q=
+Disallow: /?search=
+
+# 阻止爬虫访问临时文件和缓存
+Disallow: /temp/
+Disallow: /cache/
+Disallow: /tmp/
+Disallow: /*.tmp$
+Disallow: /*.cache$
+
+# 阻止爬虫访问用户生成的内容（如果有的话）
+Disallow: /user/
+Disallow: /profile/
+Disallow: /account/
+
+# 设置爬虫延迟（降低到0.5秒以提高效率）
+Crawl-delay: 0.5
+
+# 网站地图
+Sitemap: https://youtubethumbnail.download/sitemap.xml
+
+# 针对特定爬虫的优化设置
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 0.3
 
 User-agent: Bingbot
 Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
+Crawl-delay: 0.3
 
 User-agent: Slurp
 Allow: /
+Crawl-delay: 0.5
 
-User-agent: *
+# 社交媒体爬虫优化
+User-agent: Twitterbot
 Allow: /
-Crawl-delay: 1
+Disallow: /login
+Disallow: /dashboard
 
-# Sitemap
-Sitemap: https://youtubethumbnail.download/sitemap.xml
+User-agent: facebookexternalhit
+Allow: /
+Disallow: /login
+Disallow: /dashboard
 
-# Allow crawling of all language versions
+# 允许所有语言版本的爬取
 Allow: /en/
 Allow: /zh/
 Allow: /ja/
@@ -32,8 +68,27 @@ Allow: /si/
 Allow: /bn/
 Allow: /ur/
 
-# Allow crawling of all page types
+# 阻止无效的语言组合URL
+Disallow: /km/km
+Disallow: /si/si
+Disallow: /ur/ja
+Disallow: /*/km/
+Disallow: /*/si/
+Disallow: /*/ur/
+
+# 允许爬取所有主要页面类型
 Allow: /*/about
 Allow: /*/privacy
 Allow: /*/terms
 Allow: /*/contact
+Allow: /*/changelog
+Allow: /*/help
+Allow: /*/blog
+Allow: /*/resources
+Allow: /*/faq
+Allow: /*/tools
+Allow: /*/tutorials
+Allow: /*/news
+Allow: /*/case-studies
+Allow: /*/creator-economy
+Allow: /*/cover-maker

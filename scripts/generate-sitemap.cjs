@@ -5,7 +5,7 @@ const path = require('path');
 const BASE_URL = 'https://youtube-cover.com';
 
 // 支持的语言
-const LANGUAGES = ['en', 'zh', 'ja', 'fr', 'es', 'ko'];
+const LANGUAGES = ['en', 'zh', 'ja', 'fr', 'es', 'ko', 'km', 'si', 'bn', 'ur'];
 
 // 页面配置
 const PAGES = [

@@ -149,10 +149,10 @@ const Index = () => {
         <Header currentPage="home" />
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-4 py-8"> 
         {/* Hero Section - Compact */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-slate-800 mb-3 flex items-center justify-center gap-3">
+          <h1 className="text-4xl font-bold mb-3 flex items-center justify-center gap-3 bg-gradient-to-r from-[#b91c1c] via-[#a21caf] via-[#2563eb] to-[#facc15] bg-[length:200%_100%] bg-clip-text text-transparent animate-gradient-x">
             {t('heroTitleNew')}
           </h1>
           <p className="text-lg text-slate-600 max-w-4xl mx-auto">

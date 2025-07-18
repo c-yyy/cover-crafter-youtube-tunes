@@ -127,7 +127,7 @@
   "toastPasteFailedDescription": "Could not read from clipboard. Please try again or type manually.",
   "pasteFromClipboardAriaLabel": "Paste URL from clipboard",
   "formButtonProcessingText": "Processing...",
-  "formButtonText": "Get Cover Images",
+  "formButtonText": "Get",
   "resultsTitle": "Available Cover Images",
   "downloadButtonText": "Download",
   "historyTitle": "History",
